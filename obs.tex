@@ -18,6 +18,9 @@ region from the active region in the star-forming ring (Region 9 in our sample).
 along the minor axis and it was used to enable the background subtraction from the data cubes.
 
 % SPW: Table 1: mark (with a footnote) the regions that have ISO data.
+%MLNA: Table 1 would be better if it included the galactocentric radii (perhaps), and the UV intensities, metallicities, and dust temperatures (definitely) used to choose them as targets in the first place.  Also which fields were previously observed by ISO/ISOCAM.  Suggested new title: Spitzer/IRS Target Locations in M31.
+
+%SPW: As to tables, I'd consolidate 1, 2, and 5 into a single table.  Add rows as appropriate for "nucleus" and "north", and give their dimensions in a footnote.  
 \begin{table}
  \centering
  \begin{minipage}{70mm}
@@ -103,6 +106,9 @@ code provided by the instrument handbook to compute these $K$ values for all the
 data along with the IRAC data are given in Table~\ref{colourK}.
 
 % SPW: Table 2: headers should clarify the difference between IRS specific intensity measured at 8.00 microns (if that's what it is) and IRAC specific intensity measured over the broader bandwidth.  I'd suggest "at 8.00~\micron" for the former and "in 8~\micron\ band" for the latter, but perhaps you can do better.  Using footnotes might be a good alternative.
+%
+%MLNA: Table 2 should make explicit that the fluxes given are prior to color-correction
+
 \begin{table}
  \centering
  \begin{minipage}{90mm}
@@ -132,6 +138,9 @@ data along with the IRAC data are given in Table~\ref{colourK}.
 
 % SPW: it isn't clear to me exactly how you estimated the IRAC uncertainty.
 %Eq 1: because the IRAC uncertainties are much smaller than the IRS ones, you have to use the IRAC intensities as the independent variable (unless you take uncertainties on both axes into account in the fitting).  This probably won't change the answer much, but it might.
+
+%MLNA: How was the line of best fit derived -- did you weight by uncertainty?
+%
 Figure~\ref{offset} compares the IRS and IRAC 8~$\mu$m photometry. The line of best fit wighted by the uncertainties has a slope of $0.81\pm0.08$ 
 and intercept of $-0.05\pm0.06$.  Since the intercept in Figure~\ref{offset} is not zero with a higher uncertainty, it can be concluded that the offsets 
 between orders are due to an additive offset than a multiplicative offset. Also an additive offset favours more for stitching SL and LL modes. 
@@ -147,6 +156,9 @@ F_{IRAC8} = [ F_{IRS8} + x ] \times K
 $K$ is the colour correction factor, F$_{IRAC8}$ is the intensity of the IRAC 8 $\mu$m image (aperture corrected) and F$_{IRS8}$ is the intensity of IRS spectra at 8~$\mu$m. 
 The offsets for all the regions are listed in Table \ref{colourK}. After that the LL2 mode was stitched by shifting it towards the SL1 by an amount of the average difference in their overlapping spectral regions.	
 % SPW: Sec 2.2 par 5: clarify that "stitched to" means via an additive constant for each spectrum.
+%MLNA Can you cite others who applied *offsets* to force IRS spectra to match up, as opposed to using only multiplicative factors -- is this standard practice?
+%
+
 	
 \begin{figure}
 \centering
@@ -209,7 +221,9 @@ Bulge       & - - - -                       & 38$\pm$2           & 219$\pm$27   
 \hline
  \label{EQW}
 \end{tabular}\\
-{$^a$Units are $\mu$m. 
+{$^a$Units are $\mu$m.
+%SPW Table 3: fn b _probably_ should be something like "Continuum for these regions is very weak.  Equivalent widths are highly uncertain and not considered in the analysis."
+ 
 $^b$EQWs from these two regions were removed from the analysis (see Section~\ref{sect:data_analysis}).}
 \end{minipage}
 \end{table*}
@@ -218,7 +232,8 @@ $^b$EQWs from these two regions were removed from the analysis (see Section~\ref
 
 
 
-
+%MLNA: Table 5 has names inconsistent with other tables in the paper
+% PB: fixed?
 \begin{table*}
  \centering
  \begin{minipage}{100mm}
@@ -244,6 +259,9 @@ Bulge &          10$\pm$7               & 49$\pm$7              & $<$ 30.4      
  \label{Atomic}
 \end{tabular}\\
 { $^a$Units are 10$^{-10}$~W~m$^{-2}$. Upper limits are indicated with a $<$ mark.  }
+%SPW: Table 4: units of 10^-10 W m^-2 must be wrong.  I'd expect 10^-15 or so.
+%How many sigma are the upper limits?
+
 \end{minipage}
 \end{table*}
 
