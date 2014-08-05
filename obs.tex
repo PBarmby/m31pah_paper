@@ -1,0 +1,246 @@
+\subsection{IRS observations}
+
+
+\begin{figure}
+\centering
+%\begin{center}
+\includegraphics[width = 8 cm]{./colormaps.png}
+\caption{8 - 24/70 - 160 $\mu$m colour-colour diagram of M31 obtained from IRAC and MIPS. The plot is divided into 9 regions (black grid) and the observations were made to cover those regions. The triangles indicate the regions we observed. ({\bf Needs a better explanation} )}
+%\end{center}
+\label{colourmaps}
+\end{figure}
+
+We obtained mid-infrared spectral maps of 12 regions in M31 using the {\em Spitzer}/IRS instrument \citep{IRS2004} covering wavelengths from 5 to 21 microns. These regions include the nucleus, two regions previously observed by ISOCAM, and 9 other regions chosen to cover a range of UV intensities, metallicities and dust temperatures. Dust temperatures were determined using a 8 - 24/70 - 160 $\mu$m colour-colour diagram (see Fig \ref{colourmaps}) which is an indicator of dust temperature. The locations of these regions are shown in Figure \ref{m31}, and their coordinates are given in Table \ref{regions}. The two regions previously observed by ISOCAM are the region from the bulge and the region from the active region in the star-forming ring (Region 9 in our sample). A background observation was also made off the galaxy along the minor axis and it was used to enable the background subtraction from the data cubes.
+
+
+\begin{table}
+ \centering
+ \begin{minipage}{70mm}
+\caption{IRS Targets and their metalicities in M31\label{regions}}
+  \begin{tabular}{lccc}
+  \hline Name & R.A. & Decl. &12+log(O/H)
+   \\
+ \hline
+ Nucleus$^a$&0:42:44.31&41:16:09.4& - - -\\
+Bulge$^a$&0:42:35.00&41:21:01.0&8.90$\pm$0.03\\
+Region 1&0:41:30.41&40:43:07.8&9.20$\pm$0.20\\
+Region 2&0:45:22.85&41:38:53.1&9.07$\pm$0.02\\
+Region 3&0:40:37:37&41:01:29.4&8.85$\pm$0.01\\
+Region 4&0:41:17.86&41:07:09.8&8.89$\pm$0.06\\
+Region 5&0:43:39.57&41:19:03.1&\hspace{0.14cm}8.93$\pm$0.08$^b$\\
+Region 6&0:43:35.72&41:23:15.0&8.73$\pm$0.08\\
+Region 7&0:40:53.98&40:58:58.9&8.40$\pm$0.08\\
+Region 8&0:42:21.60&41:07:17.4&\hspace{0.14cm}8.94$\pm$0.08$^b$\\
+Region 9$^a$&0:41:00.00&40:36:20.3&8.86$\pm$0.02\\
+NGC206&0:40:20.20&40:44:54.0& - - -\\
+Background&00:44:41.8&40:58:56.0& - - -\\
+\hline
+\end{tabular}
+{$^a$ Regions that have ISOCAM data. $^b$ Metallicity values obtained from the radial metallicity profile of M31.}
+\end{minipage}
+\end{table}
+
+
+
+\begin{figure*}
+
+\centering
+%\begin{center}
+\includegraphics[scale=0.9]{./m31_map.eps}
+\caption{An 8 micron IRAC image of M31 \citep{Barmby2006lr}. Small white rectangles ($30\arcsec\times50\arcsec$) show the regions that we observed and big squares ($192\arcsec\times192\arcsec$) show the regions observed by \citet{1998Cesarsky}.}
+%\end{center}
+\label{m31}
+\end{figure*}
+
+
+For our observations we used the Short-Low (SL) and Long-Low (LL) modules which cover wavelengths from 5 to 21 microns. The Low modules have a low resolving power changing from 60 - 130. Each low-resolution module is divided into two sub-slits which provide spectroscopy in either first order or second order. They are named as SL1 (7.5-14.5 $\mu$m), SL2 (5.2-7.6 $\mu$m) and LL1 (20.5-38.5 $\mu$m), LL2 (14.5-20.75 $\mu$m).
+
+All regions were observed in September 2007 (PID 40032) with both orders of the Short-Low module (SL2, SL1) and the Long-Low order LL2. The Long-Low order LL1 was not used for observations because this spectral region contains few features. The map size was based on the size of the IRS slits (SL - $3.6\arcsec \times 57\arcsec$, LL - $10.5\arcsec \times 168\arcsec$). Each region was covered by 18 overlaping observations of the SL slit and 11 overlapping observations of the LL slit making the map size $32\arcsec \times 57\arcsec$ for SL and $58\arcsec \times 168\arcsec$ for LL. Overlapping Figure \ref{slits} shows an example of the slit arrangement. For the brighter regions (nucleus, bulge), ramp times of 14 s (SL) and 30 s (LL) were used, while for the fainter regions, ramp times of 60 and 120 s were used respectively. Background observations were taken with each module (2 per ramp time). Since all of the targets are in the same part of the sky a common background observation was used for multiple targets to subtract the background emission. 
+
+
+\begin{figure}
+\centering
+%\begin{center}
+\includegraphics[scale=0.3]{./cubeslits.eps}
+\caption{SL1 data cube from the nucleus showing the arrangement of slits that has been used to cover the region. Black boxes outline the footprints of the SL1 and the green box outlines the LL2. Blue and red slits show how the each mode was covered using overlapping slit positions.}
+%\end{center}
+\label{slits}
+\end{figure}
+
+\subsection{IRS Data Reduction}
+
+The data were reduced through the SSC pipeline (ver. S17.2.0) and the maps were assembled using the CUBISM program \citep{Smith:2007fk}. Bad pixel removal was also done using CUBISM and the background observations were used to subtract the background emission from these CUBES following the method outlined in \citet{Gordon:2008lr}. Spectra were extracted using a $30\arcsec\times50\arcsec$   rectangular aperture. The aperture size was selected to cover the whole overlapping area of the SL and LL modes.
+
+After the spectral extraction there was a noticeable mismatch between the spectra from the SL1 and LL2 modules. To combine all spectra to obtain one spectrum, first a photometric comparison was conducted between the IRS spectra and the IRAC 8 micron image of M31 \citep{Barmby2006lr}. For more details about this method see the IRAC Instrument Handbook Section 4. An aperture with the same size was used to extract flux from the same regions in the IRAC 8 micron image. The photometric calibration of the IRAC is tied to point sources measured within a standard aperture with a radius of 12\arcsec. For extended sources,  an aperture correction has to be conducted as mentioned in the IRAC instrument handbook. Therefore an extended source aperture correction of 0.824 was applied for all the extractions from the 8 $\mu$m image. The uncertainty value of the IRAC image was estimated by taking the standard deviation of pixels values within an aperture of the same size from an off position of the M31 (0:48:58.00 and +42:14:54.00).
+
+Then we stitched the SL1 and SL2 using the overlapping regions and applied a colour correction factor $K$, which is a multiplicative factor that converts the intensity of an IRS spectrum at a given wavelength to the intensity of an IRAC image taken at the same wavelength. We used the IDL code provided by the instrument handbook to compute these $K$ values for all the regions. colour correction values and the corresponding IRS data along with the IRAC data are given in Table 2.
+
+
+\begin{table}
+ \centering
+ \begin{minipage}{90mm}
+\caption{Matched aperture photometry}
+  \begin{tabular}{lcccc}
+  \hline{Name}&{IRS Intensity}&{IRAC Intensity}&{colour K$^b$}&{x$^{a,}$ $^c$} \\ {}&{at 8 $\mu$m$^a$}&{at 8 $\mu$m$^a$}&{}&{} 
+   \\
+ \hline
+
+ Region 1 & 1.8505 & 1.3923 & 0.532 & 0.3061
+ \\ Region 2  & 1.8238 & 1.3731 & 0.555 & 0.2148
+ \\ Region 3 & 0.7192 & 0.9689 & 0.767 & 0.3218
+ \\ Region 4 & 1.1431 & 0.8513 & 0.589 & 0.0407
+ \\  Region 5 & 0.6787 & 0.8088 & 0.773 & 0.1834
+ \\  Region 6  & 0.6399 & 0.7656 & 0.927 & 0.0479
+ \\  Region 7  & 1.1538 & 0.8243 & 0.526 & 0.1380
+ \\ Region 8 & 0.5556 & 0.7135 & 0.877 & 0.1148
+ \\  Region 9 & 1.9413 & 1.6562 & 0.606 & 0.3107 
+ \\ Bulge & 2.6956 & 2.5473 & 0.532 & 1.2425\\
+
+\hline
+ \label{colourK}
+
+\end{tabular}\\
+ {$^a$ Units are MJy/ sr. $^b$ colour correction factors. $^c$ Offset between IRAC and IRS as mentioned in eq. 1. Intensities are given prior to the extended source correction and the colour correction.}
+\end{minipage}
+\end{table}
+
+
+Figure \ref{offset} compares the IRS and IRAC 8 $\mu$m photometry. The line of best fit wighted by the uncertainties has a slope of 0.81$\pm$0.08 and intercept of -0.05$\pm$0.06.  Since the intercept in Figure \ref{offset} is not zero with a higher uncertainty, it can be concluded that the offsets between orders are due to an additive offset than a multiplicative offset. Also an additive offset favours more for stitching SL and LL modes. Based on this argument, first we shifted the combined SL1 and SL2 spectrum so that the intensity at 8 $\mu$m matches with that of IRAC 8 micron image. To do this shift, the following equation was used to find the offset values (\emph{x}) between IRS and IRAC image intensities at 8 microns. 
+	
+\begin{equation}
+F_{IRAC8} = [ F_{IRS8} + x ] \times K
+%K is the colour correction factor.
+\end{equation}
+\footnotesize
+%\emph{Where K is the colour correction factor, Flux$_{IRAC8}$ is the flux of the IRAC 8 $\mu$m image, Flux$_{IRS8}$ is the flux of IRS spectra at 8 $\mu$m and x is the offset.}
+\normalsize
+
+	
+	{\em K} is the colour correction factor, F$_{IRAC8}$ is the intensity of the IRAC 8 $\mu$m image (aperture corrected) and F$_{IRS8}$ is the intensity of IRS spectra at 8 $\mu$m. The offsets for all the regions are listed in Table \ref{colourK}. After that the LL2 mode was stitched by shifting it towards the SL1 by an amount of the average difference in their overlapping spectral regions.	
+	
+	
+\begin{figure}
+\centering
+%\begin{center}
+\includegraphics[scale=0.25]{./offset.eps}
+\caption{ Intensity of the aperture corrected IRAC 8 $\mu$m image vs that of the colour corrected IRS spectra at 8 $\mu$m  obtained using the same aperture for our regions in M31. The straight line is the line of best fit. }
+%\end{center}
+\label{offset}
+\end{figure}
+
+
+
+\begin{table*}
+ \centering
+ \begin{minipage}{200mm}
+\caption{PAH Emission Line Strengths$^a$}
+  \begin{tabular}{l c c  c  c  c  c  c  c  c  c c }
+  \hline {Region  }&{5.7$\mu$m  }&{6.2$\mu$m  }&{7.7$\mu$m  }&{8.3$\mu$m  }&{8.6$\mu$m  }&{10.7$\mu$m  }&{11.3$\mu$m  }&{12.0$\mu$m  }&{12.7$\mu$m  }&{17.0$\mu$m  } 
+   \\
+ \hline
+
+
+
+ Region 1 &10$\pm$1            & 34$\pm$1-09        & 107$\pm$10        & 13$\pm$1       & 14.1$\pm$0.9        & 2.2$\pm$0.3        & 33.4$\pm$0.9        & 9.1$\pm$0.5        & 16$\pm$1        & 17$\pm$1        \\
+Region 2 &7.7$\pm$0.9        & 31.2$\pm$0.8        & 106$\pm$8        & 9$\pm$1           & 19.8$\pm$0.8        & 1.5$\pm$0.2        & 32.0$\pm$0.8        & 6.6$\pm$0.4        & 15$\pm$1        & 14.7$\pm$0.9        \\
+Region 3 &8$\pm$4              & 25$\pm$3                & 111$\pm$22       & 21$\pm$4       & 7$\pm$3                 & 1.1$\pm$0.9        & 19$\pm$3             & 6$\pm$1             & 14$\pm$3           & 13$\pm$2        \\
+Region 4 &4$\pm$1              & 15.8$\pm$0.9        & 59$\pm$9        & 7$\pm$1           & 11.6$\pm$0.8          & 0.8$\pm$0.2        & 19.9$\pm$0.8        & 3.5$\pm$0.4        & 9$\pm$1             & 12.5$\pm$0.9        \\
+Region 5 &1$\pm$1              & 7$\pm$1                 & 22$\pm$3        & 3$\pm$1           & 5.8$\pm$0.8            & 0.9$\pm$0.2        & 12.7$\pm$0.8        & 2.4$\pm$0.4        & 6.3$\pm$0.4        & 10$\pm$2        \\
+Region 6 & - - - -                      & 7.3$\pm$0.9         & 22$\pm$7        & 3$\pm$1            & 3.6$\pm$0.8            & 0.8$\pm$0.2        & 10.8$\pm$0.8        & 1.9$\pm$0.4        & 4.5$\pm$0.4        & 8.3$\pm$0.6        \\
+Region 7 &5.9$\pm$0.9        & 17.7$\pm$0.9       & 57$\pm$8        & 9$\pm$1            & 12.8$\pm$0.8        & 1.6$\pm$0.2        & 21.8$\pm$0.8        & 5.2$\pm$0.4        & 11$\pm$1             & 13$\pm$2        \\
+Region 8 &2.$\pm$1              & 3$\pm$1              & 6$\pm$3            & 3$\pm$1            & 2.7$\pm$0.8        & 1.4$\pm$0.3        & 4.4$\pm$0.8            & - - - -                      &  - - - -                       & 4.1$\pm$0.7        \\
+Region 9 &  - - - -                     & 38$\pm$3          & 133$\pm$29        & 25$\pm$4        & 15$\pm$3            & 2.4$\pm$0.8        & 37$\pm$3               & 14$\pm$1             & 25$\pm$3        & 19$\pm$6        \\
+Bulge       & - - - -                       & 38$\pm$2           & 219$\pm$27        & 32$\pm$4        & 20$\pm$3           & 2.0$\pm$0.9        & 53$\pm$3              & 14$\pm$1           & 29$\pm$3        & 39$\pm$2       \\
+
+\hline
+ \label{PAHlinetable}
+\end{tabular}\\
+{$^a$ Units are 10$^{-9}$ W/m$^2$.}
+\end{minipage}
+\end{table*}
+
+
+
+
+
+
+
+\begin{table*}
+ \centering
+ \begin{minipage}{200mm}
+\caption{PAH Emission Line Equivalent Widths$^a$}
+  \begin{tabular}{l c c  c  c  c  c  c  c  c  c c }
+  \hline {Name  }&{5.7$\mu$m  }&{6.2$\mu$m  }&{7.7$\mu$m  }&{8.3$\mu$m  }&{8.6$\mu$m  }&{10.7$\mu$m  }&{11.3$\mu$m  }&{12.0$\mu$m  }&{12.7$\mu$m  }&{17.0$\mu$m  } 
+   \\
+ \hline
+
+
+
+ Region 1 &0.39$\pm$0.08        & 1.2$\pm$0.1             & 3.4$\pm$0.3        & 0.43$\pm$0.04        & 0.47$\pm$0.04        & 0.09$\pm$0.01        & 1.45$\pm$0.04        & 0.43$\pm$0.03        & 0.78$\pm$0.03              & 1.27$\pm$0.05        \\
+ Region 2 &0.28$\pm$0.04        & 1.02$\pm$0.06        & 3.4$\pm$0.2        & 0.32$\pm$0.04        & 0.70$\pm$0.04        & 0.07$\pm$0.01        & 1.58$\pm$0.04        & 0.35$\pm$0.02        & 0.85$\pm$0.03              & 1.35$\pm$0.06        \\
+ Region 3$^b$ &4$\pm$2           & 8$\pm$2                   & 19$\pm$4            & 2.8$\pm$0.8             & 0.9$\pm$0.5             & 0.1$\pm$0.1            & 2.1$\pm$0.3             & 0.7$\pm$0.2            & 1.6$\pm$0.2                   & 2.4$\pm$0.3        \\
+ Region 4 &0.28$\pm$0.09        & 1.0$\pm$0.1             & 3.7$\pm$0.4       & 0.5$\pm$0.1              & 0.77$\pm$0.07        & 0.07$\pm$0.02        & 1.67$\pm$0.06        & 0.31$\pm$0.04        & 0.86$\pm$0.05             & 1.68$\pm$0.07        \\
+ Region 5 & - - - -        & 0.12$\pm$0.03        & 0.61$\pm$0.08   & 0.10$\pm$0.03        & 0.20$\pm$0.03        & 0.05$\pm$0.01        & 0.77$\pm$0.03        & 0.17$\pm$0.03        & 0.50$\pm$0.04            & 1.6$\pm$0.2        \\
+ Region 6 & - - - -                          & 0.10$\pm$0.04        & 0.6$\pm$0.2        & 0.10$\pm$0.04        & 0.14$\pm$0.03        & 0.05$\pm$0.01        & 0.77$\pm$0.04        & 0.15$\pm$0.03        & 0.42$\pm$0.04            & 1.7$\pm$0.1        \\
+ Region 7 &0.32$\pm$0.05        & 0.86$\pm$0.06        & 2.8$\pm$0.2        & 0.44$\pm$0.06        & 0.69$\pm$0.06        & 0.12$\pm$0.02        & 1.81$\pm$0.07        & 0.48$\pm$0.05        & 1.11$\pm$0.08            & 2.2$\pm$0.2        \\
+ Region 8 &0.03$\pm$0.04        & 0.04$\pm$0.03        & 0.2$\pm$0.10      & 0.09$\pm$0.04        & 0.10$\pm$0.03        & 0.09$\pm$0.02        & 0.30$\pm$0.02        & 0.00$\pm$0.00        & 0.01$\pm$0.01            & 0.62$\pm$0.07        \\
+ Region 9$^b$ & - - - -                 & 237$\pm$100          & 151$\pm$60        & 16$\pm$6                 & 8$\pm$3                   & 0.5$\pm$0.2             & 7$\pm$1                   & 2.3$\pm$0.6             & 3.6$\pm$0.8                 & 2.4$\pm$0.8  \\
+ Bulge       & - - - -                          & 1.2$\pm$0.2            & 4.0$\pm$0.4        & 0.51$\pm$0.07         & 0.30$\pm$0.06        & 0.03$\pm$0.01        & 0.78$\pm$0.03        & 0.22$\pm$0.02        & 0.49$\pm$0.03            & 1.16$\pm$0.04 \\       
+
+
+\hline
+ \label{EQW}
+\end{tabular}\\
+{$^a$ Units are $\mu$m. $^b$ EQWs from these two regions were removed from the analysis (see section 3.2).}
+\end{minipage}
+\end{table*}
+
+
+
+
+
+
+\begin{table*}
+ \centering
+ \begin{minipage}{100mm}
+\caption{Atomic Emission Line Strengths$^a$}
+  \begin{tabular}{l c c  c  c  c  c  }
+  \hline{Name  }&{[Ar~{\sc ii}] }&{[Ar~{\sc iii}]  }&{[S~{\sc iv}]}&{[Ne~{\sc ii}]   }&{[Ne~{\sc iii}]   }&{[S~{\sc iii}]  }\\
+{}&{\tiny{7.0$\mu$m} }&{\tiny{9.0$\mu$m }}&{\tiny{10.5$\mu$m}}&{\tiny{12.8$\mu$m  }}&{\tiny{15.5$\mu$m } }&{\tiny{18.7$\mu$m }} 
+   \\
+ \hline 
+ 
+Region 1 &    $<$15.2                 & $<$16.4                 & 6$\pm$1                 & 6$\pm$1                 & $<$ 4.2                 & 2.2$\pm$0.4                \\
+Region 2 &    5$\pm$3                 & $<$ 17.4               & $<$5.1                    & 6$\pm$1                 & $<$ 2.9                 & 0.9$\pm$0.5                 \\
+Region 3 &    $<$42.9                 & 27$\pm$6              & $<$ 28.9                & 9$\pm$3                 & 6$\pm$1               & 4.3$\pm$0.9                 \\
+Region 4 &    $<$11.2                 & $<$10.0                 & $<$4.4                    & 2$\pm$1                 & 0.6$\pm$0.5        & 1.3$\pm$0.5                 \\
+Region 5 &    4$\pm$3                 & $<$6.2                   & $<$ 5.2                 & $<$ 4.2                     & 2$\pm$1               & 2$\pm$1                 \\
+Region 6 &    7$\pm$3                & 4$\pm$2                 & $<$ 3.8                 & 2$\pm$1                  & 5.4$\pm$0.5         & 5.3$\pm$0.5                 \\
+Region 7 &    3$\pm$3                 & $<$12.6                 & 2.3$\pm$0.9        & 10$\pm$2                & $<$ 2.9                 & 8$\pm$1                \\
+Region 8 &    $<$11.8                  & 5$\pm$2                & $<$4.9                  & $<$2.6                       & 11.6$\pm$0.5     & 6.5$\pm$0.5                 \\
+Region 9 &    24$\pm$10             & 35$\pm$8             & $<$ 2.7                 & 38$\pm$3                 & 7$\pm$4               & 15.3$\pm$5.6                 \\
+Bulge &          10$\pm$7               & 49$\pm$7              & $<$ 30.4               & 19$\pm$4                 & 7$\pm$2               & 2$\pm$1      \\           
+
+\hline
+ \label{Atomic}
+\end{tabular}\\
+{ $^a$ Units are 10$^{-10}$ W/m$^2$. Upper limits are indicated with a $<$ mark.  }
+\end{minipage}
+\end{table*}
+
+
+
+\subsection{ISOCAM Data Reduction}
+
+
+To compare our results with previous observations, ISOCAM data of three regions previously observed by \citet{1998Cesarsky} which overlap with IRS observations were obtained. We retrieved the highly processed data provided by \citet{Boulanger_F_2005} of these ISOCAM observations. The total wavelength range covered was 5.15 to 16.5 $\mu$m and the field-of-view was 32$\times $32 pixels with 6\arcsec\ per pixel. An image of the ISOCAM data is shown in Figure \ref{isonuc}.  For the three regions in common, we extracted spectra using the same aperture as for the IRS data. 
+
+
+\begin{figure}
+\centering
+%\begin{center}
+\includegraphics[width = 8cm]{./isonuc.eps}
+\caption{11.3 $\mu$m image of the ISOCAM data cube from the nucleus of M31. The black box shows the size of the aperture that used to extract spectra.}
+%\end{center}
+\label{isonuc}
+\end{figure}
