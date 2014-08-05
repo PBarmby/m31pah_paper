@@ -1,191 +1,222 @@
-\begin{thebibliography}{38}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\begin{thebibliography}{}
 
-\bibitem[{{Allamandola} {et~al.}(1989){Allamandola}, {Tielens}, \&
-  {Barker}}]{Allamandola1989}
-{Allamandola}, L.~J., {Tielens}, A.~G.~G.~M., \& {Barker}, J.~R. 1989, \apjs,
+\bibitem[\protect\citeauthoryear{{Allamandola}, {Tielens} \&
+  {Barker}}{{Allamandola} et~al.}{1989}]{Allamandola1989}
+{Allamandola} L.~J.,  {Tielens} A.~G.~G.~M.,    {Barker} J.~R.,  1989, \apjs,
   71, 733
 
-\bibitem[{{Bacon} {et~al.}(2001){Bacon}, {Emsellem}, {Combes}, {Copin},
-  {Monnet}, \& {Martin}}]{Bacon2001}
-{Bacon}, R., {Emsellem}, E., {Combes}, F., {et~al.} 2001, \aap, 371, 409
+\bibitem[\protect\citeauthoryear{{Bacon}, {Emsellem}, {Combes}, {Copin},
+  {Monnet} \& {Martin}}{{Bacon} et~al.}{2001}]{Bacon2001}
+{Bacon} R.,  {Emsellem} E.,  {Combes} F.,  {Copin} Y.,  {Monnet} G.,
+  {Martin} P.,  2001, \aap, 371, 409
 
-\bibitem[{{Barmby} {et~al.}(2006){Barmby}, {Ashby}, {Bianchi}, {Engelbracht},
+\bibitem[\protect\citeauthoryear{{Barmby}, {Ashby}, {Bianchi}, {Engelbracht},
   {Gehrz}, {Gordon}, {Hinz}, {Huchra}, {Humphreys}, {Pahre},
-  {P{\'e}rez-Gonz{\'a}lez}, {Polomski}, {Rieke}, {Thilker}, {Willner}, \&
-  {Woodward}}]{Barmby2006lr}
-{Barmby}, P., {Ashby}, M.~L.~N., {Bianchi}, L., {et~al.} 2006, \apjl, 650, L45
+  {P{\'e}rez-Gonz{\'a}lez}, {Polomski}, {Rieke}, {Thilker}, {Willner} \&
+  {Woodward}}{{Barmby} et~al.}{2006}]{Barmby2006lr}
+{Barmby} P.,  {Ashby} M.~L.~N.,  {Bianchi} L.,  {Engelbracht} C.~W.,  {Gehrz}
+  R.~D.,  {Gordon} K.~D.,  {Hinz} J.~L.,  {Huchra} J.~P.,  {Humphreys} R.~M.,
+  {Pahre} M.~A.,  {P{\'e}rez-Gonz{\'a}lez} P.~G.,  {Polomski} E.~F.,  {Rieke}
+  G.~H.,  {Thilker} D.~A.,  {Willner} S.~P.,    {Woodward} C.~E.,  2006, \apjl,
+  650, L45
 
-\bibitem[{{Boulanger} {et~al.}(2005){Boulanger}, {Lorente}, {Miville
-  Desch{\^e}nes}, {Abergel}, {Blommaert}, {Cesarsky}, {Okumura}, {P{\'e}rault},
-  \& {Reach}}]{Boulanger_F_2005}
-{Boulanger}, F., {Lorente}, R., {Miville Desch{\^e}nes}, M.~A., {et~al.} 2005,
-  \aap, 436, 1151
+\bibitem[\protect\citeauthoryear{{Boulanger}, {Lorente}, {Miville
+  Desch{\^e}nes}, {Abergel}, {Blommaert}, {Cesarsky}, {Okumura}, {P{\'e}rault}
+  \& {Reach}}{{Boulanger} et~al.}{2005}]{Boulanger_F_2005}
+{Boulanger} F.,  {Lorente} R.,  {Miville Desch{\^e}nes} M.~A.,  {Abergel} A.,
+  {Blommaert} J.~A.~D.~L.,  {Cesarsky} D.,  {Okumura} K.,  {P{\'e}rault} M.,
+  {Reach} W.,  2005, \aap, 436, 1151
 
-\bibitem[{{Brandl} {et~al.}(2006){Brandl}, {Bernard-Salas}, {Spoon}, {Devost},
+\bibitem[\protect\citeauthoryear{{Brandl}, {Bernard-Salas}, {Spoon}, {Devost},
   {Sloan}, {Guilles}, {Wu}, {Houck}, {Weedman}, {Armus}, {Appleton}, {Soifer},
-  {Charmandaris}, {Hao}, {Higdon}, {Marshall}, \& {Herter}}]{Brandl2006}
-{Brandl}, B.~R., {Bernard-Salas}, J., {Spoon}, H.~W.~W., {et~al.} 2006, \apj,
-  653, 1129
+  {Charmandaris}, {Hao}, {Higdon}, {Marshall} \& {Herter}}{{Brandl}
+  et~al.}{2006}]{Brandl2006}
+{Brandl} B.~R.,  {Bernard-Salas} J.,  {Spoon} H.~W.~W.,  {Devost} D.,  {Sloan}
+  G.~C.,  {Guilles} S.,  {Wu} Y.,  {Houck} J.~R.,  {Weedman} D.~W.,  {Armus}
+  L.,  {Appleton} P.~N.,  {Soifer} B.~T.,  {Charmandaris} V.,  {Hao} L.,
+  {Higdon} J.~A.,  {Marshall} S.~J.,    {Herter} T.~L.,  2006, \apj, 653, 1129
 
-\bibitem[{{Calzetti} {et~al.}(2010){Calzetti}, {Kennicutt}, {Dale}, {Draine},
-  {Engelbracht}, {Gil de Paz}, {Gordon}, {Munoz-Mateos}, {Murphy}, \&
-  {Smith}}]{Calzetti:2010fk}
-{Calzetti}, D., {Kennicutt}, R.~C., {Dale}, D.~A., {et~al.} 2010, Conference
-  Proceedings `Reionization to Exoplanets', ed. P. Ogle, ASP Conference Series
+\bibitem[\protect\citeauthoryear{{Calzetti}, {Kennicutt}, {Dale}, {Draine},
+  {Engelbracht}, {Gil de Paz}, {Gordon}, {Munoz-Mateos}, {Murphy} \&
+  {Smith}}{{Calzetti} et~al.}{2010}]{Calzetti:2010fk}
+{Calzetti} D.,  {Kennicutt} R.~C.,  {Dale} D.~A.,  {Draine} B.~T.,
+  {Engelbracht} C.~W.,  {Gil de Paz} A.,  {Gordon} K.~D.,  {Munoz-Mateos}
+  J.~C.,  {Murphy} E.~J.,    {Smith} J.~D.~T.,  2010, Conference Proceedings
+  `Reionization to Exoplanets', ed. P. Ogle, ASP Conference Series
 
-\bibitem[{{Cesarsky} {et~al.}(1998){Cesarsky}, {Lequeux}, {Pagani}, {Ryter},
-  {Loinard}, \& {Sauvage}}]{1998Cesarsky}
-{Cesarsky}, D., {Lequeux}, J., {Pagani}, L., {et~al.} 1998, \aap, 337, L35
+\bibitem[\protect\citeauthoryear{{Cesarsky}, {Lequeux}, {Pagani}, {Ryter},
+  {Loinard} \& {Sauvage}}{{Cesarsky} et~al.}{1998}]{1998Cesarsky}
+{Cesarsky} D.,  {Lequeux} J.,  {Pagani} L.,  {Ryter} C.,  {Loinard} L.,
+  {Sauvage} M.,  1998, \aap, 337, L35
 
-\bibitem[{{Croley} {et~al.}(2014){Croley}, {Barmby}, {Stock}, {Mohaddesseh}, \&
-  {Rosolowsky}}]{Mitchel2014}
-{Croley}, M., {Barmby}, P., {Stock}, D., {Mohaddesseh}, A., \& {Rosolowsky}, E.
+\bibitem[\protect\citeauthoryear{{Croley}, {Barmby}, {Stock}, {Mohaddesseh} \&
+  {Rosolowsky}}{{Croley} et~al.}{2014}]{Mitchel2014}
+{Croley} M.,  {Barmby} P.,  {Stock} D.,  {Mohaddesseh} A.,    {Rosolowsky} E.,
   2014, MNRAS, submitted
 
-\bibitem[{{Efstathiou} \& {Rowan-Robinson}(1995)}]{AGNtypes1995}
-{Efstathiou}, A., \& {Rowan-Robinson}, M. 1995, \mnras, 273, 649
+\bibitem[\protect\citeauthoryear{{Efstathiou} \& {Rowan-Robinson}}{{Efstathiou}
+  \& {Rowan-Robinson}}{1995}]{AGNtypes1995}
+{Efstathiou} A.,  {Rowan-Robinson} M.,  1995, \mnras, 273, 649
 
-\bibitem[{{Engelbracht} {et~al.}(2008){Engelbracht}, {Rieke}, {Gordon},
-  {Smith}, {Werner}, {Moustakas}, {Willmer}, \& {Vanzi}}]{Engelbracht_2008}
-{Engelbracht}, C.~W., {Rieke}, G.~H., {Gordon}, K.~D., {et~al.} 2008, \apj,
-  678, 804
+\bibitem[\protect\citeauthoryear{{Engelbracht}, {Rieke}, {Gordon}, {Smith},
+  {Werner}, {Moustakas}, {Willmer} \& {Vanzi}}{{Engelbracht}
+  et~al.}{2008}]{Engelbracht_2008}
+{Engelbracht} C.~W.,  {Rieke} G.~H.,  {Gordon} K.~D.,  {Smith} J.-D.~T.,
+  {Werner} M.~W.,  {Moustakas} J.,  {Willmer} C.~N.~A.,    {Vanzi} L.,  2008,
+  \apj, 678, 804
 
-\bibitem[{{Galliano} {et~al.}(2008){Galliano}, {Madden}, {Tielens}, {Peeters},
-  \& {Jones}}]{Galliano2008}
-{Galliano}, F., {Madden}, S.~C., {Tielens}, A.~G.~G.~M., {Peeters}, E., \&
-  {Jones}, A.~P. 2008, \apj, 679, 310
+\bibitem[\protect\citeauthoryear{{Galliano}, {Madden}, {Tielens}, {Peeters} \&
+  {Jones}}{{Galliano} et~al.}{2008}]{Galliano2008}
+{Galliano} F.,  {Madden} S.~C.,  {Tielens} A.~G.~G.~M.,  {Peeters} E.,
+  {Jones} A.~P.,  2008, \apj, 679, 310
 
-\bibitem[{{Garcia} {et~al.}(2010){Garcia}, {Hextall}, {Baganoff}, {Galache},
-  {Melia}, {Murray}, {Primini}, {Sjouwerman}, \& {Williams}}]{NucleusREF}
-{Garcia}, M.~R., {Hextall}, R., {Baganoff}, F.~K., {et~al.} 2010, \apj, 710,
-  755
+\bibitem[\protect\citeauthoryear{{Garcia}, {Hextall}, {Baganoff}, {Galache},
+  {Melia}, {Murray}, {Primini}, {Sjouwerman} \& {Williams}}{{Garcia}
+  et~al.}{2010}]{NucleusREF}
+{Garcia} M.~R.,  {Hextall} R.,  {Baganoff} F.~K.,  {Galache} J.,  {Melia} F.,
+  {Murray} S.~S.,  {Primini} F.~A.,  {Sjouwerman} L.~O.,    {Williams} B.,
+  2010, \apj, 710, 755
 
-\bibitem[{{Gordon} {et~al.}(2008){Gordon}, {Engelbracht}, {Rieke}, {Misselt},
-  {Smith}, \& {Kennicutt}}]{Gordon:2008lr}
-{Gordon}, K.~D., {Engelbracht}, C.~W., {Rieke}, G.~H., {et~al.} 2008, \apj,
-  682, 336
+\bibitem[\protect\citeauthoryear{{Gordon}, {Engelbracht}, {Rieke}, {Misselt},
+  {Smith} \& {Kennicutt} Jr.}{{Gordon} et~al.}{2008}]{Gordon:2008lr}
+{Gordon} K.~D.,  {Engelbracht} C.~W.,  {Rieke} G.~H.,  {Misselt} K.~A.,
+  {Smith} J.-D.~T.,    {Kennicutt} Jr. R.~C.,  2008, \apj, 682, 336
 
-\bibitem[{{Houck} {et~al.}(2004){Houck}, {Roellig}, {van Cleve}, {Forrest},
-  {Herter}, {Lawrence}, {Matthews}, {Reitsema}, {Soifer}, {Watson}, {Weedman},
-  {Huisjen}, {Troeltzsch}, {Barry}, {Bernard-Salas}, {Blacken}, {Brandl},
-  {Charmandaris}, {Devost}, {Gull}, {Hall}, {Henderson}, {Higdon}, {Pirger},
-  {Schoenwald}, {Sloan}, {Uchida}, {Appleton}, {Armus}, {Burgdorf},
-  {Fajardo-Acosta}, {Grillmair}, {Ingalls}, {Morris}, \& {Teplitz}}]{IRS2004}
-{Houck}, J.~R., {Roellig}, T.~L., {van Cleve}, J., {et~al.} 2004, \apjs, 154,
+\bibitem[\protect\citeauthoryear{{Houck}, {Roellig}, {van Cleve}
+  et~al.,}{{Houck} et~al.}{2004}]{IRS2004}
+{Houck} J.~R.,  {Roellig} T.~L.,  {van Cleve} J.,    et~al., 2004, \apjs, 154,
   18
 
-\bibitem[{{Kessler} {et~al.}(1996){Kessler}, {Steinz}, {Anderegg}, {Clavel},
-  {Drechsel}, {Estaria}, {Faelker}, {Riedinger}, {Robson}, {Taylor}, \&
-  {Xim{\'e}nez de Ferr{\'a}n}}]{Kessler1996}
-{Kessler}, M.~F., {Steinz}, J.~A., {Anderegg}, M.~E., {et~al.} 1996, \aap, 315,
-  L27
+\bibitem[\protect\citeauthoryear{{Kessler}, {Steinz}, {Anderegg}, {Clavel},
+  {Drechsel}, {Estaria}, {Faelker}, {Riedinger}, {Robson}, {Taylor} \&
+  {Xim{\'e}nez de Ferr{\'a}n}}{{Kessler} et~al.}{1996}]{Kessler1996}
+{Kessler} M.~F.,  {Steinz} J.~A.,  {Anderegg} M.~E.,  {Clavel} J.,  {Drechsel}
+  G.,  {Estaria} P.,  {Faelker} J.,  {Riedinger} J.~R.,  {Robson} A.,  {Taylor}
+  B.~G.,    {Xim{\'e}nez de Ferr{\'a}n} S.,  1996, \aap, 315, L27
 
-\bibitem[{{Kewley} {et~al.}(2006){Kewley}, {Groves}, {Kauffmann}, \&
-  {Heckman}}]{Kewley2006}
-{Kewley}, L.~J., {Groves}, B., {Kauffmann}, G., \& {Heckman}, T. 2006, \mnras,
+\bibitem[\protect\citeauthoryear{{Kewley}, {Groves}, {Kauffmann} \&
+  {Heckman}}{{Kewley} et~al.}{2006}]{Kewley2006}
+{Kewley} L.~J.,  {Groves} B.,  {Kauffmann} G.,    {Heckman} T.,  2006, \mnras,
   372, 961
 
-\bibitem[{{Lauer} {et~al.}(1993){Lauer}, {Faber}, {Groth}, {Shaya}, {Campbell},
-  {Code}, {Currie}, {Baum}, {Ewald}, {Hester}, {Holtzman}, {Kristian}, {Light},
-  {Ligynds}, {O'Neil}, \& {Westphal}}]{Lauer1993}
-{Lauer}, T.~R., {Faber}, S.~M., {Groth}, E.~J., {et~al.} 1993, \aj, 106, 1436
+\bibitem[\protect\citeauthoryear{{Lauer}, {Faber}, {Groth}, {Shaya},
+  {Campbell}, {Code}, {Currie}, {Baum}, {Ewald}, {Hester}, {Holtzman},
+  {Kristian}, {Light}, {Ligynds}, {O'Neil} Jr. \& {Westphal}}{{Lauer}
+  et~al.}{1993}]{Lauer1993}
+{Lauer} T.~R.,  {Faber} S.~M.,  {Groth} E.~J.,  {Shaya} E.~J.,  {Campbell} B.,
+  {Code} A.,  {Currie} D.~G.,  {Baum} W.~A.,  {Ewald} S.~P.,  {Hester} J.~J.,
+  {Holtzman} J.~A.,  {Kristian} J.,  {Light} R.~M.,  {Ligynds} C.~R.,  {O'Neil}
+  Jr. E.~J.,    {Westphal} J.~A.,  1993, \aj, 106, 1436
 
-\bibitem[{{Marble} {et~al.}(2010){Marble}, {Engelbracht}, {van Zee}, {Dale},
+\bibitem[\protect\citeauthoryear{{Marble}, {Engelbracht}, {van Zee}, {Dale},
   {Smith}, {Gordon}, {Wu}, {Lee}, {Kennicutt}, {Skillman}, {Johnson}, {Block},
-  {Calzetti}, {Cohen}, {Lee}, \& {Schuster}}]{Marble_2010}
-{Marble}, A.~R., {Engelbracht}, C.~W., {van Zee}, L., {et~al.} 2010, \apj, 715,
-  506
+  {Calzetti}, {Cohen}, {Lee} \& {Schuster}}{{Marble}
+  et~al.}{2010}]{Marble_2010}
+{Marble} A.~R.,  {Engelbracht} C.~W.,  {van Zee} L.,  {Dale} D.~A.,  {Smith}
+  J.~D.~T.,  {Gordon} K.~D.,  {Wu} Y.,  {Lee} J.~C.,  {Kennicutt} R.~C.,
+  {Skillman} E.~D.,  {Johnson} L.~C.,  {Block} M.,  {Calzetti} D.,  {Cohen}
+  S.~A.,  {Lee} H.,    {Schuster} M.~D.,  2010, \apj, 715, 506
 
-\bibitem[{{Mason} {et~al.}(2009){Mason}, {Levenson}, {Shi}, {Packham},
-  {Gorjian}, {Cleary}, {Rhee}, \& {Werner}}]{Mason2009}
-{Mason}, R.~E., {Levenson}, N.~A., {Shi}, Y., {et~al.} 2009, \apjl, 693, L136
+\bibitem[\protect\citeauthoryear{{Mason}, {Levenson}, {Shi}, {Packham},
+  {Gorjian}, {Cleary}, {Rhee} \& {Werner}}{{Mason} et~al.}{2009}]{Mason2009}
+{Mason} R.~E.,  {Levenson} N.~A.,  {Shi} Y.,  {Packham} C.,  {Gorjian} V.,
+  {Cleary} K.,  {Rhee} J.,    {Werner} M.,  2009, \apjl, 693, L136
 
-\bibitem[{{Mason} {et~al.}(2012){Mason}, {Lopez-Rodriguez}, {Packham},
+\bibitem[\protect\citeauthoryear{{Mason}, {Lopez-Rodriguez}, {Packham},
   {Alonso-Herrero}, {Levenson}, {Radomski}, {Ramos Almeida}, {Colina},
-  {Elitzur}, {Aretxaga}, {Roche}, \& {Oi}}]{Mason2012}
-{Mason}, R.~E., {Lopez-Rodriguez}, E., {Packham}, C., {et~al.} 2012, \aj, 144,
-  11
+  {Elitzur}, {Aretxaga}, {Roche} \& {Oi}}{{Mason} et~al.}{2012}]{Mason2012}
+{Mason} R.~E.,  {Lopez-Rodriguez} E.,  {Packham} C.,  {Alonso-Herrero} A.,
+  {Levenson} N.~A.,  {Radomski} J.,  {Ramos Almeida} C.,  {Colina} L.,
+  {Elitzur} M.,  {Aretxaga} I.,  {Roche} P.~F.,    {Oi} N.,  2012, \aj, 144, 11
 
-\bibitem[{{Mattila} {et~al.}(1996){Mattila}, {Lemke}, {Haikala}, {Laureijs},
-  {Leger}, {Lehtinen}, {Leinert}, \& {Mezger}}]{Mattila1996}
-{Mattila}, K., {Lemke}, D., {Haikala}, L.~K., {et~al.} 1996, \aap, 315, L353
+\bibitem[\protect\citeauthoryear{{Mattila}, {Lemke}, {Haikala}, {Laureijs},
+  {Leger}, {Lehtinen}, {Leinert} \& {Mezger}}{{Mattila}
+  et~al.}{1996}]{Mattila1996}
+{Mattila} K.,  {Lemke} D.,  {Haikala} L.~K.,  {Laureijs} R.~J.,  {Leger} A.,
+  {Lehtinen} K.,  {Leinert} C.,    {Mezger} P.~G.,  1996, \aap, 315, L353
 
-\bibitem[{{Nagao} {et~al.}(2006){Nagao}, {Maiolino}, \& {Marconi}}]{Nagao2006}
-{Nagao}, T., {Maiolino}, R., \& {Marconi}, A. 2006, \aap, 459, 85
+\bibitem[\protect\citeauthoryear{{Nagao}, {Maiolino} \& {Marconi}}{{Nagao}
+  et~al.}{2006}]{Nagao2006}
+{Nagao} T.,  {Maiolino} R.,    {Marconi} A.,  2006, \aap, 459, 85
 
-\bibitem[{{Pagani} {et~al.}(1999){Pagani}, {Lequeux}, {Cesarsky}, {Milliard}B.,
-  {Lionard}, \& {Sauvage}}]{Pagani_1999}
-{Pagani}, L., {Lequeux}, J., {Cesarsky}, D., {et~al.} 1999, \aap, 351, 447
+\bibitem[\protect\citeauthoryear{{Pagani}, {Lequeux}, {Cesarsky}, {Milliard}B.,
+  {Lionard} \& {Sauvage}}{{Pagani} et~al.}{1999}]{Pagani_1999}
+{Pagani} L.,  {Lequeux} J.,  {Cesarsky} D.,  {Milliard}B. {Lionard} L.,
+  {Sauvage} M.,  1999, \aap, 351, 447
 
-\bibitem[{{Peeters} {et~al.}(2002){Peeters}, {Hony}, {Van Kerckhoven},
-  {Tielens}, {Allamandola}, {Hudgins}, \& {Bauschlicher}}]{Peeters2002}
-{Peeters}, E., {Hony}, S., {Van Kerckhoven}, C., {et~al.} 2002, \aap, 390, 1089
+\bibitem[\protect\citeauthoryear{{Peeters}, {Hony}, {Van Kerckhoven},
+  {Tielens}, {Allamandola}, {Hudgins} \& {Bauschlicher}}{{Peeters}
+  et~al.}{2002}]{Peeters2002}
+{Peeters} E.,  {Hony} S.,  {Van Kerckhoven} C.,  {Tielens} A.~G.~G.~M.,
+  {Allamandola} L.~J.,  {Hudgins} D.~M.,    {Bauschlicher} C.~W.,  2002, \aap,
+  390, 1089
 
-\bibitem[{{Roche} {et~al.}(1991){Roche}, {Aitken}, {Smith}, \&
-  {Ward}}]{Roche1991}
-{Roche}, P.~F., {Aitken}, D.~K., {Smith}, C.~H., \& {Ward}, M.~J. 1991, \mnras,
+\bibitem[\protect\citeauthoryear{{Roche}, {Aitken}, {Smith} \& {Ward}}{{Roche}
+  et~al.}{1991}]{Roche1991}
+{Roche} P.~F.,  {Aitken} D.~K.,  {Smith} C.~H.,    {Ward} M.~J.,  1991, \mnras,
   248, 606
 
-\bibitem[{{Sanders} {et~al.}(2012){Sanders}, {Caldwell}, {McDowell}, \&
-  {Harding}}]{Sanders_2011}
-{Sanders}, N.~E., {Caldwell}, N., {McDowell}, J., \& {Harding}, P. 2012, \apj,
+\bibitem[\protect\citeauthoryear{{Sanders}, {Caldwell}, {McDowell} \&
+  {Harding}}{{Sanders} et~al.}{2012}]{Sanders_2011}
+{Sanders} N.~E.,  {Caldwell} N.,  {McDowell} J.,    {Harding} P.,  2012, \apj,
   758, 133
 
-\bibitem[{{Skillman} {et~al.}(1998){Skillman}, {Terlevich}, \&
-  {Terlevich}}]{Skillman1998}
-{Skillman}, E.~D., {Terlevich}, E., \& {Terlevich}, R. 1998, \ssr, 84, 105
+\bibitem[\protect\citeauthoryear{{Skillman}, {Terlevich} \&
+  {Terlevich}}{{Skillman} et~al.}{1998}]{Skillman1998}
+{Skillman} E.~D.,  {Terlevich} E.,    {Terlevich} R.,  1998, \ssr, 84, 105
 
-\bibitem[{{Smith} {et~al.}(2007{\natexlab{a}}){Smith}, {Armus}, {Dale},
-  {Roussel}, {Sheth}, {Buckalew}, {Jarrett}, {Helou}, \&
-  {Kennicutt}}]{Smith:2007fk}
-{Smith}, J.~D.~T., {Armus}, L., {Dale}, D.~A., {et~al.} 2007{\natexlab{a}},
-  \pasp, 119, 1133
+\bibitem[\protect\citeauthoryear{{Smith}, {Armus}, {Dale}, {Roussel}, {Sheth},
+  {Buckalew}, {Jarrett}, {Helou} \& {Kennicutt} Jr.}{{Smith}
+  et~al.}{2007}]{Smith:2007fk}
+{Smith} J.~D.~T.,  {Armus} L.,  {Dale} D.~A.,  {Roussel} H.,  {Sheth} K.,
+  {Buckalew} B.~A.,  {Jarrett} T.~H.,  {Helou} G.,    {Kennicutt} Jr. R.~C.,
+  2007, \pasp, 119, 1133
 
-\bibitem[{{Smith} {et~al.}(2007{\natexlab{b}}){Smith}, {Draine}, {Dale},
-  {Moustakas}, {Kennicutt}, {Helou}, {Armus}, {Roussel}, {Sheth}, {Bendo},
-  {Buckalew}, {Calzetti}, {Engelbracht}, {Gordon}, {Hollenbach}, {Li},
-  {Malhotra}, {Murphy}, \& {Walter}}]{Smith:2007lr}
-{Smith}, J.~D.~T., {Draine}, B.~T., {Dale}, D.~A., {et~al.} 2007{\natexlab{b}},
-  \apj, 656, 770
+\bibitem[\protect\citeauthoryear{{Smith}, {Draine}, {Dale} et~al.,}{{Smith}
+  et~al.}{2007}]{Smith:2007lr}
+{Smith} J.~D.~T.,  {Draine} B.~T.,  {Dale} D.~A.,    et~al., 2007, \apj, 656,
+  770
 
-\bibitem[{{Spinoglio} \& {Malkan}(1989)}]{luminosity}
-{Spinoglio}, L., \& {Malkan}, M.~A. 1989, \apj, 342, 83
+\bibitem[\protect\citeauthoryear{{Spinoglio} \& {Malkan}}{{Spinoglio} \&
+  {Malkan}}{1989}]{luminosity}
+{Spinoglio} L.,  {Malkan} M.~A.,  1989, \apj, 342, 83
 
-\bibitem[{{Spinoglio} \& {Malkan}(1992)}]{AGNref}
----. 1992, \apj, 399, 504
+\bibitem[\protect\citeauthoryear{{Spinoglio} \& {Malkan}}{{Spinoglio} \&
+  {Malkan}}{1992}]{AGNref}
+{Spinoglio} L.,  {Malkan} M.~A.,  1992, \apj, 399, 504
 
-\bibitem[{{Spoon} {et~al.}(2007){Spoon}, {Marshall}, {Houck}, {Elitzur}, {Hao},
-  {Armus}, {Brandl}, \& {Charmandaris}}]{Spoon2007}
-{Spoon}, H.~W.~W., {Marshall}, J.~A., {Houck}, J.~R., {et~al.} 2007, \apjl,
-  654, L49
+\bibitem[\protect\citeauthoryear{{Spoon}, {Marshall}, {Houck}, {Elitzur},
+  {Hao}, {Armus}, {Brandl} \& {Charmandaris}}{{Spoon} et~al.}{2007}]{Spoon2007}
+{Spoon} H.~W.~W.,  {Marshall} J.~A.,  {Houck} J.~R.,  {Elitzur} M.,  {Hao} L.,
+  {Armus} L.,  {Brandl} B.~R.,    {Charmandaris} V.,  2007, \apjl, 654, L49
 
-\bibitem[{{Stock} {et~al.}(2014){Stock}, {Peeters}, {Choi}, \&
-  {Shannon}}]{Dave2014}
-{Stock}, D., {Peeters}, E., {Choi}, W., \& {Shannon}, M. 2014, ApJ, in press
+\bibitem[\protect\citeauthoryear{{Stock}, {Peeters}, {Choi} \&
+  {Shannon}}{{Stock} et~al.}{2014}]{Dave2014}
+{Stock} D.,  {Peeters} E.,  {Choi} W.,    {Shannon} M.,  2014, ApJ, in press
 
-\bibitem[{{Sturm} {et~al.}(2005){Sturm}, {Schweitzer}, {Lutz}, {Contursi},
+\bibitem[\protect\citeauthoryear{{Sturm}, {Schweitzer}, {Lutz}, {Contursi},
   {Genzel}, {Lehnert}, {Tacconi}, {Veilleux}, {Rupke}, {Kim}, {Sternberg},
-  {Maoz}, {Lord}, {Mazzarella}, \& {Sanders}}]{Sturm2005}
-{Sturm}, E., {Schweitzer}, M., {Lutz}, D., {et~al.} 2005, \apjl, 629, L21
+  {Maoz}, {Lord}, {Mazzarella} \& {Sanders}}{{Sturm} et~al.}{2005}]{Sturm2005}
+{Sturm} E.,  {Schweitzer} M.,  {Lutz} D.,  {Contursi} A.,  {Genzel} R.,
+  {Lehnert} M.~D.,  {Tacconi} L.~J.,  {Veilleux} S.,  {Rupke} D.~S.,  {Kim}
+  D.-C.,  {Sternberg} A.,  {Maoz} D.,  {Lord} S.,  {Mazzarella} J.,
+  {Sanders} D.~B.,  2005, \apjl, 629, L21
 
-\bibitem[{{Tielens}(2005)}]{Tielens:2005lr}
-{Tielens}, A.~G.~G.~M. 2005, {The Physics and Chemistry of the Interstellar
-  Medium}
+\bibitem[\protect\citeauthoryear{{Tielens}}{{Tielens}}{2005}]{Tielens:2005lr}
+{Tielens} A.~G.~G.~M.,  2005, {The Physics and Chemistry of the Interstellar
+  Medium}.
+Cambridge University Press
 
-\bibitem[{{Tielens}(2008)}]{Tielens2008}
----. 2008, \araa, 46, 289
+\bibitem[\protect\citeauthoryear{{Tielens}}{{Tielens}}{2008}]{Tielens2008}
+{Tielens} A.~G.~G.~M.,  2008, \araa, 46, 289
 
-\bibitem[{{Vermeij} {et~al.}(2002){Vermeij}, {Peeters}, {Tielens}, \& {van der
-  Hulst}}]{Vermeij2002}
-{Vermeij}, R., {Peeters}, E., {Tielens}, A.~G.~G.~M., \& {van der Hulst}, J.~M.
+\bibitem[\protect\citeauthoryear{{Vermeij}, {Peeters}, {Tielens} \& {van der
+  Hulst}}{{Vermeij} et~al.}{2002}]{Vermeij2002}
+{Vermeij} R.,  {Peeters} E.,  {Tielens} A.~G.~G.~M.,    {van der Hulst} J.~M.,
   2002, \aap, 382, 1042
 
-\bibitem[{{Werner} {et~al.}(2004){Werner}, {Roellig}, {Low}, {Rieke}, {Rieke},
-  {Hoffmann}, {Young}, {Houck}, {Brandl}, {Fazio}, {Hora}, {Gehrz}, {Helou},
-  {Soifer}, {Stauffer}, {Keene}, {Eisenhardt}, {Gallagher}, {Gautier}, {Irace},
-  {Lawrence}, {Simmons}, {Van Cleve}, {Jura}, {Wright}, \&
-  {Cruikshank}}]{spitzer2004}
-{Werner}, M.~W., {Roellig}, T.~L., {Low}, F.~J., {et~al.} 2004, \apjs, 154, 1
+\bibitem[\protect\citeauthoryear{{Werner}, {Roellig}, {Low} et~al.,}{{Werner}
+  et~al.}{2004}]{spitzer2004}
+{Werner} M.~W.,  {Roellig} T.~L.,  {Low} F.~J.,    et~al., 2004, \apjs, 154, 1
 
 \end{thebibliography}
