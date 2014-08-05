@@ -1,3 +1,5 @@
+%MLNA: Sec 3 (text) needs to be much clearer as to which spectra (IRS or ISO) are being discussed.
+
 All the main PAH features features, including the 6.2, 7.7, 8.6 and 11.3~$\mu$m bands, are clearly visible in the final processed spectra 
 (see Figure \ref{PAHFITplots}) from all the regions except the nucleus. (The spectrum of the nucleus is discussed in Section 4.3.)
 They also show atomic line emission such as [Ar~{\sc ii}], [Ar~{\sc iii}], [S~{\sc iii}], [S~{\sc iv}], [Ne~{\sc ii}], [Ne~{\sc iii}] 
@@ -36,10 +38,8 @@ By examining the spectra obtained from other regions  which were observed by the
 
 \begin{figure}
 \centering
-%\begin{center}
 \includegraphics[scale=0.35]{./ISOvsIRS.eps}
 \caption{ Comparison of  IRS and re-processed ISOCAM spectra for the Nucleus (top), Bulge (middle) and Region 9 (bottom) in M31.}
-%\end{center}
 \label{ISOnIRS}
 \end{figure}
 
@@ -50,13 +50,15 @@ The PAH features in the IRS spectra are often blended with neighbouring aromatic
 
 PAHFIT uses six main components to fit the surface brightness. These are starlight continuum, featureless thermal dust continuum, pure rotational lines of H$_2$, fine-structure lines, dust emission features and dust extinction. The starlight is represented by a modified blackbody emission at a fixed temperature of 5000 K and the dust continuum is represented by 8 modified blackbodies at fixed temperatures of 35, 40, 50, 65, 90, 135, 200, and 300~K. However, the final fit obtained with PAHFIT does not necessarily take all dust continua into account. Line features are represented by Gaussian profiles and dust features are represented by Drude profiles. The infrared extinction is considered as a combination of a power law plus silicate features peaking at 9.7 and 18~$\mu$m. More details about PAHFIT can be found in \citet{Smith:2007lr}.
 
-None of the IRS spectra shows a significant silicate absorption around 9.7 or 18~$\mu$m and the the extinction values calculated by PAHFIT were almost zero. Therefore, we adjusted the PAHFIT input parameters so that it does not take dust extinction into account. Except for the bulge, Region 5, Region 6 and Region 8, the spectra do not show much contribution from starlight. Therefore, the starlight parameter in PAHFIT was also set to zero so that it does not take starlight into account except for the regions mentioned above. 
+
+None of the IRS spectra shows a significant silicate absorption around 9.7 or 18~$\mu$m and the the extinction values calculated by PAHFIT were almost zero. Therefore, we adjusted the PAHFIT input parameters so that it does not take dust extinction into account. Except for the bulge, Region 5, Region 6 and Region 8, the spectra do not show much contribution from starlight. 
+% MLNA: Why do you hard-wire these parameters to exclude them entirely, if there is *some* contribution seen from them in the spectra?
+Therefore, the starlight parameter in PAHFIT was also set to zero so that it does not take starlight into account except for the regions mentioned above. 
 PAHFIT did not fit the spectrum from the nucleus properly. This was due to the silicate emission around 9.7~$\mu$m and therefore we did not use PAHFIT data from the nucleus for our analysis.
 
 
 \begin{figure*}
 \centering
-%\begin{center}
 \includegraphics[scale=0.45]{./ALL.eps}
   \caption{The spectra from 10 regions (black squares) shown with their detailed PAHFIT decomposition. Red, blue, light blue, pink and green lines represent the dust continua, PAH features, atomic lines, starlight continuum and the fit respectively. The black line shows the total continuum. Spectra from the nucleus and NGC 206 are not shown here.}
 \label{PAHFITplots}
