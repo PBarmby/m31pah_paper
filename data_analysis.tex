@@ -1,3 +1,35 @@
+% SPW comments: move to appropriate places
+%
+%Sec 3 par 2: comment on NGC 206 belongs in Sec 2 and/or note to Table 1. Rest of par belongs later, when dust continuum is discussed.
+%
+%Sec 3 par 3: belongs later or perhaps omit.
+%
+%Sec 3.1 par 1: better last sentence "Figure 7 compares ...." Immediately previous reference is Sec 2.3; use \label and \ref to keep these straight.
+%
+%Sec 3.1 par 2: delete first sentence
+%
+%Sec 3.1 par 3: if you define ISOxxxx, use those designations.  Remove redundancies.  End with final sentence such as "The new reduction appears to eliminate the discrepancies." Par 4 then isn't needed.
+%
+%(We should probably plan to send the submitted ms to Diego Cesarsky, but it's too early for that now.)
+%
+%Sec 3.2 par 1: I don't understand why the last sentence is needed.
+%
+%Sec 3.2 par 2: generally "modified blackbody" means one with an emissivity varying with wavelength.  I don't think that's what you mean for the stellar spectra.  For the dust spectra, it is likely appropriate, but the form of the variation with wavelength should be given.  I think what you mean in the middle is something like "PAHFIT uses only the minimum number of temperatures needed to fit the data, in most cases two or three for our data."  (What was the maximum number?)
+%
+%Sec 3.2 par 3: omit "a considerable amount of" or quantify it.  I gather the end result was forcing PAHFIT to set extinction to zero. Also starlight was zero except for the four regions. Basically this par just needs to be terser and more direct.
+%
+%Sec 3.3 par 1: I'd rephrase "...coming from ordinary dust grains, much larger than PAH molecules."  Omit "Therefore ... M31."  In last sentence, do you mean regions 3 and 9?  Isn't the problem that they have negligible dust continuum, and therefore the EQWs can't be calculated? The feature flux ratios should still be meaningful, though.
+%
+%Sec 3.4: this is much too long for basically no result.  Unless I'm missing something, the key point is that all the regions are relatively low excitation.  In the one possible exception (6), the [Ne III] flux is based on only a single data point.  I think Table 4 and Fig 10 are fine, but the discussion can be a paragraph.
+%
+%Table 3: fn b _probably_ should be something like "Continuum for these regions is very weak.  Equivalent widths are highly uncertain and not considered in the analysis."
+%
+%Table 4: units of 10^-10 W m^-2 must be wrong.  I'd expect 10^-15 or so.
+%How many sigma are the upper limits?
+%
+%General: "Smith et al." are human authors.  Results are given "by" those authors, not "in" them. (Ugh!)
+
+
 %MLNA: Sec 3 (text) needs to be much clearer as to which spectra (IRS or ISO) are being discussed.
 
 All the main PAH features features, including the 6.2, 7.7, 8.6 and 11.3~$\mu$m bands, are clearly visible in the final processed spectra 
@@ -56,7 +88,9 @@ None of the IRS spectra shows a significant silicate absorption around 9.7 or 18
 Therefore, the starlight parameter in PAHFIT was also set to zero so that it does not take starlight into account except for the regions mentioned above. 
 PAHFIT did not fit the spectrum from the nucleus properly. This was due to the silicate emission around 9.7~$\mu$m and therefore we did not use PAHFIT data from the nucleus for our analysis.
 
-
+% SPW: "Observed IRS spectra and detailed PAHFIT decompositions. Regions are labeled in each panel.  Black squares show the observed data, and ....  Vertical scales differ in different panels."  (Modify that last sentence as appropriate.)
+% SPW: I'm not sure what the right-hand "Relative Extinction" scale is supposed to be, but if you keep it, explain it in the caption.
+% SPW: Why are there multiple red lines (dust continuum) in some panels?
 \begin{figure*}
 \centering
 \includegraphics[scale=0.45]{./ALL.eps}

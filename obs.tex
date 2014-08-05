@@ -1,13 +1,11 @@
 \subsection{IRS observations}
 \label{sect:irs_obs}
 
-
+% SPW: Fig 1: label F_nu(8 \micron), etc., not just "8/24".
 \begin{figure}
 \centering
-%\begin{center}
 \includegraphics[width = 8 cm]{./colormaps.png}
 \caption{$8 - 24/70 - 160$ $\mu$m colour-colour diagram of M31 obtained from IRAC and MIPS. The plot is divided into 9 regions (black grid) and the observations were made to cover those regions. The triangles indicate the regions we observed. ({\bf Needs a better explanation} )}
-%\end{center}
 \label{colourmaps}
 \end{figure}
 
@@ -19,7 +17,7 @@ their coordinates are given in Table~\ref{regions}. The two regions previously o
 region from the active region in the star-forming ring (Region 9 in our sample). A background observation was also made off the galaxy 
 along the minor axis and it was used to enable the background subtraction from the data cubes.
 
-
+% SPW: Table 1: mark (with a footnote) the regions that have ISO data.
 \begin{table}
  \centering
  \begin{minipage}{70mm}
@@ -57,7 +55,7 @@ $^b$Metallicity values obtained from the radial metallicity profile of M31.}
 }
 \end{figure*}
 
-
+% SPW: Probably no need to mention LL1, which wasn't used.
 For our observations we used the Short-Low (SL) and Long-Low (LL) modules which cover wavelengths from 5 to 21 microns. 
 The Low modules have resolving power changing 60--130. Each low-resolution module is divided into two sub-slits 
 which provide spectroscopy in either first or second order. They are denoted as SL1 (7.5--14.5~$\mu$m), SL2 (5.2--7.6~$\mu$m),
@@ -84,6 +82,7 @@ each mode was covered using overlapping slit positions.
 
 \subsection{IRS Data Reduction}
 
+% SPW: it seems obvious, but it might be worth an explicit mention that all the IRS maps cover additional area than is considered here.
 The data were reduced through the SSC pipeline (ver. S17.2.0) and the maps were assembled using the CUBISM program \citep{Smith:2007fk}. 
 Bad pixel removal was also done using CUBISM and the background observations were used to subtract the background emission from these cubes 
 following the method outlined in \citet{Gordon:2008lr}. Spectra were extracted using a $30\arcsec\times50\arcsec$   rectangular aperture. 
@@ -97,12 +96,13 @@ For extended sources,  an aperture correction has to be conducted as mentioned i
 aperture correction of 0.824 was applied for all the extractions from the 8 $\mu$m image. The uncertainty value of the IRAC image was estimated 
 by taking the standard deviation of pixels values within an aperture of the same size from a position off M31 (00:48:58.00, +42:14:54.00).
 
+% SPW: the color correction factor needs a bit of explanation. Isn't it simply the actual IRS spectrum integrated over the IRAC band's responsivity?  The key thing in the IRAC handbook should be the responsivity curves, not the method.  Just which data did you integrate?  I'd have expected it to be SL2 because otherwise the break between SL1 and SL2 is in the middle of the IRAC filter.  Anyway, some clarification is needed here about exactly what you did.
 Then we stitched the SL1 and SL2 using the overlapping regions and applied a colour correction factor $K$, which is a multiplicative factor that 
 converts the intensity of an IRS spectrum at a given wavelength to the intensity of an IRAC image taken at the same wavelength. We used the IDL 
 code provided by the instrument handbook to compute these $K$ values for all the regions. colour correction values and the corresponding IRS 
 data along with the IRAC data are given in Table~\ref{colourK}.
 
-
+% SPW: Table 2: headers should clarify the difference between IRS specific intensity measured at 8.00 microns (if that's what it is) and IRAC specific intensity measured over the broader bandwidth.  I'd suggest "at 8.00~\micron" for the former and "in 8~\micron\ band" for the latter, but perhaps you can do better.  Using footnotes might be a good alternative.
 \begin{table}
  \centering
  \begin{minipage}{90mm}
@@ -130,7 +130,8 @@ data along with the IRAC data are given in Table~\ref{colourK}.
 \end{minipage}
 \end{table}
 
-
+% SPW: it isn't clear to me exactly how you estimated the IRAC uncertainty.
+%Eq 1: because the IRAC uncertainties are much smaller than the IRS ones, you have to use the IRAC intensities as the independent variable (unless you take uncertainties on both axes into account in the fitting).  This probably won't change the answer much, but it might.
 Figure~\ref{offset} compares the IRS and IRAC 8~$\mu$m photometry. The line of best fit wighted by the uncertainties has a slope of $0.81\pm0.08$ 
 and intercept of $-0.05\pm0.06$.  Since the intercept in Figure~\ref{offset} is not zero with a higher uncertainty, it can be concluded that the offsets 
 between orders are due to an additive offset than a multiplicative offset. Also an additive offset favours more for stitching SL and LL modes. 
@@ -145,18 +146,16 @@ F_{IRAC8} = [ F_{IRS8} + x ] \times K
 \normalsize
 $K$ is the colour correction factor, F$_{IRAC8}$ is the intensity of the IRAC 8 $\mu$m image (aperture corrected) and F$_{IRS8}$ is the intensity of IRS spectra at 8~$\mu$m. 
 The offsets for all the regions are listed in Table \ref{colourK}. After that the LL2 mode was stitched by shifting it towards the SL1 by an amount of the average difference in their overlapping spectral regions.	
-	
+% SPW: Sec 2.2 par 5: clarify that "stitched to" means via an additive constant for each spectrum.
 	
 \begin{figure}
 \centering
-%\begin{center}
 \includegraphics[scale=0.25]{./offset.eps}
 \caption{ Intensity of the aperture corrected IRAC 8~$\mu$m image vs that of the colour corrected IRS spectra at 8~$\mu$m  obtained using the same aperture for our regions in M31. The straight line is the line of best fit. }
-%\end{center}
 \label{offset}
 \end{figure}
 
-% TODO: tables need some reformatting
+% TODO: tables need some reformatting, such as $x\pm y$
 
 \begin{table*}
  \centering
@@ -259,7 +258,7 @@ with IRS observations were obtained. We retrieved the highly processed data prov
 The total wavelength range covered was 5.15 to 16.5 $\mu$m and the field-of-view was $32\times 32$ pixels with 6\arcsec\ per pixel. 
 An image of the ISOCAM data is shown in Figure~\ref{isonuc}.  For the three regions in common, we extracted spectra using the same aperture as for the IRS data. 
 
-
+% SPW: Fig 5: mention "negative image" (if that's what it is).  Also mention spectral band of image and the 30x50 box size.
 \begin{figure}
 \centering
 \includegraphics[width = 8cm]{./isonuc.eps}
