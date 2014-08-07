@@ -17,38 +17,25 @@ their coordinates are given in Table~\ref{regions}. The two regions previously o
 region from the active region in the star-forming ring (Region 9 in our sample). A background observation was also made off the galaxy 
 along the minor axis and it was used to enable the background subtraction from the data cubes.
 
-% SPW: Table 1: mark (with a footnote) the regions that have ISO data.
-%MLNA: Table 1 would be better if it included the galactocentric radii (perhaps), and the UV intensities, metallicities, and dust temperatures (definitely) used to choose them as targets in the first place.  Also which fields were previously observed by ISO/ISOCAM.  Suggested new title: Spitzer/IRS Target Locations in M31.
-
+%MLNA: Table 1 would be better if it included the galactocentric radii (perhaps), and the UV intensities, metallicities, and dust temperatures (definitely) used to choose them as targets in the first place.  
 %SPW: As to tables, I'd consolidate 1, 2, and 5 into a single table.  Add rows as appropriate for "nucleus" and "north", and give their dimensions in a footnote.  
-\begin{table}
+\begin{table*}
  \centering
- \begin{minipage}{70mm}
-\caption{IRS Targets and their metallicities in M31
+ \begin{minipage}{90mm}
+\caption{Spitzer/IRS Target Locations in M31
 \label{regions}}
-  \begin{tabular}{lccc}
-  \hline Name & R.A. & Decl. &$12+\log({\rm O/H})$
-   \\
+\begin{tabular}{lccrl}
+\hline Name & R.A. (J2000) & Decl. (J2000) & ${R_{\rm gc}}^b$ & $12+\log({\rm O/H})$
+\\
  \hline
- Nucleus$^a$&00:42:44.31&41:16:09.4& - - -\\
-Bulge$^a$&00:42:35.00&41:21:01.0&8.90$\pm$0.03\\
-Region 1&00:41:30.41&40:43:07.8&9.20$\pm$0.20\\
-Region 2&00:45:22.85&41:38:53.1&9.07$\pm$0.02\\
-Region 3&00:40:37:37&41:01:29.4&8.85$\pm$0.01\\
-Region 4&00:41:17.86&41:07:09.8&8.89$\pm$0.06\\
-Region 5&00:43:39.57&41:19:03.1&\hspace{0.14cm}8.93$\pm$0.08$^b$\\
-Region 6&00:43:35.72&41:23:15.0&8.73$\pm$0.08\\
-Region 7&00:40:53.98&40:58:58.9&8.40$\pm$0.08\\
-Region 8&00:42:21.60&41:07:17.4&\hspace{0.14cm}8.94$\pm$0.08$^b$\\
-Region 9$^a$&00:41:00.00&40:36:20.3&8.86$\pm$0.02\\
-NGC206&00:40:20.20&40:44:54.0& - - -\\
-Background&00:44:41.8&40:58:56.0& - - -\\
+Nucleus$^a$ & $00^{\rmn{h}}42^{\rmn{m}}44\fs31$ & $41\degr16\arcmin09\farcs4$  & 0.0 & \\Bulge$^a$   & $00^{\rmn{h}}42^{\rmn{m}}35\fs00$ & $41\degr21\arcmin01\farcs0$  & 4.7 &$8.90\pm0.03$\\Region 1    & $00^{\rmn{h}}41^{\rmn{m}}30\fs41$ & $40\degr43\arcmin07\farcs8$  & 12.4 &$9.20\pm0.20$\\Region 2    & $00^{\rmn{h}}45^{\rmn{m}}22\fs85$ & $41\degr38\arcmin53\farcs1$  & 13.0 &$9.07\pm0.02$\\Region 3    & $00^{\rmn{h}}40^{\rmn{m}}37\fs37$ & $41\degr01\arcmin29\farcs4$  & 12.1 &$8.85\pm0.01$\\Region 4    & $00^{\rmn{h}}41^{\rmn{m}}17\fs86$ & $41\degr07\arcmin09\farcs8$  & 8.7 &$8.89\pm0.06$\\Region 5    & $00^{\rmn{h}}43^{\rmn{m}}39\fs57$ & $41\degr19\arcmin03\farcs1$  & 7.0 &$8.93\pm0.08^c$\\Region 6    & $00^{\rmn{h}}43^{\rmn{m}}35\fs72$ & $41\degr23\arcmin15\farcs0$  & 4.3 &$8.73\pm0.08$\\Region 7    & $00^{\rmn{h}}40^{\rmn{m}}53\fs98$ & $40\degr58\arcmin58\farcs9$  & 8.7 &$8.40\pm0.08$\\Region 8    & $00^{\rmn{h}}42^{\rmn{m}}21\fs60$ & $41\degr07\arcmin17\farcs4$  & 3.1 &$8.94\pm0.08^c$\\Region 9$^a$& $00^{\rmn{h}}41^{\rmn{m}}00\fs00$ & $40\degr36\arcmin20\farcs3$  & 13.5 &$8.86\pm0.02$\\NGC~206     & $00^{\rmn{h}}40^{\rmn{m}}20\fs20$ & $40\degr44\arcmin54\farcs0$  & 9.8 & \\Background  & $00^{\rmn{h}}44^{\rmn{m}}41\fs80 $ & $40\degr58\arcmin56\farcs0$  & 29.5 & \\
 \hline
 \end{tabular}
-{$^a$Regions that have ISOCAM data. 
-$^b$Metallicity values obtained from the radial metallicity profile of M31.}
+{$^a$Regions with ISOCAM data.\\
+$^b$De-projected galactocentric distance, in kpc\\ 
+$^c$Metallicity values obtained from the radial metallicity profile of M31.}
 \end{minipage}
-\end{table}
+\end{table*}
 
 \begin{figure*}
 \centering
@@ -58,58 +45,55 @@ $^b$Metallicity values obtained from the radial metallicity profile of M31.}
 }
 \end{figure*}
 
-% SPW: Probably no need to mention LL1, which wasn't used.
-For our observations we used the Short-Low (SL) and Long-Low (LL) modules which cover wavelengths from 5 to 21 microns. 
-The Low modules have resolving power changing 60--130. Each low-resolution module is divided into two sub-slits 
-which provide spectroscopy in either first or second order. They are denoted as SL1 (7.5--14.5~$\mu$m), SL2 (5.2--7.6~$\mu$m),
-LL1 (20.5--38.5~$\mu$m), and LL2 (14.5--20.75~$\mu$m).
 
-All regions were observed in September 2007 (PID 40032) with both orders of the Short-Low module (SL2, SL1) and the Long-Low order LL2. 
-The Long-Low order LL1 was not used for observations because this spectral region contains few features. The map size was based on the size 
+For our observations we used the IRS Short-Low (SL) and Long-Low (LL) modules which cover wavelengths from 5 to 21 microns. 
+The Low modules have resolving power in the range 60--130. Each low-resolution module is divided into two sub-slits 
+which provide spectroscopy in either first or second order. They are denoted as SL1 (7.5--14.5~$\mu$m), SL2 (5.2--7.6~$\mu$m),
+LL1 (20.5--38.5~$\mu$m, not used in these observations), and LL2 (14.5--20.75~$\mu$m).
+All M31 regions were observed in September 2007 as part of G. G. Fazio's Guaranteed Time (program ID 40032). 
+The map size was based on the size 
 of the IRS slits (SL: $3.6\arcsec \times 57\arcsec$, LL: $10.5\arcsec \times 168\arcsec$). Each region was covered by 18 overlapping observations 
 of the SL slit and 11 overlapping observations of the LL slit making the map size $32\arcsec \times 57\arcsec$ for SL and $58\arcsec \times 168\arcsec$ for LL. 
 Figure~\ref{slits} shows an example of the slit arrangement. For the brighter regions (nucleus, bulge), ramp times of 14 s (SL) and 30 s (LL) were used, 
 while for the fainter regions, ramp times of 60 and 120 s were used respectively. Background observations were taken with each module (2 per ramp time). 
 Since all of the targets are in the same part of the sky, a common background observation was used for multiple targets to subtract the background emission. 
 
-% SPW:  I don't really understand this figure or why it's needed.  Is the point that the SL and LL slits don't align?  You could say that in text and omit the figure.  Alternatively, the figure might make sense with a better caption.  Why two SL regions, for example?
+% PB: for Dimuthu to do: remake figure to drop second black box
 \begin{figure}
 \centering
 \includegraphics[scale=0.3]{./cubeslits.eps}
 \caption{SL1 data cube from the nucleus showing the arrangement of slits used to cover the region. 
-Black boxes outline the footprints of the SL1 and the green box outlines the LL2. Blue and red slits show how 
-each mode was covered using overlapping slit positions.
+A black box outlines the footprint of the short-low maps and the green box outlines the LL2. Blue and red slits show how 
+each map was covered using overlapping slit positions.
 \label{slits}
 }
 \end{figure}
 
 \subsection{IRS Data Reduction}
 
-% SPW: it seems obvious, but it might be worth an explicit mention that all the IRS maps cover additional area than is considered here.
 The data were reduced through the SSC pipeline (ver. S17.2.0) and the maps were assembled using the CUBISM program \citep{Smith:2007fk}. 
 Bad pixel removal was also done using CUBISM and the background observations were used to subtract the background emission from these cubes 
 following the method outlined in \citet{Gordon:2008lr}. Spectra were extracted using a $30\arcsec\times50\arcsec$   rectangular aperture. 
-The aperture size was selected to cover the whole overlapping area of the SL and LL modes.
+The aperture size was selected to cover the overlapping area of the SL and LL modes; all the IRS maps cover additional area than is considered here.
 
 After the spectral extraction there was a noticeable mismatch between the spectra from the SL1 and LL2 modules. To combine all spectra to obtain one spectrum, 
-first a photometric comparison was conducted between the IRS spectra and the IRAC 8 micron image of M31 \citep{Barmby2006lr}. For more details 
-about this method see the IRAC Instrument Handbook Section 4. An aperture with the same size was used to extract flux from the same regions 
-in the IRAC 8 micron image. The photometric calibration of the IRAC is tied to point sources measured within a standard aperture with a radius of 12\arcsec. 
-For extended sources,  an aperture correction has to be conducted as mentioned in the IRAC instrument handbook. Therefore an extended source 
-aperture correction of 0.824 was applied for all the extractions from the 8 $\mu$m image. The uncertainty value of the IRAC image was estimated 
-by taking the standard deviation of pixels values within an aperture of the same size from a position off M31 (00:48:58.00, +42:14:54.00).
+first a photometric comparison was conducted between the IRS spectra and the IRAC 8~$\mu$m image of M31 \citep{Barmby2006lr}. (For more details 
+about this method see the IRAC Instrument Handbook Section 4.) Fluxes from the IRAC  image were extracted using the same apertures
+as for spectral extraction, and the extended source  aperture correction of 0.824 applied
+The uncertainty of the IRAC photometry was estimated 
+by taking the standard deviation of pixel values within an aperture of the same size from a position off the galaxy (00:48:58.00, +42:14:54.00).
+% SPW: it isn't clear to me exactly how you estimated the IRAC uncertainty.
 
 % SPW: the color correction factor needs a bit of explanation. Isn't it simply the actual IRS spectrum integrated over the IRAC band's responsivity?  The key thing in the IRAC handbook should be the responsivity curves, not the method.  Just which data did you integrate?  I'd have expected it to be SL2 because otherwise the break between SL1 and SL2 is in the middle of the IRAC filter.  Anyway, some clarification is needed here about exactly what you did.
 Then we stitched the SL1 and SL2 using the overlapping regions and applied a colour correction factor $K$, which is a multiplicative factor that 
 converts the intensity of an IRS spectrum at a given wavelength to the intensity of an IRAC image taken at the same wavelength. We used the IDL 
-code provided by the instrument handbook to compute these $K$ values for all the regions. colour correction values and the corresponding IRS 
+code provided by the instrument handbook to compute these $K$ values for all the regions. Colour correction values and the corresponding IRS 
 data along with the IRAC data are given in Table~\ref{colourK}.
 
 % SPW: Table 2: headers should clarify the difference between IRS specific intensity measured at 8.00 microns (if that's what it is) and IRAC specific intensity measured over the broader bandwidth.  I'd suggest "at 8.00~\micron" for the former and "in 8~\micron\ band" for the latter, but perhaps you can do better.  Using footnotes might be a good alternative.
 %
-%MLNA: Table 2 should make explicit that the fluxes given are prior to color-correction
 
-\begin{table}
+\begin{table*}
  \centering
  \begin{minipage}{90mm}
 \caption{Matched aperture photometry}
@@ -134,14 +118,12 @@ data along with the IRAC data are given in Table~\ref{colourK}.
  $^b$Colour correction factors 
  $^c$Offset between IRAC and IRS as mentioned in eq. 1. Intensities are given prior to the extended source correction and the colour correction.}
 \end{minipage}
-\end{table}
+\end{table*}
 
-% SPW: it isn't clear to me exactly how you estimated the IRAC uncertainty.
 %Eq 1: because the IRAC uncertainties are much smaller than the IRS ones, you have to use the IRAC intensities as the independent variable (unless you take uncertainties on both axes into account in the fitting).  This probably won't change the answer much, but it might.
 
-%MLNA: How was the line of best fit derived -- did you weight by uncertainty?
-%
-Figure~\ref{offset} compares the IRS and IRAC 8~$\mu$m photometry. The line of best fit wighted by the uncertainties has a slope of $0.81\pm0.08$ 
+
+Figure~\ref{offset} compares the IRS and IRAC 8~$\mu$m photometry. The line of best fit weighted by the uncertainties has a slope of $0.81\pm0.08$ 
 and intercept of $-0.05\pm0.06$.  Since the intercept in Figure~\ref{offset} is not zero with a higher uncertainty, it can be concluded that the offsets 
 between orders are due to an additive offset than a multiplicative offset. Also an additive offset favours more for stitching SL and LL modes. 
 Based on this argument, first we shifted the combined SL1 and SL2 spectrum so that the intensity at 8 $\mu$m matches with that of IRAC 8 micron image. 
@@ -221,19 +203,12 @@ Bulge       & - - - -                       & 38$\pm$2           & 219$\pm$27   
 \hline
  \label{EQW}
 \end{tabular}\\
-{$^a$Units are $\mu$m.
-%SPW Table 3: fn b _probably_ should be something like "Continuum for these regions is very weak.  Equivalent widths are highly uncertain and not considered in the analysis."
- 
-$^b$EQWs from these two regions were removed from the analysis (see Section~\ref{sect:data_analysis}).}
+{$^a$Units are $\mu$m. 
+$^b$Continuum for these regions is very weak.  Equivalent widths are highly uncertain and not considered in the analysis (see Section~\ref{sect:data_analysis}).}
 \end{minipage}
 \end{table*}
 
 
-
-
-
-%MLNA: Table 5 has names inconsistent with other tables in the paper
-% PB: fixed?
 \begin{table*}
  \centering
  \begin{minipage}{100mm}
@@ -260,7 +235,7 @@ Bulge &          10$\pm$7               & 49$\pm$7              & $<$ 30.4      
 \end{tabular}\\
 { $^a$Units are 10$^{-10}$~W~m$^{-2}$. Upper limits are indicated with a $<$ mark.  }
 %SPW: Table 4: units of 10^-10 W m^-2 must be wrong.  I'd expect 10^-15 or so.
-%How many sigma are the upper limits?
+%SPW: How many sigma are the upper limits?
 
 \end{minipage}
 \end{table*}
@@ -269,17 +244,17 @@ Bulge &          10$\pm$7               & 49$\pm$7              & $<$ 30.4      
 
 \subsection{ISOCAM Data Reduction}
 
-% SPW:  mention ISO spectral resolution.  I would have preferred to see the ISO FOV and wavelength range mentioned earlier, but I don't see any good place to put them other than here, though the Fig 2 caption is a possibility for the FOV.  Another is a footnote where ISOCAM is mentioned in Sec 2.1 par 1, though I'm not sure ISOCAM should really appear there at all.
+To compare our results with those of  \citet{1998Cesarsky}, we retrieved the highly processed ISOCAM data provided by \citet{Boulanger_F_2005}  
+for the three regions in common. 
+The ISOCAM data were obtained with the circular variable filters (CVFs) over a $3\arcmin \times 3\arcmin$ field of view at a scale of 6\arcsec\ per pixel. 
+The wavelength range covered was 5.15--16.5~$\mu$m at a resolution of $\lambda/\Delta \lambda \approx 45$.
+An image of the ISOCAM data is shown in Figure~\ref{isonuc}.  For the three regions, we extracted spectra using the same 
+$30\arcsec\times50\arcsec$ aperture as for the IRS data. 
 
-To compare our results with previous observations, ISOCAM data of three regions previously observed by \citet{1998Cesarsky} which overlap 
-with IRS observations were obtained. We retrieved the highly processed data provided by \citet{Boulanger_F_2005} of these ISOCAM observations. 
-The total wavelength range covered was 5.15 to 16.5 $\mu$m and the field-of-view was $32\times 32$ pixels with 6\arcsec\ per pixel. 
-An image of the ISOCAM data is shown in Figure~\ref{isonuc}.  For the three regions in common, we extracted spectra using the same aperture as for the IRS data. 
-
-% SPW: Fig 5: mention "negative image" (if that's what it is).  Also mention spectral band of image and the 30x50 box size.
+% SPW: Fig 5: mention "negative image" (if that's what it is).  Also mention spectral band of image.
 \begin{figure}
 \centering
 \includegraphics[width = 8cm]{./isonuc.eps}
-\caption{11.3~$\mu$m image of the ISOCAM data cube from the nucleus of M31. The black box shows the size of the aperture used to extract spectra.}
+\caption{11.3~$\mu$m negative image of the ISOCAM data cube from the nucleus of M31. The black box shows the size of the aperture ($30\arcsec\times50\arcsec$) used to extract spectra.}
 \label{isonuc}
 \end{figure}
