@@ -48,6 +48,11 @@
   Exoplanets', ed. P. Ogle, ASP Conference Series, \href
   {http://adsabs.harvard.edu/abs/2010arXiv1005.4644C} {}
 
+\bibitem[\protect\citeauthoryear{{Cesarsky} et~al.,}{{Cesarsky}
+  et~al.}{1996}]{cesarsky1996}
+{Cesarsky} C.~J.,  et~al., 1996, \aap, \href
+  {http://adsabs.harvard.edu/abs/1996A%26A...315L..32C} {315, L32}
+
 \bibitem[\protect\citeauthoryear{{Cesarsky}, {Lequeux}, {Pagani}, {Ryter},
   {Loinard}  \& {Sauvage}}{{Cesarsky} et~al.}{1998}]{1998Cesarsky}
 {Cesarsky} D.,  {Lequeux} J.,  {Pagani} L.,  {Ryter} C.,  {Loinard} L.,
@@ -111,6 +116,13 @@
 {Lauer} T.~R.,  et~al., 1993, \mn@doi [\aj] {10.1086/116737}, \href
   {http://adsabs.harvard.edu/abs/1993AJ....106.1436L} {106, 1436}
 
+\bibitem[\protect\citeauthoryear{{Li}, {Garcia}, {Forman}, {Jones}, {Kraft},
+  {Lal}, {Murray}  \& {Wang}}{{Li} et~al.}{2011}]{Li2011}
+{Li} Z.,  {Garcia} M.~R.,  {Forman} W.~R.,  {Jones} C.,  {Kraft} R.~P.,  {Lal}
+  D.~V.,  {Murray} S.~S.,   {Wang} Q.~D.,  2011, \mn@doi [\apjl]
+  {10.1088/2041-8205/728/1/L10}, \href
+  {http://adsabs.harvard.edu/abs/2011ApJ...728L..10L} {728, L10}
+
 \bibitem[\protect\citeauthoryear{{Marble} et~al.,}{{Marble}
   et~al.}{2010}]{Marble_2010}
 {Marble} A.~R.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/506},
@@ -141,9 +153,9 @@
   {10.1051/0004-6361:20065216}, \href
   {http://adsabs.harvard.edu/abs/2006A%26A...459...85N} {459, 85}
 
-\bibitem[\protect\citeauthoryear{{Pagani}, {Lequeux}, {Cesarsky}, {Milliard}B.,
+\bibitem[\protect\citeauthoryear{{Pagani}, {Lequeux}, {Cesarsky}, {Milliard},
   {Lionard}  \& {Sauvage}}{{Pagani} et~al.}{1999}]{Pagani_1999}
-{Pagani} L.,  {Lequeux} J.,  {Cesarsky} D.,  {Milliard}B. {Lionard} L.,
+{Pagani} L.,  {Lequeux} J.,  {Cesarsky} D.,  {Milliard} B.,  {Lionard} L.,
   {Sauvage} M.,  1999, \aap, 351, 447
 
 \bibitem[\protect\citeauthoryear{{Peeters}, {Hony}, {Van Kerckhoven},
@@ -172,12 +184,12 @@
 
 \bibitem[\protect\citeauthoryear{{Smith} et~al.,}{{Smith}
   et~al.}{2007a}]{Smith:2007fk}
-{Smith} J.~D.~T.,  et~al., 2007a, \mn@doi [\pasp] {10.1086/522634}, \href
+{Smith} J.-D.~T.,  et~al., 2007a, \mn@doi [\pasp] {10.1086/522634}, \href
   {http://adsabs.harvard.edu/abs/2007PASP..119.1133S} {119, 1133}
 
 \bibitem[\protect\citeauthoryear{{Smith} et~al.,}{{Smith}
   et~al.}{2007b}]{Smith:2007lr}
-{Smith} J.~D.~T.,  et~al., 2007b, \mn@doi [\apj] {10.1086/510549}, \href
+{Smith} J.-D.~T.,  et~al., 2007b, \mn@doi [\apj] {10.1086/510549}, \href
   {http://adsabs.harvard.edu/abs/2007ApJ...656..770S} {656, 770}
 
 \bibitem[\protect\citeauthoryear{{Spinoglio} \& {Malkan}}{{Spinoglio} \&
