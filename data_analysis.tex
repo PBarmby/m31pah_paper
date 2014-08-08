@@ -72,7 +72,6 @@ in the initial fits were almost zero. Except for four regions (the bulge, Region
 the starlight contribution is also negligible.
 We adjusted the PAHFIT input parameters to fix extinction to zero for all regions and starlight to zero for all but the four regions above.
 Typically only two or three thermal dust components had significant power in our fits, but we did not fix the unused components to zero.
-% PB: Dimuthu please check that above sentence is correct.
 Regions 3 and 9 were found to have very low dust continuum emission compared to other spectra,
 possibly because of noisy data at short wavelengths. However the other features in these spectra appear to
 be fit correctly.
@@ -84,11 +83,10 @@ consequently PAHFIT was unable to sucessfuly fit the other spectral features in 
 
 PAHFIT returns fluxes and equivalent widths (EQWs) of PAH features which are given in Tables~\ref{PAHlinetable} and \ref{EQW}. The intensities of the features do not include any contribution from the continuum but the equivalent width computed by
 \begin{equation}
-{\rm EQW}=\int \frac{I_{\nu} - I_{\nu, {\rm cont}}}{I_{\nu, {\rm cont}}} \,d\lambda,
+{\rm EQW}=\int \frac{I_{\nu,{\rm feature}}}{I_{\nu, {\rm cont}}} \,d\lambda,
 \end{equation}
-is a measure of both the strength of the continuum emission ($I_{\nu, {\rm cont}} $) and the line strength ($I_{\nu,{\rm feature}}$). 
-Here $I_{\nu} =I_{\nu,{\rm feature}}+ I_{\nu, {\rm cont}} $. 
-%MLNA:  Also, it is unclear from the text why you write it this way instead of just putting I(nu)_feature in the numerator and then having to explain your notation in the text
+is a measure of both the strength of the continuum emission ($I_{\nu, {\rm cont}} $) and the line strength 
+($I_{\nu,{\rm feature}}=I_{\nu} =- I_{\nu, {\rm cont}})$. 
 The continuum emission is mainly coming from ordinary dust grains, much larger than PAH molecules. Hence, by studying EQWs of PAHs, 
 we can study how the PAHs compete with the dust grains in the mid-infrared wavelengths.  PAHFIT returns the EQW values for each PAH 
 feature and the uncertainties were calculated using a Monte-Carlo method. In that method, for each region, PAHFIT was run 500 times on 
@@ -127,5 +125,5 @@ Figure \ref{SvsNe}  compares the atomic line emission from the selected regions 
 although none of our spectra have detections of all four lines, our limits are consistent with the trend.
 We therefore compute the RHI using the first term of equation~\ref{eq:rhi} for the regions with missing S lines
 and the second term for the regions with missing Ne lines.
-%PB: I dont understand the following sentence.	
-For Regions 2, 5, and 8, we used the upper limit values of their atomic line intensities to calculate RHI values.
+Regions 2, 5, and 8 had detections of only one line per element, so we used the appropriate upper limits 
+to calculate RHI for these spectra.
