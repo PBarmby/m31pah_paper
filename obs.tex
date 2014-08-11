@@ -87,32 +87,46 @@ The data were reduced through the SSC pipeline (ver. S17.2.0) and the maps were 
 Bad pixel removal was also done using CUBISM and the background observations were used to subtract the background emission from these cubes 
 following the method outlined in \citet{Gordon:2008lr}. Spectra were extracted using a $30\arcsec\times50\arcsec$   rectangular aperture. 
 The aperture size was selected to cover the overlapping area of the SL and LL modes; all the IRS maps cover additional area than is considered here.
+The spectrum from the NGC 206 is very noisy and was removed from our analysis. 
 
-After the spectral extraction there was a noticeable mismatch between the spectra from the SL1 and LL2 modules. To combine all spectra to obtain one spectrum, 
-first a photometric comparison was conducted between the IRS spectra and the IRAC 8~$\mu$m image of M31 \citep{Barmby2006lr}. (For more details 
-about this method see the IRAC Instrument Handbook Section 4.) Fluxes from the IRAC  image were extracted using the same apertures
-as for spectral extraction, and the extended source  aperture correction of 0.824 applied
-The uncertainty of the IRAC photometry was estimated 
-by taking the standard deviation of pixel values within an aperture of the same size from a position off the galaxy (00:48:58.00, +42:14:54.00).
-% SPW: it isn't clear to me exactly how you estimated the IRAC uncertainty.
 
-% SPW: the color correction factor needs a bit of explanation. Isn't it simply the actual IRS spectrum integrated over the IRAC band's responsivity?  The key thing in the IRAC handbook should be the responsivity curves, not the method.  Just which data did you integrate?  I'd have expected it to be SL2 because otherwise the break between SL1 and SL2 is in the middle of the IRAC filter.  Anyway, some clarification is needed here about exactly what you did.
-Then we stitched the SL1 and SL2 using the overlapping regions and applied a colour correction factor $K$, which is a multiplicative factor that 
-converts the intensity of an IRS spectrum at a given wavelength to the intensity of an IRAC image taken at the same wavelength. We used the IDL 
-code provided by the instrument handbook to compute these $K$ values for all the regions. Colour correction values and the corresponding IRS 
-data along with the IRAC data are given in Table~\ref{colourK}.
-It was observed that the spectrum from the NGC 206 is very noisy, therefore that spectrum 
-was removed from our analysis. 
+There is wavelength overlap between the SL1 and SL2 spectra, and between SL1 and LL2;
+to generate a single spectrum for each M31 region it is necessary to combine the spectra and
+account for photometric offsets between them. We first combined the extracted SL1 and SL2 
+spectra by computing the average flux densities over the wavelength overlap region ($7.5 < \lambda< 7.6\mu$m),
+adding a constant value to the SL2 spectra so that they matched the SL1 average,
+and averaging the SL1 $+$ shifted SL2 spectra over the overlap region.
+After this procedure there was still a noticeable mis-match between the SL and LL spectra. We addressed this
+by scaling the SL spectra to match IRAC 8~$\mu$m fluxes as follows. IRAC fluxes were measured
+on the 8~$\mu$m image \citep{Barmby2006lr} in the same apertures used to extract the IRS spectra
+and the extended source  aperture correction of 0.824 applied.
+Uncertainties on these measurements were estimated as the standard deviation of the measured
+IRAC flux in a similarly-sized region off the disk of the galaxy ($00^{\rmn{h}}48^{\rmn{m}}58\fs0, +42\degr14\arcmin54\farcs0$). 
+The {\em Spitzer} synthetic photometry software \citep{SpitzerDAC} 
+was then used to quantify the colour correction for each spectrum, i.e. the
+multiplicative factor $K$ between the IRAC photometry over its broad bandpass and the IRS flux
+density at the centre of the bandpass. The IRAC photometry, IRS flux density, and colour corrections 
+for each region are given in Table~\ref{colourK}. Plotting the IRS  and colour-corrected IRAC measurements
+(Figure~\ref{offset}) and fitting a straight line weighted by the uncertainties, we found that the best-fit relation 
+between the measurements had a slope of $0.81\pm0.08$  and intercept of $-0.05\pm0.06$. 
+The non-zero intercept of this fit suggested that an additive offset was more appropriate for combining SL and LL
+spectra than a multiplicative one; this method was also used by \citet{Gordon:2008lr} and \citet{Engelbracht_2008}.
+Therefore we scaled each SL spectrum by an offset 
+\begin{equation}
+x = F_{\rm IRAC8}/K -   F_{\rm IRS8}.
+\label{eq:offset}
+\end{equation}
+The scaled SL spectra were much better matched to the LL spectra, and the final combination
+of SL and LL was done using the average-and-offset procedure described above for SL1 and SL2.
 
-% SPW: Table 2: headers should clarify the difference between IRS specific intensity measured at 8.00 microns (if that's what it is) and IRAC specific intensity measured over the broader bandwidth.  I'd suggest "at 8.00~\micron" for the former and "in 8~\micron\ band" for the latter, but perhaps you can do better.  Using footnotes might be a good alternative.
-%
 
 \begin{table*}
  \centering
  \begin{minipage}{90mm}
 \caption{Matched aperture photometry}
   \begin{tabular}{lcccc}
-  \hline{Name}&{IRS Intensity}&{IRAC Intensity}&{colour K$^b$}&{x$^{a,}$ $^c$} \\ {}&{at 8 $\mu$m$^a$}&{at 8 $\mu$m$^a$}&{}&{} 
+  \hline{Name}&{IRS$^{a}$}&{IRAC$^{b}$}&{$K^{\rm c}$}&{Offset $x^d$} \\ 
+{} & { MJy~sr$^{-1}$} & { MJy~sr$^{-1}$} & &  MJy~sr$^{-1}$
    \\
  \hline
  Region 1 & 1.8505 & 1.3923 & 0.532 & 0.3061
@@ -128,32 +142,12 @@ was removed from our analysis.
 \hline
  \label{colourK}
 \end{tabular}\\
- {$^a$Units are MJy~sr$^{-1}$. 
- $^b$Colour correction factors 
- $^c$Offset between IRAC and IRS as mentioned in eq. 1. Intensities are given prior to the extended source correction and the colour correction.}
+ {$^{\rm a}$Specific intensity measured at 8.00~$\mu$m, no colour correction.\\
+ $^{\rm b}$ Specific intensity measured over the IRAC 8~$\mu$m bandpass, no extended source correction.\\
+$^{\rm c}$ Colour correction factor computed from IRS spectrum
+ $^{\rm d}$Computed offset between IRAC and IRS as defined in~\ref{eq:offset}. }
 \end{minipage}
 \end{table*}
-
-%Eq 1: because the IRAC uncertainties are much smaller than the IRS ones, you have to use the IRAC intensities as the independent variable (unless you take uncertainties on both axes into account in the fitting).  This probably won't change the answer much, but it might.
-
-
-Figure~\ref{offset} compares the IRS and IRAC 8~$\mu$m photometry. The line of best fit weighted by the uncertainties has a slope of $0.81\pm0.08$ 
-and intercept of $-0.05\pm0.06$.  Since the intercept in Figure~\ref{offset} is not zero with a higher uncertainty, it can be concluded that the offsets 
-between orders are due to an additive offset than a multiplicative offset. Also an additive offset favours more for stitching SL and LL modes. 
-Based on this argument, first we shifted the combined SL1 and SL2 spectrum so that the intensity at 8 $\mu$m matches with that of IRAC 8 micron image. 
-To do this shift, the following equation was used to find the offset values ($x$) between IRS and IRAC image intensities at 8 microns. 
-\begin{equation}
-F_{IRAC8} = [ F_{IRS8} + x ] \times K
-%K is the colour correction factor.
-\end{equation}
-\footnotesize
-%\emph{Where K is the colour correction factor, Flux$_{IRAC8}$ is the flux of the IRAC 8 $\mu$m image, Flux$_{IRS8}$ is the flux of IRS spectra at 8 $\mu$m and x is the offset.}
-\normalsize
-$K$ is the colour correction factor, F$_{IRAC8}$ is the intensity of the IRAC 8 $\mu$m image (aperture corrected) and F$_{IRS8}$ is the intensity of IRS spectra at 8~$\mu$m. 
-The offsets for all the regions are listed in Table \ref{colourK}. After that the LL2 mode was stitched by shifting it towards the SL1 by an amount of the average difference in their overlapping spectral regions.	
-% SPW: Sec 2.2 par 5: clarify that "stitched to" means via an additive constant for each spectrum.
-%MLNA Can you cite others who applied *offsets* to force IRS spectra to match up, as opposed to using only multiplicative factors -- is this standard practice?
-%
 
 	
 \begin{figure}

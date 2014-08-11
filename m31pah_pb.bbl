@@ -32,6 +32,11 @@
 {Barmby} P.,  et~al., 2006, \mn@doi [\apjl] {10.1086/508626}, \href
   {http://adsabs.harvard.edu/abs/2006ApJ...650L..45B} {650, L45}
 
+\bibitem[\protect\citeauthoryear{{Bender} et~al.,}{{Bender}
+  et~al.}{2005}]{Bender2005}
+{Bender} R.,  et~al., 2005, \mn@doi [\apj] {10.1086/432434}, \href
+  {http://adsabs.harvard.edu/abs/2005ApJ...631..280B} {631, 280}
+
 \bibitem[\protect\citeauthoryear{{Boulanger} et~al.,}{{Boulanger}
   et~al.}{2005}]{Boulanger_F_2005}
 {Boulanger} F.,  et~al., 2005, \mn@doi [\aap] {10.1051/0004-6361:20047119},
@@ -100,6 +105,11 @@
 {Houck} J.~R.,  et~al., 2004, \mn@doi [\apjs] {10.1086/423134}, \href
   {http://adsabs.harvard.edu/abs/2004ApJS..154...18H} {154, 18}
 
+\bibitem[\protect\citeauthoryear{{Kennicutt} Jr. et~al.,}{{Kennicutt}
+  et~al.}{2003}]{kennicutt03}
+{Kennicutt} Jr. R.~C.,  et~al., 2003, \mn@doi [\pasp] {10.1086/376941}, \href
+  {http://adsabs.harvard.edu/abs/2003PASP..115..928K} {115, 928}
+
 \bibitem[\protect\citeauthoryear{{Kessler} et~al.,}{{Kessler}
   et~al.}{1996}]{Kessler1996}
 {Kessler} M.~F.,  et~al., 1996, \aap, \href
@@ -146,6 +156,13 @@
 {Mattila} K.,  {Lemke} D.,  {Haikala} L.~K.,  {Laureijs} R.~J.,  {Leger} A.,
   {Lehtinen} K.,  {Leinert} C.,   {Mezger} P.~G.,  1996, \aap, \href
   {http://adsabs.harvard.edu/abs/1996A%26A...315L.353M} {315, L353}
+
+\bibitem[\protect\citeauthoryear{{Moustakas}, {Kennicutt}, {Tremonti}, {Dale},
+  {Smith}  \& {Calzetti}}{{Moustakas} et~al.}{2010}]{moustakas2010}
+{Moustakas} J.,  {Kennicutt} Jr. R.~C.,  {Tremonti} C.~A.,  {Dale} D.~A.,
+  {Smith} J.-D.~T.,   {Calzetti} D.,  2010, \mn@doi [\apjs]
+  {10.1088/0067-0049/190/2/233}, \href
+  {http://adsabs.harvard.edu/abs/2010ApJS..190..233M} {190, 233}
 
 \bibitem[\protect\citeauthoryear{{Nagao}, {Maiolino}  \& {Marconi}}{{Nagao}
   et~al.}{2006}]{Nagao2006}
@@ -202,6 +219,11 @@
 {Spinoglio} L.,  {Malkan} M.~A.,  1992, \mn@doi [\apj] {10.1086/171943}, \href
   {http://adsabs.harvard.edu/abs/1992ApJ...399..504S} {399, 504}
 
+\bibitem[\protect\citeauthoryear{{Spitzer Science Center}}{{Spitzer Science
+  Center}}{2012}]{SpitzerDAC}
+{Spitzer Science Center} 2012, {Spitzer Data Analysis Cookbook}, v5.0.1 edn.
+SSC, Pasadena, CA
+
 \bibitem[\protect\citeauthoryear{{Spoon}, {Marshall}, {Houck}, {Elitzur},
   {Hao}, {Armus}, {Brandl}  \& {Charmandaris}}{{Spoon}
   et~al.}{2007}]{Spoon2007}
@@ -209,10 +231,6 @@
   {Armus} L.,  {Brandl} B.~R.,   {Charmandaris} V.,  2007, \mn@doi [\apjl]
   {10.1086/511268}, \href {http://adsabs.harvard.edu/abs/2007ApJ...654L..49S}
   {654, L49}
-
-\bibitem[\protect\citeauthoryear{{Stock}, {Peeters}, {Choi}  \&
-  {Shannon}}{{Stock} et~al.}{2014}]{Dave2014}
-{Stock} D.,  {Peeters} E.,  {Choi} W.,   {Shannon} M.,  2014, ApJ, in press
 
 \bibitem[\protect\citeauthoryear{{Sturm} et~al.,}{{Sturm}
   et~al.}{2005}]{Sturm2005}
