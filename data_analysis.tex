@@ -67,8 +67,8 @@ and dust features are represented by Drude profiles; more details about PAHFIT a
 
 Initial attempts at fitting the spectra with PAHFIT showed that some components were negligible, and
 to avoid over-fitting we re-ran the fits without these components.
-None of the IRS spectra shows significant silicate absorption around 9.7 or 18~$\mu$m and the extinction values calculated by PAHFIT 
-in the initial fits were almost zero. Except for four regions (the bulge, Region 5, Region 6 and Region 8),
+None of the IRS spectra shows significant silicate absorption around 9.7 or 18~$\mu$m and the extinction calculated by PAHFIT 
+was almost zero for all the initial fits. Except for four regions (the bulge, Region 5, Region 6 and Region 8),
 the starlight contribution is also negligible.
 We adjusted the PAHFIT input parameters to fix extinction to zero for all regions and starlight to zero for all but the four regions above.
 Typically only two or three thermal dust components had significant power in our fits, but we did not fix the unused components to zero.
@@ -88,9 +88,9 @@ PAHFIT returns fluxes and equivalent widths (EQWs) of PAH features which are giv
 is a measure of both the strength of the continuum emission ($I_{\nu, {\rm cont}} $) and the line strength 
 ($I_{\nu,{\rm feature}}=I_{\nu} =- I_{\nu, {\rm cont}})$. 
 The continuum emission is mainly coming from ordinary dust grains, much larger than PAH molecules. Hence, by studying EQWs of PAHs, 
-we can study how the PAHs compete with the dust grains in the mid-infrared wavelengths.  PAHFIT returns the EQW values for each PAH 
+we can study how the PAHs compete with the dust grains in the mid-infrared wavelengths.  PAHFIT returns the EQWs for each PAH 
 feature and the uncertainties were calculated using a Monte-Carlo method. In that method, for each region, PAHFIT was run 500 times on 
-randomly generated data points  normally distributed within the uncertainties of the spectrum. PAHFIT returned 500 EQW values for each 
+randomly generated data points  normally distributed within the uncertainties of the spectrum. PAHFIT returned 500 EQWs for each 
 PAH feature and the standard deviation of EQWs for a given feature was taken as its uncertainty. 
 The EQWs from Regions 3 and 9 were removed from further analysis because the negligible dust continuum for these spectra makes
 the EQWs highly uncertain.
