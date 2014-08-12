@@ -18,12 +18,13 @@ was removed from our analysis.
 
 %SPW: Sec 3 par 3: belongs later or perhaps omit. -- 
 % PB: done?
+% D : Yes. I moved it to the results section.
 
 \subsection{ISOCAM versus IRS}
 \label{sect:iso_vs_irs}
 
 %MLNA: Sec 3.1, para 1, 1st sentence needs a reference, like maybe an ISO user's guide or some kind of technical memo.
-%
+% D : I put a reference
 As mentioned in the Introduction, based on ISOCAM observations \citet{1998Cesarsky} reported a suppression of the common 
 6 to 8~$\mu$m features and an enhancement of a broad 11.3 and 12.7 $\mu$m features in four regions of M31. 
 In addition, \citet{Pagani_1999} confirmed that the star-forming ring in M31 shows very weak PAH emission in the 6 to 8~$\mu$m region. 
@@ -80,7 +81,7 @@ PAHFIT did not fit the spectrum from the nucleus properly. This was due to the s
 % SPW: "Observed IRS spectra and detailed PAHFIT decompositions. Regions are labeled in each panel.  Black squares show the observed data, and ....  Vertical scales differ in different panels."  (Modify that last sentence as appropriate.)
 % SPW: I'm not sure what the right-hand "Relative Extinction" scale is supposed to be, but if you keep it, explain it in the caption.
 % SPW: Why are there multiple red lines (dust continuum) in some panels?
-%
+% D : PAHFIT uses multiple dust continuums 
 %MLNA Figures 8 and 9 are really just the same figure, spread over two pages.  Is there any benefit to showing the fit residuals in each case?  The fits looks quite good BTW
 
 \begin{figure*}
@@ -103,8 +104,9 @@ PAHFIT returns fluxes and equivalent widths (EQWs) of PAH features which are giv
 is a measure of both the strength of the continuum emission ($I_{\nu, {\rm cont}} $) and the line strength ($I_{\nu,{\rm feature}}$). 
 Here $I_{\nu} =I_{\nu,{\rm feature}}+ I_{\nu, {\rm cont}} $. 
 The continuum emission is mainly coming from the dust grains. Hence, by studying EQWs of PAHs, we can study how the PAHs compete with the dust grains in the mid-IR wavelengths. Therefore the EQW values were obtained to analyze the characteristics of PAHs in M31. PAHFIT returns the EQW values for each PAH feature and the uncertainties were calculated using a Monte-Carlo method. In that method, for each region, PAHFIT was run 500 times on randomly generated data points  normally distributed within the uncertainties of the spectrum. PAHFIT returned 500 EQW values for each PAH feature and the standard deviation of EQWs for a given feature was taken as its uncertainty. 
-The EQW values from IRC3 and ISOCVF regions were removed from our analysis because they have negative flux values in their spectra which can affect the EQWs. 
+The EQW values from Regions 3 and 9 were removed from our analysis because they have negative flux values in their spectra which can affect the EQWs. 
 % TODO: change region names in above line
+% D : Changed region names
 
 
 \subsection{Atomic line features}
