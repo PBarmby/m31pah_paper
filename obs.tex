@@ -82,6 +82,7 @@ each map was covered using overlapping slit positions.
 \end{figure}
 
 \subsection{IRS Data Reduction}
+\label{sect:irs_data}
 
 The data were reduced through the SSC pipeline (ver. S17.2.0) and the maps were assembled using the CUBISM program \citep{Smith:2007fk}. 
 Bad pixel removal was also done using CUBISM and the background observations were used to subtract the background emission from these cubes 
@@ -111,7 +112,7 @@ for each region are given in Table~\ref{colourK}. Plotting the IRS  and colour-c
 (Figure~\ref{offset}) and fitting a straight line weighted by the uncertainties, we found that the best-fit relation 
 between the measurements had a slope of $0.81\pm0.08$  and intercept of $-0.05\pm0.06$. 
 The non-zero intercept of this fit suggested that an additive offset was more appropriate for combining SL and LL
-spectra than a multiplicative one; this method was also used by \citet{Gordon:2008lr} and \citet{Engelbracht_2008}.
+spectra than a multiplicative one; this method was also used by \citet{Sandstrom12}.
 Therefore we scaled each SL spectrum by an offset 
 \begin{equation}
 x = F_{\rm IRAC8}/K -   F_{\rm IRS8}.
@@ -119,6 +120,13 @@ x = F_{\rm IRAC8}/K -   F_{\rm IRS8}.
 \end{equation}
 The scaled SL spectra were much better matched to the LL spectra, and the final combination
 of SL and LL was done using the average-and-offset procedure described above for SL1 and SL2.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.25]{./offset.eps}
+\caption{ Intensity of the aperture corrected IRAC 8~$\mu$m image vs that of the colour corrected IRS spectra at 8~$\mu$m  obtained using the same aperture for our regions in M31. The straight line is the line of best fit. }
+\label{offset}
+\end{figure}
 
 
 \begin{table}
@@ -151,12 +159,6 @@ $^{\rm c}$Colour correction factor computed from IRS spectrum\\
 \end{table}
 
 	
-\begin{figure}
-\centering
-\includegraphics[scale=0.25]{./offset.eps}
-\caption{ Intensity of the aperture corrected IRAC 8~$\mu$m image vs that of the colour corrected IRS spectra at 8~$\mu$m  obtained using the same aperture for our regions in M31. The straight line is the line of best fit. }
-\label{offset}
-\end{figure}
 
 % TODO: tables need some reformatting, such as $x\pm y$
 
@@ -265,6 +267,41 @@ $30\arcsec\times50\arcsec$ aperture as for the IRS data.
 \begin{figure}
 \centering
 \includegraphics[width = 8cm]{./isonuc.eps}
-\caption{11.3~$\mu$m negative image of the ISOCAM data cube from the nucleus of M31. The black box shows the size of the aperture ($30\arcsec\times50\arcsec$) used to extract spectra.}
+\caption{11.3~$\mu$m negative image of the ISOCAM data cube from the nucleus of M31. 
+The black box shows the size of the aperture ($30\arcsec\times50\arcsec$) used to extract spectra.}
 \label{isonuc}
 \end{figure}
+
+\subsection{Nuclear Spectra}
+\label{obs:nuc}
+
+The extracted IRS spectra of the M31 nuclear region look different from most of the other spectra, with
+a blue continuum, PAH features weak or absent at 6--8~$\mu$m  but detectable at 11.3~$\mu$m
+Figure \ref{nuc11} shows the integrated intensity map of 11.3~$\mu$m emission around the nucleus. The majority of the 11.3~$\mu$m 
+emission is coming from a region north of the nucleus and not from the nucleus itself. 
+On the other hand the centre shows no PAH emission  but it does have silicate emission around 9.7~$\mu$m, 
+which comes only from the nucleus and is not present in the North spectrum 
+(see Figure \ref{silicate}, a continuum subtracted image which shows the 9--11~$\mu$m integrated emission).
+Both the 11.3~$\mu$m  and silicate emission bumps are consistent with being unresolved point sources %check.
+We extracted spectra from the centre and the North region using a $5 \times 5$ pixel % change to arcsec
+square aperture as shown in Figure \ref{nuc11}. These will be discussed further in Section~\ref{sect:nucleus}.
+
+
+\begin{figure}
+\centering
+\includegraphics[width = 8 cm]{./nuc11_3.eps}
+\caption{ Intensity variation of 11.3~$\mu$m emission around the nucleus of M31. 
+Two black boxes are the apertures (centre and north region) used to extract spectra in Figure \ref{smithspec}. 
+The centre of the nucleus is at R.A. $00^{\rm h}42^{\rm m}44\fs35$, Dec. $+41\degr16\arcmin08\farcs5$ \citep{NucleusREF}.}
+\label{nuc11}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale = 0.3]{./NUCsilicate.eps}
+\caption{The integrated strength of the silicate emission (from 9 to 11~$\mu$m) near the M31 nucleus.}
+\label{silicate}
+\end{figure}
+
+
+
