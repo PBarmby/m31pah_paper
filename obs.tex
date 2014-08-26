@@ -13,8 +13,7 @@ cover those regions, subject to a 24$\mu$m brightness cut. The triangles indicat
 
 We obtained mid-infrared spectral maps of 12 regions in M31 using the {\em Spitzer}/IRS instrument \citep{IRS2004} covering wavelengths from 5 to 21 microns. 
 These regions include the nucleus, the `bulge' and `active' regions previously observed by ISOCAM (the latter is Region 9 in our sample), 
-and 9 other regions chosen to cover a range of UV intensities, 
-metallicities and dust temperatures. The 9 regions were chosen by convolving the IRAC 8~\$mu$m \citep{Barmby2006lr}
+and 9 other regions chosen to cover a range of metallicities and dust temperatures. The 9 regions were chosen by convolving the IRAC 8~$\mu$m \citep{Barmby2006lr}
 and MIPS \citep{gordon06a} maps to the same resolution and constructing an $8 - 24/70 - 160$ $\mu$m colour-colour diagram.
 This colour space was used to give a rough definition of the types of spectral energy distribution; the 
 dense region in the plot was split into a 3x3 grid and one pixel in each grid region (subject to a  a 24$\mu$m brightness cut)
@@ -77,6 +76,8 @@ while for the fainter regions, ramp times of 60 and 120 s were used respectively
 Since all of the targets are in the same part of the sky, a common background observation was used for multiple targets to subtract the background emission. 
 
 % PB: for Dimuthu to do: remake figure to drop second black box
+% don't quite get what EP means here
+% EP We need to adapt this figure to the SL slits and SL footprint matches the SL cube.
 \begin{figure}
 \centering
 \includegraphics[scale=0.3]{./cubeslits.eps}
@@ -98,8 +99,8 @@ The aperture size was selected to cover the overlapping area of the SL and LL mo
 The spectrum from the NGC 206 is very noisy and was removed from our analysis. 
 
 
-There is wavelength overlap between the SL1 and SL2 spectra, and between SL1 and LL2;
-to generate a single spectrum for each M31 region it is necessary to combine the spectra and
+There is wavelength overlap between the SL1 and SL2 spectra and also between the SL1 and LL2 spectra.
+To generate a single spectrum for each M31 region it is necessary to combine the spectra and
 account for photometric offsets between them. We first combined the extracted SL1 and SL2 
 spectra by computing the average flux densities over the wavelength overlap region ($7.5 < \lambda< 7.6\mu$m),
 adding a constant  to the SL2 spectra so that they matched the SL1 average,
@@ -159,7 +160,7 @@ of SL and LL was done using the average-and-offset procedure described above for
 \end{tabular}\\
  {$^{\rm a}$Specific intensity measured at 8.00~$\mu$m, no colour correction.\\
  $^{\rm b}$Specific intensity measured over the IRAC 8~$\mu$m bandpass,\\ no extended source correction.\\
-$^{\rm c}$Colour correction factor computed from IRS spectrum\\
+$^{\rm c}$Colour correction factor computed from IRS spectrum.\\
  $^{\rm d}$Computed offset between IRAC and IRS as defined in~Eq.~\ref{eq:offset}. }
 \end{minipage}
 \end{table}
@@ -171,7 +172,7 @@ $^{\rm c}$Colour correction factor computed from IRS spectrum\\
 \label{sect:iso_data}
 
 To compare our results with those of  \citet{1998Cesarsky}, we retrieved the highly processed ISOCAM data provided by \citet{Boulanger_F_2005}  
-for the three regions in common. 
+for the nucleus, bulge, and region 9. 
 The ISOCAM data were obtained with the circular variable filters (CVFs) over a $3\arcmin \times 3\arcmin$ field of view at a scale of 6\arcsec\ per pixel. 
 The wavelength range covered was 5.15--16.5~$\mu$m at a resolution of $\lambda/\Delta \lambda \approx 45$; the ISOCAM instrument is described by \citet{cesarsky1996}.
 An image of the ISOCAM data is shown in Figure~\ref{isonuc}.  For the three regions, we extracted spectra using the same 
@@ -181,21 +182,22 @@ $30\arcsec\times50\arcsec$ aperture as for the IRS data.
 \begin{figure}
 \centering
 \includegraphics[width = 8cm]{./isonuc.eps}
-\caption{11.3~$\mu$m negative image of the ISOCAM data cube from the nucleus of M31. 
+\caption{11.3~$\mu$m negative image (dark colours indicate higher flux) of the ISOCAM data cube from the nucleus of M31. 
 The black box shows the size of the aperture ($30\arcsec\times50\arcsec$) used to extract spectra.}
 \label{isonuc}
 \end{figure}
 
+% EP not so sure about putting this section here.
 \subsection{Nuclear Spectra}
 \label{obs:nuc}
 
 The extracted IRS spectra of the M31 nuclear region look different from most of the other spectra, with
-a blue continuum, PAH features weak or absent at 6--8~$\mu$m  but detectable at 11.3~$\mu$m
-Figure \ref{nuc11} shows the integrated intensity map of 11.3~$\mu$m emission around the nucleus. The majority of the 11.3~$\mu$m 
+a blue continuum, PAH features weak or absent at 6--8~$\mu$m  but detectable at 11.3~$\mu$m.
+Figure \ref{nuc11} (top) shows the integrated intensity map of 11.3~$\mu$m emission around the nucleus. The majority of the 11.3~$\mu$m 
 emission is coming from a region north of the nucleus and not from the nucleus itself. 
 On the other hand the centre shows no PAH emission  but it does have silicate emission around 9.7~$\mu$m, 
 which comes only from the nucleus and is not present in the North spectrum 
-(see Figure \ref{silicate}, a continuum subtracted image which shows the 9--11~$\mu$m integrated emission).
+(see Figure \ref{silicate} (bottom), a continuum-subtracted image which shows the 9--11~$\mu$m integrated emission).
 Both the 11.3~$\mu$m  and silicate emission sources are consistent with being unresolved point sources.
 We extracted spectra from the centre and the North region using a $9\arcsec \times 9\arcsec$ 
 square aperture as shown in Figure \ref{nuc11}. These will be discussed further in Section~\ref{sect:nucleus}.
@@ -204,18 +206,14 @@ square aperture as shown in Figure \ref{nuc11}. These will be discussed further 
 \begin{figure}
 \centering
 \includegraphics[width = 8 cm]{./nuc11_3.eps}
-\caption{ Intensity variation of 11.3~$\mu$m emission around the nucleus of M31. 
+\includegraphics[scale = 0.3]{./NUCsilicate.eps}
+\caption{(Top): Intensity variation of 11.3~$\mu$m emission around the nucleus of M31. 
 Two black boxes are the apertures (centre and north region) used to extract spectra in Figure \ref{smithspec}. 
 The centre of the nucleus is at R.A. $00^{\rm h}42^{\rm m}44\fs35$, Dec. $+41\degr16\arcmin08\farcs5$ \citep{NucleusREF}.}
+(Bottom:) Integrated strength of the silicate emission (from 9 to 11~$\mu$m) near the M31 nucleus.
 \label{nuc11}
 \end{figure}
 
-\begin{figure}
-\centering
-\includegraphics[scale = 0.3]{./NUCsilicate.eps}
-\caption{The integrated strength of the silicate emission (from 9 to 11~$\mu$m) near the M31 nucleus.}
-\label{silicate}
-\end{figure}
 
 
 
