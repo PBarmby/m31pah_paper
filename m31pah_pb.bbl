@@ -93,6 +93,11 @@
 {Garcia} M.~R.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/710/1/755},
   \href {http://adsabs.harvard.edu/abs/2010ApJ...710..755G} {710, 755}
 
+\bibitem[\protect\citeauthoryear{{Gordon} et~al.,}{{Gordon}
+  et~al.}{2006}]{gordon06a}
+{Gordon} K.~D.,  et~al., 2006, \mn@doi [\apjl] {10.1086/501046}, \href
+  {http://adsabs.harvard.edu/abs/2006ApJ...638L..87G} {638, L87}
+
 \bibitem[\protect\citeauthoryear{{Gordon}, {Engelbracht}, {Rieke}, {Misselt},
   {Smith}  \& {Kennicutt}}{{Gordon} et~al.}{2008}]{Gordon:2008lr}
 {Gordon} K.~D.,  {Engelbracht} C.~W.,  {Rieke} G.~H.,  {Misselt} K.~A.,
@@ -201,6 +206,12 @@
   {Allamandola} L.~J.,  {Hudgins} D.~M.,   {Bauschlicher} C.~W.,  2002, \mn@doi
   [\aap] {10.1051/0004-6361:20020773}, \href
   {http://adsabs.harvard.edu/abs/2002A%26A...390.1089P} {390, 1089}
+
+\bibitem[\protect\citeauthoryear{{Puget} \& {Leger}}{{Puget} \&
+  {Leger}}{1989}]{puget89}
+{Puget} J.~L.,  {Leger} A.,  1989, \mn@doi [\araa]
+  {10.1146/annurev.aa.27.090189.001113}, \href
+  {http://adsabs.harvard.edu/abs/1989ARA%26A..27..161P} {27, 161}
 
 \bibitem[\protect\citeauthoryear{{Roche}, {Aitken}, {Smith}  \& {Ward}}{{Roche}
   et~al.}{1991}]{Roche1991}
