@@ -1,6 +1,6 @@
 
 The final processed IRS spectra are shown in  Figure \ref{PAHFITplots}. All of the main PAH features, including the 6.2, 7.7, 8.6 and 11.3~$\mu$m bands, 
-are clearly visible for all the regions except the nucleus. (The spectrum of the nucleus is discussed in Section 4.3.)
+are clearly visible for all the regions except the nucleus. (The spectrum of the nucleus is further discussed in Section 4.3.)
 The IRS spectra also show atomic line emission such as [Ar~{\sc ii}], [Ar~{\sc iii}], [S~{\sc iii}], [S~{\sc iv}], [Ne~{\sc ii}], [Ne~{\sc iii}] 
 and molecular H$_{2}$ emission at 12.3~$\mu$m. Some of the spectra display a contribution to the continuum from starlight emission.
 
@@ -20,8 +20,9 @@ Vertical scales differ in different panels. Spectra from the nucleus and NGC 206
 \subsection{ISOCAM versus IRS}
 \label{sect:iso_vs_irs}
 
-As mentioned in the Introduction, based on ISOCAM observations \citet{1998Cesarsky} reported a suppression of the common 
-6 to 8~$\mu$m features and an enhancement of a broad 11.3 and 12.7 $\mu$m features in four regions of M31. 
+As mentioned in the Introduction, based on ISOCAM observations of four regions in M31, \citet{1998Cesarsky} reported 
+suppression of the common 6--8~$\mu$m PAH bands and a strong 11.3$\mu$m PAH band.
+The 11.3~$\mu$m band profile was found to vary from region to region.  
 In addition, \citet{Pagani_1999} confirmed that the star-forming ring in M31 shows very weak PAH emission in the 6 to 8~$\mu$m region. 
 However, the IRS spectra presented here do not show such unusual behaviour (Figure~\ref{PAHFITplots}). 
 Indeed, except for the nucleus, all regions show a normal mid-infrared spectrum similar to other nearby starforming galaxies. 
@@ -32,9 +33,9 @@ spectra differ in detail, the shapes of the spectra are almost identical. Except
 6 to 8~$\mu$m features as described by \citet{1998Cesarsky}. 
 
 
-Until 2005, ISOCAM data were not properly background subtracted and they were contaminated with zodiacal emission and stray light. 
+Until 2005, ISOCAM-CVF data were not properly background subtracted and they were contaminated with zodiacal emission and stray light. 
 Differential spectra between regions of relatively strong and weak emission were previously used to overcome this problem 
-(more details about the differential spectra are given by \citealt{1998Cesarsky}). In 2005, the ISOCAM data were reprocessed 
+(more details about the differential spectra are given by \citealt{1998Cesarsky}, \citealt{Pagani_1999}). In 2005, all ISOCAM-CVF data were reprocessed 
 and corrected for the zodiacal emission \citep{Boulanger_F_2005}. It is clear that the spectra obtained from these newly processed ISOCAM data 
 do not agree with the previous differential spectra, especially for the bulge and the nucleus. Indeed, the differential spectrum shows a broad emission feature
 around the 11.3~$\mu$m feature not visible in Figure \ref{ISOnIRS} (top). Also, the differential spectrum towards the bulge does not show 
@@ -54,9 +55,9 @@ in less `strange' infrared spectra for M31. For the remainder of this work, we d
 
 \subsection{PAHFIT}
 \label{sect:pahfit}
-The PAH features in the IRS spectra are often blended with neighbouring aromatic features and atomic lines. 
+The PAH features in the IRS spectra are often blended with neighbouring PAH features and atomic lines. 
 Therefore measuring the strength of PAH features is difficult.  To achieve this task a tool called PAHFIT, introduced by \citet{Smith:2007lr}, was used. 
-PAHFIT is an IDL  based tool designed for decomposing {\em Spitzer} IRS low-resolution spectra of PAH emission sources and is capable of identifying PAH features among other blended features. It also takes silicate absorption and extinction into account. 
+PAHFIT is an IDL  based tool designed for decomposing {\em Spitzer} IRS low-resolution spectra of PAH emission sources.
 PAHFIT uses six main components to fit the surface brightness. These are starlight continuum, featureless thermal dust continuum, 
 pure rotational lines of H$_2$, fine-structure lines, dust emission features and dust extinction. The starlight is represented by  blackbody 
 emission at a fixed temperature of 5000~K and the dust continuum is represented by 8 modified blackbodies (emissivity proportional to $\nu^2$)  
@@ -144,13 +145,14 @@ $^b$Continuum for these regions is very weak.  Equivalent widths are highly unce
 \subsection{PAH features}
 \label{sect:pah}
 
-PAHFIT returns fluxes and equivalent widths (EQWs) of PAH features which are given in Tables~\ref{PAHlinetable} and \ref{EQW}. The intensities of the features do not include any contribution from the continuum but the equivalent width computed by
+PAHFIT returns fluxes and equivalent widths (EQWs) of PAH features which are given in Tables~\ref{PAHlinetable} and \ref{EQW}. 
+The intensities of the features do not include any contribution from the continuum but the equivalent width computed by
 \begin{equation}
 {\rm EQW}=\int \frac{I_{\nu,{\rm feature}}}{I_{\nu, {\rm cont}}} \,d\lambda,
 \end{equation}
 is a measure of both the strength of the continuum emission ($I_{\nu, {\rm cont}} $) and the line strength 
 ($I_{\nu,{\rm feature}}=I_{\nu} =- I_{\nu, {\rm cont}})$. 
-The continuum emission is mainly coming from ordinary dust grains, much larger than PAH molecules. Hence, by studying EQWs of PAHs, 
+The continuum emission is mainly coming from dust grains, much larger than PAH molecules. Hence, by studying EQWs of PAHs, 
 we can study how the PAHs compete with the dust grains in the mid-infrared wavelengths.  PAHFIT returns the EQWs for each PAH 
 feature and the uncertainties were calculated using a Monte-Carlo method. In that method, for each region, PAHFIT was run 500 times on 
 randomly generated data points  normally distributed within the uncertainties of the spectrum. PAHFIT returned 500 EQWs for each 
