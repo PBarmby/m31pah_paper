@@ -32,6 +32,12 @@
 {Barmby} P.,  et~al., 2006, \mn@doi [\apjl] {10.1086/508626}, \href
   {http://adsabs.harvard.edu/abs/2006ApJ...650L..45B} {650, L45}
 
+\bibitem[\protect\citeauthoryear{{Beir{\~a}o}, {Brandl}, {Devost}, {Smith},
+  {Hao}  \& {Houck}}{{Beir{\~a}o} et~al.}{2006}]{Beirao:06}
+{Beir{\~a}o} P.,  {Brandl} B.~R.,  {Devost} D.,  {Smith} J.~D.,  {Hao} L.,
+  {Houck} J.~R.,  2006, \mn@doi [\apjl] {10.1086/505027}, \href
+  {http://adsabs.harvard.edu/abs/2006ApJ...643L...1B} {643, L1}
+
 \bibitem[\protect\citeauthoryear{{Bender} et~al.,}{{Bender}
   et~al.}{2005}]{Bender2005}
 {Bender} R.,  et~al., 2005, \mn@doi [\apj] {10.1086/432434}, \href
@@ -83,15 +89,29 @@
   {http://adsabs.harvard.edu/abs/2008ApJ...678..804E} {678, 804}
 
 \bibitem[\protect\citeauthoryear{{Galliano}, {Madden}, {Tielens}, {Peeters}  \&
-  {Jones}}{{Galliano} et~al.}{2008}]{Galliano2008}
+  {Jones}}{{Galliano} et~al.}{2008a}]{Galliano:08}
+{Galliano} F.,  {Madden} S.,  {Tielens} A.,  {Peeters} E.,   {Jones} A.,
+  2008a, \apj, 679, 310
+
+\bibitem[\protect\citeauthoryear{{Galliano}, {Madden}, {Tielens}, {Peeters}  \&
+  {Jones}}{{Galliano} et~al.}{2008b}]{Galliano2008}
 {Galliano} F.,  {Madden} S.~C.,  {Tielens} A.~G.~G.~M.,  {Peeters} E.,
-  {Jones} A.~P.,  2008, \mn@doi [\apj] {10.1086/587051}, \href
+  {Jones} A.~P.,  2008b, \mn@doi [\apj] {10.1086/587051}, \href
   {http://adsabs.harvard.edu/abs/2008ApJ...679..310G} {679, 310}
 
 \bibitem[\protect\citeauthoryear{{Garcia} et~al.,}{{Garcia}
   et~al.}{2010}]{NucleusREF}
 {Garcia} M.~R.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/710/1/755},
   \href {http://adsabs.harvard.edu/abs/2010ApJ...710..755G} {710, 755}
+
+\bibitem[\protect\citeauthoryear{{Geballe}, {Lacy}, {Persson}, {McGregor}  \&
+  {Soifer}}{{Geballe} et~al.}{1985}]{Geballe:85}
+{Geballe} T.~R.,  {Lacy} J.~H.,  {Persson} S.~E.,  {McGregor} P.~J.,   {Soifer}
+  B.~T.,  1985, \apj, 292, 500
+
+\bibitem[\protect\citeauthoryear{{Gillett}, {Forrest}  \& {Merrill}}{{Gillett}
+  et~al.}{1973}]{Gillett:73}
+{Gillett} F.~C.,  {Forrest} W.~J.,   {Merrill} K.~M.,  1973, \apj, 183, 87
 
 \bibitem[\protect\citeauthoryear{{Gordon} et~al.,}{{Gordon}
   et~al.}{2006}]{gordon06a}
@@ -117,10 +137,21 @@
   G.~T.,  2014, \mn@doi [\mnras] {10.1093/mnras/stt2346}, \href
   {http://adsabs.harvard.edu/abs/2014MNRAS.438.2317H} {438, 2317}
 
+\bibitem[\protect\citeauthoryear{{Hony}, {Van Kerckhoven}, {Peeters},
+  {Tielens}, {Hudgins}  \& {Allamandola}}{{Hony} et~al.}{2001}]{Hony:oops:01}
+{Hony} S.,  {Van Kerckhoven} C.,  {Peeters} E.,  {Tielens} A.~G.~G.~M.,
+  {Hudgins} D.~M.,   {Allamandola} L.~J.,  2001, \aap, 370, 1030
+
 \bibitem[\protect\citeauthoryear{{Houck} et~al.,}{{Houck}
   et~al.}{2004}]{IRS2004}
 {Houck} J.~R.,  et~al., 2004, \mn@doi [\apjs] {10.1086/423134}, \href
   {http://adsabs.harvard.edu/abs/2004ApJS..154...18H} {154, 18}
+
+\bibitem[\protect\citeauthoryear{{Hudgins} \& {Allamandola}}{{Hudgins} \&
+  {Allamandola}}{2004}]{Hudgins:rev:04}
+{Hudgins} D.~M.,  {Allamandola} L.~J.,  2004, in {Witt} A.~N.,  {Clayton}
+  G.~C.,   {Draine} B.~T.,  eds,  Astronomical Society of the Pacific
+  Conference Series Vol. 309, Astrophysics of Dust. p.~665
 
 \bibitem[\protect\citeauthoryear{{Kennicutt} Jr. et~al.,}{{Kennicutt}
   et~al.}{2003}]{kennicutt03}
@@ -144,10 +175,9 @@
   {10.1088/2041-8205/728/1/L10}, \href
   {http://adsabs.harvard.edu/abs/2011ApJ...728L..10L} {728, L10}
 
-\bibitem[\protect\citeauthoryear{{Marble} et~al.,}{{Marble}
-  et~al.}{2010}]{Marble_2010}
-{Marble} A.~R.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/506},
-  \href {http://adsabs.harvard.edu/abs/2010ApJ...715..506M} {715, 506}
+\bibitem[\protect\citeauthoryear{{Madden}}{{Madden}}{2000}]{Madden:00}
+{Madden} S.~C.,  2000, \mn@doi [\nar] {10.1016/S1387-6473(00)00050-6}, \href
+  {http://adsabs.harvard.edu/abs/2000NewAR..44..249M} {44, 249}
 
 \bibitem[\protect\citeauthoryear{{Mason}, {Levenson}, {Shi}, {Packham},
   {Gorjian}, {Cleary}, {Rhee}  \& {Werner}}{{Mason} et~al.}{2009}]{Mason2009}
@@ -160,13 +190,6 @@
   et~al.}{2012}]{Mason2012}
 {Mason} R.~E.,  et~al., 2012, \mn@doi [\aj] {10.1088/0004-6256/144/1/11}, \href
   {http://adsabs.harvard.edu/abs/2012AJ....144...11M} {144, 11}
-
-\bibitem[\protect\citeauthoryear{{Mattila}, {Lemke}, {Haikala}, {Laureijs},
-  {Leger}, {Lehtinen}, {Leinert}  \& {Mezger}}{{Mattila}
-  et~al.}{1996}]{Mattila1996}
-{Mattila} K.,  {Lemke} D.,  {Haikala} L.~K.,  {Laureijs} R.~J.,  {Leger} A.,
-  {Lehtinen} K.,  {Leinert} C.,   {Mezger} P.~G.,  1996, \aap, \href
-  {http://adsabs.harvard.edu/abs/1996A%26A...315L.353M} {315, L353}
 
 \bibitem[\protect\citeauthoryear{{McConnachie}, {Irwin}, {Ferguson}, {Ibata},
   {Lewis}  \& {Tanvir}}{{McConnachie} et~al.}{2005}]{Mcc2005}
@@ -188,6 +211,12 @@
   {10.1088/0067-0049/190/2/233}, \href
   {http://adsabs.harvard.edu/abs/2010ApJS..190..233M} {190, 233}
 
+\bibitem[\protect\citeauthoryear{{Mu{\~n}oz-Mateos} et~al.,}{{Mu{\~n}oz-Mateos}
+  et~al.}{2009}]{Munoz:09}
+{Mu{\~n}oz-Mateos} J.~C.,  et~al., 2009, \mn@doi [\apj]
+  {10.1088/0004-637X/703/2/1569}, \href
+  {http://adsabs.harvard.edu/abs/2009ApJ...703.1569M} {703, 1569}
+
 \bibitem[\protect\citeauthoryear{{Nagao}, {Maiolino}  \& {Marconi}}{{Nagao}
   et~al.}{2006}]{Nagao2006}
 {Nagao} T.,  {Maiolino} R.,   {Marconi} A.,  2006, \mn@doi [\aap]
@@ -199,13 +228,9 @@
 {Pagani} L.,  {Lequeux} J.,  {Cesarsky} D.,  {Milliard} B.,  {Lionard} L.,
   {Sauvage} M.,  1999, \aap, 351, 447
 
-\bibitem[\protect\citeauthoryear{{Peeters}, {Hony}, {Van Kerckhoven},
-  {Tielens}, {Allamandola}, {Hudgins}  \& {Bauschlicher}}{{Peeters}
-  et~al.}{2002}]{Peeters2002}
-{Peeters} E.,  {Hony} S.,  {Van Kerckhoven} C.,  {Tielens} A.~G.~G.~M.,
-  {Allamandola} L.~J.,  {Hudgins} D.~M.,   {Bauschlicher} C.~W.,  2002, \mn@doi
-  [\aap] {10.1051/0004-6361:20020773}, \href
-  {http://adsabs.harvard.edu/abs/2002A%26A...390.1089P} {390, 1089}
+\bibitem[\protect\citeauthoryear{{Peeters}}{{Peeters}}{2011}]{Peeters:toledo:11}
+{Peeters} E.,  2011, in IAU Symposium. pp 149--161, \mn@eprint {arXiv}
+  {1111.3680}, \mn@doi{10.1017/S174392131102494X}
 
 \bibitem[\protect\citeauthoryear{{Puget} \& {Leger}}{{Puget} \&
   {Leger}}{1989}]{puget89}
@@ -272,15 +297,16 @@ SSC, Pasadena, CA
   {10.1086/511268}, \href {http://adsabs.harvard.edu/abs/2007ApJ...654L..49S}
   {654, L49}
 
+\bibitem[\protect\citeauthoryear{{Stock}, {Peeters}, {Tielens}, {Otaguro}  \&
+  {Bik}}{{Stock} et~al.}{2013}]{Stock:13}
+{Stock} D.~J.,  {Peeters} E.,  {Tielens} A.~G.~G.~M.,  {Otaguro} J.~N.,   {Bik}
+  A.,  2013, \mn@doi [\apj] {10.1088/0004-637X/771/1/72}, \href
+  {http://adsabs.harvard.edu/abs/2013ApJ...771...72S} {771, 72}
+
 \bibitem[\protect\citeauthoryear{{Sturm} et~al.,}{{Sturm}
   et~al.}{2005}]{Sturm2005}
 {Sturm} E.,  et~al., 2005, \mn@doi [\apjl] {10.1086/444359}, \href
   {http://adsabs.harvard.edu/abs/2005ApJ...629L..21S} {629, L21}
-
-\bibitem[\protect\citeauthoryear{{Tielens}}{{Tielens}}{2005}]{Tielens:2005lr}
-{Tielens} A.~G.~G.~M.,  2005, {The Physics and Chemistry of the Interstellar
-  Medium}.
-Cambridge University Press, Cambridge, UK
 
 \bibitem[\protect\citeauthoryear{{Tielens}}{{Tielens}}{2008}]{Tielens2008}
 {Tielens} A.~G.~G.~M.,  2008, \mn@doi [\araa]
