@@ -5,15 +5,15 @@
 \centering
 \includegraphics[width = 6.5 cm,angle=270]{fig1_redo.eps}
 \caption{$8 - 24/70 - 160$ $\mu$m colour-colour diagram of M31 obtained from IRAC and MIPS imaging. Colour-coding of points represents
-24~$\mu$m flux, from faintest (blue) to brightest (red). The plot is divided into 9 regions (black grid) and the observations were made to 
-cover those regions, subject to a 24~$\mu$m brightness cut. The black triangles indicate the regions we observed.}
+24~$\mu$m flux, from faintest (blue) to brightest (red). The plot is divided into 9 regions (black grid), and the observations were made to 
+cover those regions subject to a 24~$\mu$m brightness cut. The black triangles indicate colours of the regions we observed.}
 \label{colourmaps}
 \end{figure}
 
 We obtained mid-infrared spectral maps of 12 regions in M31 using the {\em Spitzer}/IRS instrument \citep{IRS2004} covering wavelengths from 5 to 21 microns. 
 These regions include the nucleus, the `bulge' and `active' regions previously observed by ISOCAM (the latter is Region 9 in our sample), 
 and 9 other regions chosen to cover a range of metallicities and dust temperatures. The 9 regions were chosen by convolving the IRAC 8~$\mu$m \citep{Barmby2006lr}
-and MIPS \citep{gordon06a} maps to the same resolution and constructing an $8 - 24/70 - 160$ $\mu$m colour-colour diagram.
+and MIPS \citep{gordon06a} maps to the same resolution and constructing an $8 - 24/70 - 160$ $\mu$m colour-colour diagram (Figure~\ref{colurmaps}).
 This colour space was used to give a rough definition of the types of spectral energy distribution; the 
 dense region in the plot was split into a 3x3 grid and one pixel in each grid region (subject to a  a 24$\mu$m brightness cut)
 was selected for spectroscopy. The locations of the observed regions are shown in Figure~\ref{m31}, and 
@@ -48,21 +48,23 @@ Background  & $00^{\rmn{h}}44^{\rmn{m}}41\fs80 $ & $40\degr58\arcmin56\farcs0$  
 \hline
 \end{tabular}
 {$^a$Regions with ISOCAM data.\\
-$^b$De-projected galactocentric distance, in kpc\\ 
-$^c$Metallicities obtained from the radial metallicity profile of M31.}
+$^b$De-projected galactocentric distance in kpc\\ 
+$^c$Metallicities obtained from the radial metallicity profile of M31.
+% SPW: give source of other metallicities (Sanders?)
+}
 \end{minipage}
 \end{table*}
 
 \begin{figure*}
 \centering
 \includegraphics[scale=0.9]{./m31_map.eps}
-\caption{An 8 micron IRAC image of M31 \citep{Barmby2006lr}. Small white rectangles ($30\arcsec\times50\arcsec$) show the regions that we observed and larger squares ($192\arcsec\times192\arcsec$) show the regions observed by  \citet{1998Cesarsky}.
+\caption{An 8 micron negative IRAC image of M31 \citep{Barmby2006lr}. Small white rectangles ($30\arcsec\times50\arcsec$) show the regions that we observed, and larger squares ($192\arcsec\times192\arcsec$) show the regions observed by  \citet{1998Cesarsky}.
 \label{m31}
 }
 \end{figure*}
 
 
-For our observations we used the IRS Short-Low (SL) and Long-Low (LL) modules which cover wavelengths from 5 to 21 microns. 
+For our observations we used the IRS Short-Low (SL) and Long-Low (LL) modules, which cover wavelengths from 5 to 21 microns. 
 The Low modules have resolving power in the range 60--130. Each low-resolution module is divided into two sub-slits 
 which provide spectroscopy in either first or second order. They are denoted as SL1 (7.5--14.5~$\mu$m), SL2 (5.2--7.6~$\mu$m),
 LL1 (20.5--38.5~$\mu$m, not used in these observations), and LL2 (14.5--20.75~$\mu$m).
@@ -72,11 +74,12 @@ of the IRS slits (SL: $3.6\arcsec \times 57\arcsec$, LL: $10.5\arcsec \times 168
 of the SL slit and 11 overlapping observations of the LL slit making the map size $32\arcsec \times 57\arcsec$ for SL and $58\arcsec \times 168\arcsec$ for LL. 
 Figure~\ref{slits} shows an example of the slit arrangement. For the brighter regions (nucleus, bulge), ramp times of 14 s (SL) and 30 s (LL) were used, 
 while for the fainter regions, ramp times of 60 and 120 s were used respectively. Background observations were taken with each module (2 per ramp time). 
-Since all of the targets are in the same part of the sky, a common background observation was used for multiple targets to subtract the background emission. 
+Because all of the targets are in the same part of the sky, a common background observation was used for multiple targets to subtract the background emission. 
 
 % PB: for Dimuthu to do: remake figure to drop second black box
 % don't quite get what EP means here
 % EP We need to adapt this figure to the SL slits and SL footprint matches the SL cube.
+% SPW: wavelength of image?
 \begin{figure}
 \centering
 \includegraphics[scale=0.3]{./cubeslits.eps}
@@ -90,12 +93,12 @@ each map was covered using overlapping slit positions.
 \subsection{IRS Data Reduction}
 \label{sect:irs_data}
 
-The data were reduced through the SSC pipeline (ver. S17.2.0) and the maps were assembled using the CUBISM program \citep{Smith:2007fk}. 
-Bad pixel removal was also done using CUBISM and the background observations were used to subtract the background emission from these cubes 
-following the method outlined in \citet{Gordon:2008lr}. Spectra were extracted using a $30\arcsec\times50\arcsec$   rectangular aperture,
+The data were reduced through the SSC pipeline (ver. S17.2.0), and the maps were assembled using the CUBISM program \citep{Smith:2007fk}. 
+Bad pixel removal was also done using CUBISM, and the background observations were used to subtract the background emission from these cubes 
+following the method outlined by \citet{Gordon:2008lr}. Spectra were extracted using a $30\arcsec\times50\arcsec$   rectangular aperture,
 which corresponds to $114\times190$~pc at the distance of M31.
-The aperture size was selected to cover the overlapping area of the SL and LL modes; all the IRS maps cover additional area than is considered here.
-The spectrum from the NGC 206 is very noisy and was removed from our analysis. 
+The aperture size was selected to cover the overlapping area of the SL and LL modes; all the IRS maps cover more area than  considered here.
+The spectrum from NGC 206 is very noisy and was removed from our analysis. 
 
 
 There is wavelength overlap between the SL1 and SL2 spectra and also between the SL1 and LL2 spectra.
@@ -110,6 +113,7 @@ on the 8~$\mu$m image \citep{Barmby2006lr} in the same apertures used to extract
 and the extended source  aperture correction of 0.824 applied.
 Uncertainties on these measurements were estimated as the standard deviation of the measured
 IRAC flux in a similarly-sized region off the disk of the galaxy ($00^{\rmn{h}}48^{\rmn{m}}58\fs0, +42\degr14\arcmin54\farcs0$). 
+%SPW: not clear on this sentence
 The {\em Spitzer} synthetic photometry software \citep{SpitzerDAC} 
 was then used to quantify the colour correction for each spectrum, i.e. the
 multiplicative factor $K$ between the IRAC photometry over its broad bandpass and the IRS flux
@@ -121,7 +125,7 @@ The non-zero intercept of this fit suggested that an additive offset was more ap
 spectra than a multiplicative one; this method was also used by \citet{Sandstrom12}.
 Therefore we scaled each SL spectrum by an offset 
 \begin{equation}
-x = F_{\rm IRAC8}/K -   F_{\rm IRS8}.
+x = F_{\rm IRAC8}/K -   F_{\rm IRS8}. % SPW question
 \label{eq:offset}
 \end{equation}
 The scaled SL spectra were much better matched to the LL spectra, and the final combination
@@ -186,15 +190,16 @@ The black box shows the size of the aperture ($30\arcsec\times50\arcsec$) used t
 \label{isonuc}
 \end{figure}
 
-% EP not so sure about putting this section here.
+% EP not so sure about putting this section here. SPW also suggests section 4.4
 \subsection{Nuclear Spectra}
 \label{obs:nuc}
 
-The extracted IRS spectra of the M31 nuclear region look different from most of the other spectra, with
-a blue continuum, PAH features weak or absent at 6--8~$\mu$m  but detectable at 11.3~$\mu$m.
+The extracted IRS spectra of the M31 nuclear region 
+%look different from most of the other spectra, with
+shows a blue continuum, PAH features weak or absent at 6--8~$\mu$m  but detectable at 11.3~$\mu$m.
 Figure \ref{nuc11} (top) shows the integrated intensity map of 11.3~$\mu$m emission around the nucleus. The majority of the 11.3~$\mu$m 
 emission is coming from a region north of the nucleus and not from the nucleus itself. 
-On the other hand the centre shows no PAH emission  but it does have silicate emission around 9.7~$\mu$m, 
+On the other hand the centre shows no PAH emission,  but it does have silicate emission around 9.7~$\mu$m, 
 which comes only from the nucleus and is not present in the North spectrum 
 (see Figure \ref{nuc11} (bottom), a continuum-subtracted image which shows the 9--11~$\mu$m integrated emission).
 Both the 11.3~$\mu$m  and silicate emission sources are consistent with being unresolved point sources.
