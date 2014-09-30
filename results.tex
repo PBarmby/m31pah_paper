@@ -1,7 +1,7 @@
 \subsection{PAH intensities}
 \label{sect:pah_ratios}
 
-Both the 6.2 and 7.7~$\mu$m features are thought to be coming from ionized PAHs and the 11.3~$\mu$m feature from neutral PAHs. Therefore we expect to see a correlation between the intensities of 6.2 and 7.7~$\mu$m PAH features normalized by the 11.3~$\mu$m feature. In Figure \ref{PAHlines} we compare the PAH flux ratios of 7.7/11.3  and 6.2/11.3 features. The figure shows a good correlation between these two PAH line ratios, consistent with that of the SINGS sample shown by \citet{Smith:2007lr}.
+Both the 6.2 and 7.7~$\mu$m features are thought to be coming from ionized PAHs and the 11.3~$\mu$m feature from neutral PAHs. Therefore we expect to see a correlation between the intensities of 6.2 and 7.7~$\mu$m PAH features normalized by the 11.3~$\mu$m feature.  Figure \ref{PAHlines}  compares the PAH flux ratios of 7.7/11.3  and 6.2/11.3 features. The figure shows a good correlation between these two PAH line ratios, consistent with that of the SINGS sample shown by \citet{Smith:2007lr}.
 A similar correlation was also reported by  \citet{Galliano2008} for a sample of galaxies and a handful of extended H{\sc ii} regions
 and by \citet{Vermeij2002} for Galactic and Magellanic Cloud {\sc ii}regions. This provides evidence that the PAH emission from M31 is not unusual. 
 
@@ -23,9 +23,10 @@ Open squares represent the SINGs sample from \citet{Smith:2007lr}.
 \centering
 \includegraphics[scale=0.25]{./englvsmy.eps}
 \caption{Equivalent width of the 8~$\mu$m PAH feature versus radiation hardness index (RHI) for the M31 sample (blue). 
-The 8$\mu$m feature is a combination of the 7.7, 8.3 and 8.6~$\mu$m PAHFIT components. 
-Open squares represent the starburst galaxy sample from \citet{Engelbracht_2008}. 
-For M31 spectra with undetected lines, triangles represent upper (left-pointing triangles) and lower (right-pointing triangles) limits.}
+The 8~$\mu$m feature is a combination of the 7.7, 8.3 and 8.6~$\mu$m PAHFIT components. 
+Open squares represent the starburst galaxy sample from \citet{Engelbracht_2008}, which includes 66 nearby ($2<d<250$~Mpc)
+star-bursting or star-forming galaxies selected to cover a wide range in metallicity ($7.1<12+\log{\rm[O/H]}<8.9$).
+ For M31 spectra with undetected lines, triangles represent upper (left-pointing triangles) and lower (right-pointing triangles) limits.} % SPW: what sigma?
 \label{englII}
 \end{figure}
 
@@ -33,17 +34,18 @@ For M31 spectra with undetected lines, triangles represent upper (left-pointing 
 \centering
 \includegraphics[scale=0.30]{./Gordvsmy.eps}
 \caption{Equivalent widths of the normalized 7.7~$\mu$m PAH feature (top panel) and 11.3~$\mu$m PAH feature (bottom panel) versus 
-radiation hardness index (RHI) for the M31 sample. Open squares represent the data from M101 by \citet{Gordon:2008lr}. 
-The normalization was done by dividing each EQW by the weighted average over all regions in the respective samples. Triangles represent upper and lower limits.}
+radiation hardness index (RHI) for the M31 sample. Open squares represent the seven H~{\sc ii} regions in M101 observed  by \citet{Gordon:2008lr},  
+which have $8.1<12+\log{\rm[O/H]}<8.8$ 
+The normalization was done by dividing each EQW by the weighted average over all regions in the respective samples. 
+Triangles represent upper and lower limits.} % SPW: what sigma?
 \label{gordII}
 \end{figure}
 
 
 As mentioned in the introduction, PAH equivalent widths tend to show an inverse correlation with radiation hardness. 
 The equivalent widths of the M31 PAH features are compared with RHI in Figures~\ref{englII} and \ref{gordII}.
-For reference, we also show the starburst sample of \citet{Engelbracht_2008}, which includes 66 nearby ($2<d<250$~Mpc)
-star-bursting or star-forming galaxies selected to cover a wide range in metallicity ($7.1<12+\log{\rm[O/H]}<8.9$),
-and the seven H~{\sc ii} regions in M101 observed by \citet{Gordon:2008lr}, which have $8.1<12+\log{\rm[O/H]}<8.8$.
+For reference, we also show the starburst sample of \citet{Engelbracht_2008} 
+and the seven H~{\sc ii} regions in M101 observed by \citet{Gordon:2008lr}.
 To make a direct comparison with the M101 sample, we normalized the M31 EQWs in Figure~\ref{gordII} using the same procedure
 as \citet{Gordon:2008lr}, dividing each EQW by the  weighted average over all regions in the respective samples. 
 The equivalent widths seem to be decreasing with increasing radiation hardness, consistent with previous results. 
@@ -57,8 +59,7 @@ Many studies based on ISO and {\em Spitzer} observations have reported that PAH 
 In addition, these studies also report a sudden drop of EQWs of PAHs around $12+\log{\rm (O/H)} \approx 8.1$. 
 This has been observed amongst different galaxies \citep{Engelbracht_2008} as well as within a single galaxy \citep{Gordon:2008lr}. 
 
-Here we investigate the relation between the PAH features and the metallicity for the M31 regions in this paper. 
-As a source of metallicity measurements, we used the work of \citet{Sanders_2011} who measured spectroscopic metallicities for
+\citet{Sanders_2011}  measured spectroscopic metallicities for
 more than 250 H~{\sc ii} regions using strong line diagnostics.\footnote{\citet{Sanders_2011} considered several different
 calibrations for abundance diagnostics. We use the results from the method they denote ``N06 N2''  \citep{Nagao2006} because
 that method has the largest sample size.} Except for regions 5 and 8, all of our mapped regions contain an  H~{\sc ii} region measured by
@@ -68,19 +69,22 @@ that method has the largest sample size.} Except for regions 5 and 8, all of our
  methods used to measure metallicities, and those in the sample of \citet{Engelbracht_2008} 
  were obtained by the direct electron temperature method  \citep{Skillman1998}.
 \citet{Mitchel2014} calculated the offset between direct and strong-line measurements for M31 H~{\sc ii} regions to be 
-$0.35\pm0.10$. In Figure \ref{metalicityVseqw} we have corrected for this offset  by subtracting 0.35 from our metallicities. 
+$0.35\pm0.10$ and we correct for this in Figure~\ref{metalicityVseqw}.
 
-%SPW:In the discussion of Fig 13, I think it's worth mentioning that no trend is seen, but there are relatively few data points.
 \begin{figure}
 \centering
 \includegraphics[scale=0.27]{./oxyvseqw.eps}
-\caption{ PAH equivalent widths versus metallicity. EQWs of the 7.7~$\mu$m feature of the starburst sample from \citet{Engelbracht_2008} are plotted in open circles.}
+\caption{ PAH equivalent widths versus metallicity. EQWs of the 7.7~$\mu$m feature of the starburst sample from \citet{Engelbracht_2008} are plotted as open circles.
+%SPW: what are circles vs squares?
+Metallicities of the M31 regions have had 0.35~dex subtracted to account for the offset  between direct and strong-line measurements. 
+}
 \label{metalicityVseqw}
 \end{figure}
 
 Figure \ref{metalicityVseqw} shows the normalized EQWs of the PAH features  versus the metallicity for our sample and the starburst 
 galaxies of \citet{Engelbracht_2008}. The scatter in our sample is large, but the 	
-equivalent widths of the 7.7 and 11.3~$\mu$m features are not inconsistent with those of \citet{Engelbracht_2008}. 
+equivalent widths of the 7.7 and 11.3~$\mu$m features are consistent with those of \citet{Engelbracht_2008}. 
+No trend with metallicity is seen.
 However, we do not have enough data from low-metallicity regions in M31 to observe the expected decrease of EQWs of PAH with the decreasing 
 metallicity.  There do seem to be some outliers which can plausibly be due to the uncertainties  and the offset between different methods of calculating the metallicity.  
 %SPW: Sec 4.2 par 4: while there's no metallicity dependence, 1 region has very low PAH.    Any idea why?  Is it just stellar light contamination, or is something fundamental happening?
@@ -145,20 +149,20 @@ six other galaxies with similar spectral shapes, including three elliptical gala
 nucleus spectrum covers a much smaller area (0.02~kpc$^2$).}
 The SINGS papers \citep{kennicutt03,Smith:2007lr, moustakas2010} are in some disagreement over the
 exact nuclear spectral types of these six galaxies. All are classified as some form of low-luminosity AGN
-such as Seyfert or LINER \citep[luminous AGNs were intentionally omitted from the SINGS sample][]{kennicutt03}, but they are
+such as Seyfert or LINER \citep[luminous AGNs were intentionally omitted from the SINGS sample;][]{kennicutt03}, but they are
 by no means the only LLAGN in the SINGS sample.
-In contrast with the nuclear spectrum, the spectrum extracted in the North region (offset by \arcsec from the center;
+In contrast with the nuclear spectrum, the spectrum extracted in the North region (offset by XX \arcsec from the center; % complete
 Figure \ref{smithspec}, inset) shows a strong 11.3~$\mu$m peak 
 and no significant emission from 6--8~$\mu$m features. These characteristics are shared by
 the M81 nuclear spectrum presented by \citet{Smith2010}, although that spectrum has little stellar continuum and a very strong [Ne {\sc ii}]~12.8~$\mu$m line. 
 
 
 As discussed by  \citet{Smith:2007lr} and \citet{Smith2010}, inferring the suppression of 6--8~$\mu$m PAH features compared
-to the 11.3~$\mu$m feature must be done with caution, since the 6--8~$\mu$m features are more susceptible to dilution by the stellar
+to the 11.3~$\mu$m feature must be done with caution, because the 6--8~$\mu$m features are more susceptible to dilution by the stellar
 continuum. Such suppression could have several causes: destruction of small or charged PAH molecules by an AGN,
 or weak ultraviolet continuum indicating lack of star formation \citep{Smith:2007lr}. In the latter case, the AGN is not the cause of
-the suppressed  6--8~$\mu$m features, but rather is only detected when the nuclear star formation rate is low.
-An implication of low star formation in the centre of M31 is consistent
+the suppressed  6--8~$\mu$m features but rather is only detected when the nuclear star formation rate is low.
+Low rates of star formation in the centre of M31 are consistent
 with previous work: although \citet{Melchior2013} found a significant amount of cold gas in the centre of the galaxy, this gas does not
 appear to be associated with current star formation. In modelling the far-infrared spectral energy distribution, \cite{Groves2012} found that  
 the old stellar population in the M31 bulge is sufficient  to heat the observed dust; no young stellar population is needed.
@@ -171,7 +175,7 @@ compares the spectra extracted from these two regions. Silicate emission is not 
 integrated spectra of galaxies \citep{Spoon2007} but is seen in luminous quasar spectra \citep{Hill14} and, as mentioned above, in the
 spectrum of the M81 nucleus. We computed the linear slope parameter  defined by \citet{Smith2010},
 $\gamma810 =[F_{\nu}(10\mu{\rm m}) -F_{\nu}(8\mu{\rm m})]/2F_{\nu}(9\mu{\rm m}) $, for the M31 nucleus and
-found $\gamma810 =-0.08\pm 0.06$.  This is 
+found $\gamma810 =-0.08\pm 0.06$.  This is  to be compelted % TBD
 %HAS: It might be useful to tabulate the masses of the black holes in each of the 6 comparison galaxies, to see whether spectral similarities (or differences) can be attributed to the quiescent AGN, as you suggest, of whether circumnuclear star formation or other things might play some role.
 
 
@@ -179,9 +183,10 @@ Does detection of silicate emission in the M31 nuclear spectrum imply the detect
 In the unified model of AGNs, an obscuring torus viewed face-on would be expected to show silicate emission
 \citep{AGNtypes1995, AGNref}; however such a view would also be expected to show forbidden atomic lines such as [Ne~{\sc v}] and [S~{\sc iv}],
 not seen in the M31 spectrum. Alternatively, \citet{Mason2012} explained that low-luminosity AGNs cannot 
-host a Seyfert-like obscuring torus because of their optically thin dust and low dust-to-gas ratio, but can show
+host a Seyfert-like obscuring torus because of their optically thin dust and low dust-to-gas ratio but can show
 the silicate emission that originates in the optically thin hot dust around the torus.  The first detection of such silicate emission was 
 reported by \citet{Sturm2005} from the low-ionization nuclear emission-line region (LINER) galaxy NGC~3998, and 
 \citealt{Mason2012}  observed that this 9.7~$\mu$m silicate emission is present in many LLAGNs. 
-We computed the bolometric luminosity of the M31 nucleus  to be (**value goes here**) erg~s$^{-1}$ using the 12~$\mu$m flux 
-and the method described in \citet{luminosity}. This value is close to that of other LLAGNs (**and consistent with the X--ray value?**)
+The IRS spectrum of the M31 nucleus has a 12~$\mu$m flux  of XX; using the method described by \citet{luminosity}
+the  bolometric luminosity of the M31 nucleus is inferred to be (**value goes here**) erg~s$^{-1}$ .
+ This value is close to that of other LLAGNs (**and consistent with the X--ray value?**)
