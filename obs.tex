@@ -21,7 +21,6 @@ their coordinates are given in Table~\ref{regions}. A background observation was
 along the minor axis for use in background subtraction from the data cubes.
 
 
-%MLNA: Table 1 would be better if it included the galactocentric radii (perhaps), and the UV intensities, metallicities, and dust temperatures (definitely) used to choose them as targets in the first place.  
 %SPW: As to tables, I'd consolidate 1, 2, and 5 into a single table.  Add rows as appropriate for "nucleus" and "north", and give their dimensions in a footnote.  
 \begin{table*}
  \centering
@@ -29,7 +28,7 @@ along the minor axis for use in background subtraction from the data cubes.
 \caption{Spitzer/IRS Target Locations in M31
 \label{regions}}
 \begin{tabular}{lccrl}
-\hline Name & R.A. (J2000) & Decl. (J2000) & ${R_{\rm gc}}^b$ & $12+\log({\rm O/H})$
+\hline Name & R.A. (J2000) & Decl. (J2000) & ${R_{\rm gc}}^b$ & $12+\log({\rm O/H})^c$
 \\
  \hline
 Nucleus$^a$ & $00^{\rmn{h}}42^{\rmn{m}}44\fs31$ & $41\degr16\arcmin09\farcs4$  & 0.0 & \\
@@ -38,10 +37,10 @@ Region 1    & $00^{\rmn{h}}41^{\rmn{m}}30\fs41$ & $40\degr43\arcmin07\farcs8$  &
 Region 2    & $00^{\rmn{h}}45^{\rmn{m}}22\fs85$ & $41\degr38\arcmin53\farcs1$  & 13.0 &$9.07\pm0.02$\\
 Region 3    & $00^{\rmn{h}}40^{\rmn{m}}37\fs37$ & $41\degr01\arcmin29\farcs4$  & 12.1 &$8.85\pm0.01$\\
 Region 4    & $00^{\rmn{h}}41^{\rmn{m}}17\fs86$ & $41\degr07\arcmin09\farcs8$  & 8.7 &$8.89\pm0.06$\\
-Region 5    & $00^{\rmn{h}}43^{\rmn{m}}39\fs57$ & $41\degr19\arcmin03\farcs1$  & 7.0 &$8.93\pm0.08^c$\\
+Region 5    & $00^{\rmn{h}}43^{\rmn{m}}39\fs57$ & $41\degr19\arcmin03\farcs1$  & 7.0 &$8.93\pm0.08$\\
 Region 6    & $00^{\rmn{h}}43^{\rmn{m}}35\fs72$ & $41\degr23\arcmin15\farcs0$  & 4.3 &$8.73\pm0.08$\\
 Region 7    & $00^{\rmn{h}}40^{\rmn{m}}53\fs98$ & $40\degr58\arcmin58\farcs9$  & 8.7 &$8.40\pm0.08$\\
-Region 8    & $00^{\rmn{h}}42^{\rmn{m}}21\fs60$ & $41\degr07\arcmin17\farcs4$  & 3.1 &$8.94\pm0.08^c$\\
+Region 8    & $00^{\rmn{h}}42^{\rmn{m}}21\fs60$ & $41\degr07\arcmin17\farcs4$  & 3.1 &$8.94\pm0.08$\\
 Region 9$^a$& $00^{\rmn{h}}41^{\rmn{m}}00\fs00$ & $40\degr36\arcmin20\farcs3$  & 13.5 &$8.86\pm0.02$\\
 NGC~206     & $00^{\rmn{h}}40^{\rmn{m}}20\fs20$ & $40\degr44\arcmin54\farcs0$  & 9.8 & \\
 Background  & $00^{\rmn{h}}44^{\rmn{m}}41\fs80 $ & $40\degr58\arcmin56\farcs0$  & 29.5 & \\
@@ -49,8 +48,7 @@ Background  & $00^{\rmn{h}}44^{\rmn{m}}41\fs80 $ & $40\degr58\arcmin56\farcs0$  
 \end{tabular}
 {$^a$Regions with ISOCAM data.\\
 $^b$De-projected galactocentric distance in kpc\\ 
-$^c$Metallicities obtained from the radial metallicity profile of M31.
-% SPW: give source of other metallicities (Sanders?)
+$^c$Metallicities from \citet{Sanders_2011}, except for Regions 5 and 8 where metallicities estimated from the radial metallicity profile.
 }
 \end{minipage}
 \end{table*}
@@ -99,8 +97,8 @@ following the method outlined by \citet{Gordon:2008lr}. Spectra were extracted u
 which corresponds to $114\times190$~pc at the distance of M31.
 The aperture size was selected to cover the overlapping area of the SL and LL modes; all the IRS maps cover more area than  considered here.
 In order to study the spatial variation of the emission near the nucleus, we also extracted spectra from two smaller regions
-within that map.. These will be further discussed in Section~\ref{sect:nucleus}.
-The spectrum from NGC 206 is very noisy and was removed from our analysis. 
+within that map; these will be further discussed in Section~\ref{sect:nucleus}.
+The spectrum of NGC 206 is very noisy and was removed from our analysis. 
 
 
 There is wavelength overlap between the SL1 and SL2 spectra and also between the SL1 and LL2 spectra.
@@ -186,6 +184,7 @@ $30\arcsec\times50\arcsec$ aperture as for the IRS data.
 % compare with IRS image -- are we seeing different things in ISOCAM image?
 %(do we even want to include this figure?)
 % SPW: Fig 5: mention "negative image" (if that's what it is).  Also mention spectral band of image.
+% PB -- just noticed that the label in the figure says "ISOCVF" -- what??
 \begin{figure}
 \centering
 \includegraphics[width = 8cm]{./isonuc.eps}
