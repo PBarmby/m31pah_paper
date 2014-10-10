@@ -75,6 +75,12 @@
 {Croley} M.,  {Barmby} P.,  {Stock} D.,  {Azimlu} M.,   {Rosolowsky} E.,  2014,
   MNRAS, submitted
 
+\bibitem[\protect\citeauthoryear{{Devereux}, {Ford}, {Tsvetanov}  \&
+  {Jacoby}}{{Devereux} et~al.}{2003}]{devereux03}
+{Devereux} N.,  {Ford} H.,  {Tsvetanov} Z.,   {Jacoby} G.,  2003, \mn@doi [\aj]
+  {10.1086/367595}, \href {http://cdsads.u-strasbg.fr/abs/2003AJ....125.1226D}
+  {125, 1226}
+
 \bibitem[\protect\citeauthoryear{{Efstathiou} \& {Rowan-Robinson}}{{Efstathiou}
   \& {Rowan-Robinson}}{1995}]{AGNtypes1995}
 {Efstathiou} A.,  {Rowan-Robinson} M.,  1995, \mnras, \href
@@ -163,10 +169,19 @@
 {Kessler} M.~F.,  et~al., 1996, \aap, \href
   {http://adsabs.harvard.edu/abs/1996A%26A...315L..27K} {315, L27}
 
+\bibitem[\protect\citeauthoryear{{Kormendy}}{{Kormendy}}{1988}]{kormendy88}
+{Kormendy} J.,  1988, \mn@doi [\apj] {10.1086/166904}, 335, 40
+
 \bibitem[\protect\citeauthoryear{{Lauer} et~al.,}{{Lauer}
   et~al.}{1993}]{Lauer1993}
 {Lauer} T.~R.,  et~al., 1993, \mn@doi [\aj] {10.1086/116737}, \href
   {http://adsabs.harvard.edu/abs/1993AJ....106.1436L} {106, 1436}
+
+\bibitem[\protect\citeauthoryear{{Li}, {Wang}  \& {Wakker}}{{Li}
+  et~al.}{2009}]{Li09}
+{Li} Z.,  {Wang} Q.~D.,   {Wakker} B.~P.,  2009, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2009.14918.x}, \href
+  {http://adsabs.harvard.edu/abs/2009MNRAS.397..148L} {397, 148}
 
 \bibitem[\protect\citeauthoryear{{Li}, {Garcia}, {Forman}, {Jones}, {Kraft},
   {Lal}, {Murray}  \& {Wang}}{{Li} et~al.}{2011}]{Li2011}
@@ -222,6 +237,12 @@
 {Nagao} T.,  {Maiolino} R.,   {Marconi} A.,  2006, \mn@doi [\aap]
   {10.1051/0004-6361:20065216}, \href
   {http://adsabs.harvard.edu/abs/2006A%26A...459...85N} {459, 85}
+
+\bibitem[\protect\citeauthoryear{{Nowak}, {Saglia}, {Thomas}, {Bender},
+  {Davies}  \& {Gebhardt}}{{Nowak} et~al.}{2008}]{nowak08}
+{Nowak} N.,  {Saglia} R.~P.,  {Thomas} J.,  {Bender} R.,  {Davies} R.~I.,
+  {Gebhardt} K.,  2008, \mn@doi [\mnras] {10.1111/j.1365-2966.2008.13960.x},
+  391, 1629
 
 \bibitem[\protect\citeauthoryear{{Pagani}, {Lequeux}, {Cesarsky}, {Milliard},
   {Lionard}  \& {Sauvage}}{{Pagani} et~al.}{1999}]{Pagani_1999}
@@ -283,6 +304,12 @@
   {Malkan}}{1992}]{AGNref}
 {Spinoglio} L.,  {Malkan} M.~A.,  1992, \mn@doi [\apj] {10.1086/171943}, \href
   {http://adsabs.harvard.edu/abs/1992ApJ...399..504S} {399, 504}
+
+\bibitem[\protect\citeauthoryear{{Spinoglio}, {Malkan}, {Rush}, {Carrasco}  \&
+  {Recillas-Cruz}}{{Spinoglio} et~al.}{1995}]{spinoglio95}
+{Spinoglio} L.,  {Malkan} M.~A.,  {Rush} B.,  {Carrasco} L.,   {Recillas-Cruz}
+  E.,  1995, \mn@doi [\apj] {10.1086/176425}, \href
+  {http://adsabs.harvard.edu/abs/1995ApJ...453..616S} {453, 616}
 
 \bibitem[\protect\citeauthoryear{{Spitzer Science Center}}{{Spitzer Science
   Center}}{2012}]{SpitzerDAC}

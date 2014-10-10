@@ -1,4 +1,4 @@
-\subsection{Dust properties of the nucleus}
+\subsection{Mid-infrared properties of the M31 nucleus}
 \label{sect:nucleus}
 
 \begin{figure}
@@ -7,17 +7,24 @@
 \label{fig:nuc_pahfit}
 \end{figure}
 
+The mid-infrared spectra of the M31 nucleus from both {\em Spitzer} and ISOCAM (Figure~\ref{ISOnIRS}) show similar characteristics: a blue
+continuum, PAH features weak or absent at 6--8~$\mu$m  but detectable at 11.3~$\mu$m, and detectable atomic fine structure lines.
+Figure~\ref{fig:nuc_pahfit} shows the PAHfir analysis of the nuclear spectrum 
+ {\bf need some further discussion  here.}
+ %
+%HS: I guess the nuclear spectrum is in your Figure 15 - why did you not try to fit it with PAHFIT too?  It looks to me like it has a weak 20um silicate bump too.
+% Why not include the nuclear region in Tables 2,3&4?  I did not understand the reason for leaving it off.  Also please add the limit for the [Ne V] detection - it might still be a useful ratio with [Ne II] and the PAH lines.  It looked to me like there was some hint of the H2 12.28um line in some regions.... maybe add that limit too, though I was surprised
 
-The extracted IRS spectrum of the M31 nuclear region (Figure~\ref{fig:nuc_pahfit})
-looks different from most of the other spectra, with
-a blue continuum, PAH features weak or absent at 6--8~$\mu$m  but detectable at 11.3~$\mu$m.
-{\bf NEED some further discussion of the nuclear spectrum in general here.}
-Figure \ref{nuc11} (top) shows the integrated intensity map of 11.3~$\mu$m emission around the nucleus. The majority of the 11.3~$\mu$m 
-emission is from a region 15\arcsec\ north of the nucleus and not from the nucleus itself. 
-On the other hand, the centre shows no PAH emission,  but it does have silicate emission around 9.7~$\mu$m, 
-which comes only from the nucleus and is not present in the North spectrum 
-(see Figure \ref{nuc11}, bottom panel).
-Both the 11.3~$\mu$m  and silicate emission sources are consistent with being unresolved point sources.
+
+To further examine the spatial variation of the mid-infrared emission near the M31 nucleus,
+Figure \ref{nuc11} (top) shows the integrated intensity map of 11.3~$\mu$m emission made from the data cube. 
+The majority of the 11.3~$\mu$m  emission is from a region 15\arcsec\ north of the nucleus and not from the nucleus itself. 
+On the other hand, the centre shows little PAH emission,  but it does have silicate emission around 9.7~$\mu$m, 
+which comes only from the nucleus and is not present in the North region  (see Figure \ref{nuc11}, bottom panel).%
+\footnote{The spatial resolution and pixel scale of the ISOCAM data are not sufficient to resolve these two regions.}
+Radial profiles of both the nuclear and north sources have full widths at half maximum (FWHM) of 5--7\arcsec
+depending on the wavelength, while the SL PSF FWHM is 2.5--3\arcsec; therefore both sources are
+marginally spatially resolved.  % need to say more about this?
 We extracted spectra from the centre and the North regions using  $9\arcsec \times 9\arcsec$ 
 square apertures as shown in Figure \ref{nuc11}. 
 
@@ -33,13 +40,6 @@ The centre of the nucleus is at R.A. $00^{\rm h}42^{\rm m}44\fs35$, Dec. $+41\de
 \label{nuc11}
 \end{figure}
 
-
-
-
-%
-%I guess the nuclear spectrum is in your Figure 15 - why did you not try to fit it with PAHFIT too?  It looks to me like it has a weak 20um silicate bump too.
-% Why not include the nuclear region in Tables 2,3&4?  I did not understand the reason for leaving it off.  Also please add the limit for the [Ne V] detection - it might still be a useful ratio with [Ne II] and the PAH lines.  It looked to me like there was some hint of the H2 12.28um line in some regions.... maybe add that limit too, though I was surprised
-
 \begin{figure*}
 \centering
 \includegraphics[height = 8 cm]{./SINGSspec.eps}
@@ -50,53 +50,75 @@ shown in Figure \ref{nuc11}.}
 \label{smithspec}
 \end{figure*}
 
-The mid-infrared spectra of the nucleus from both {\em Spitzer} and ISOCAM (Figure~\ref{ISOnIRS}) show similar characteristics: a blue
-continuum, PAH features weak or absent at 6--8~$\mu$m  but detectable at 11.3~$\mu$m, and detectable atomic fine structure lines.
-Comparing the M31 nuclear spectrum with the nuclear spectra from the SINGS sample given by \citet{Smith:2007lr}, we found
-six other galaxies with similar spectral shapes, including three elliptical galaxies, two spirals, and a lenticular.%
+% general comparison: M31 vs SINGS, M81
+Figure \ref{smithspec} compares the full 30\arcsec $\times$ 50\arcsec M31 nuclear spectrum with
+the North and central region spectra (inset, top and bottom). Also shown are nuclear spectra
+from six SINGS galaxies with similar spectral shapes \citep{Smith:2007lr}.% 
 \footnote{The IRS spectra for the SINGS galaxies were extracted over areas ranging from 2 to 8 kpc$^2$, whereas the M31
 nucleus spectrum covers a much smaller area (0.02~kpc$^2$).}
+The strong 11.3~$\mu$m peak  and weak 6--8~$\mu$m features are  seen  in the
+North spectrum, while a silicate emission feature is evident in the central spectrum.
+The SINGS galaxies share similar PAH feature characteristics to the M31 spectrum, although none
+contains obvious silicate emission. The nuclear spectrum of M81presented by \citet{Smith2010}
+shows both 11.3~$\mu$m  and silicate emission; in common with some of the SINGS galaxies,
+it also has strong atomic lines (e.g. [Ne {\sc ii}]~12.8~$\mu$m) not present in the M31 spectrum.
+
+
+% are these AGN and if so what kind?
+All of the comparison galaxies discussed above have some type of low-luminosity active galactic nucleus (LLAGN).
+The SINGS galaxies with similar spectral shapes include  three elliptical galaxies, two spirals, and a lenticular;
+there is some disagreement  \citep{kennicutt03,Smith:2007lr, moustakas2010} are in some disagreement over the
+exact nuclear spectral types of these six galaxies.  All are classified as some form of LLAGN
+such as Seyfert or LINER \citep[luminous AGNs were intentionally omitted from the SINGS sample;][]{kennicutt03}, although they are
+by no means the only LLAGNs in the SINGS sample.
 Published estimates of the black hole masses for these galaxies range from $1.5-5.5\times10^{8}$~M$_{\sun}$
 \citep[for NGC~1316 and NGC~4595, respectively]{nowak08, kormendy88}, or about $1-4\times$ that of M31.
-The SINGS papers \citep{kennicutt03,Smith:2007lr, moustakas2010} are in some disagreement over the
-exact nuclear spectral types of these six galaxies. All are classified as some form of low-luminosity AGN
-such as Seyfert or LINER \citep[luminous AGNs were intentionally omitted from the SINGS sample;][]{kennicutt03}, but they are
-by no means the only LLAGN in the SINGS sample.
-In contrast with the nuclear spectrum, the spectrum extracted from the North region (offset by 15\arcsec from the center; 
-Figure \ref{smithspec}, inset) shows a strong 11.3~$\mu$m peak 
-and no significant emission from 6--8~$\mu$m features. These characteristics are shared by
-the M81 nuclear spectrum presented by \citet{Smith2010}, although that spectrum has little stellar continuum and a very strong [Ne {\sc ii}]~12.8~$\mu$m line. 
+M81 is classified as a LINER, with a black hole mass of $7\times10^7$~M$_{\sun}$ \citep{devereux03}.
+\citet{Li09} concluded that the central black hole in M31 (M31*) is currently inactive, with direct observational signatures seen only
+at radio and X--ray wavelengths, so finding additional signatures in the mid-infrared is of great interest.
 
 
-As discussed by  \citet{Smith:2007lr} and \citet{Smith2010}, inferring the suppression of 6--8~$\mu$m PAH features compared
-to the 11.3~$\mu$m feature must be done with caution, because the 6--8~$\mu$m features are more susceptible to dilution by the stellar
-continuum. Such suppression could have several causes: destruction of small or charged PAH molecules by an AGN,
-or weak ultraviolet continuum indicating lack of star formation \citep{Smith:2007lr}. In the latter case, the AGN is not the cause of
-the suppressed  6--8~$\mu$m features but rather is only detected when the nuclear star formation rate is low.
-Low rates of star formation in the centre of M31 are consistent
-with previous work: although \citet{Melchior2013} found a significant amount of cold gas in the centre of the galaxy, this gas does not
-appear to be associated with current star formation. In modelling the far-infrared spectral energy distribution, \cite{Groves2012} found that  
+% PAH ratios: due to AGN?
+
+Could radiation from M31* be responsible for the suppression of the  6--8~$\mu$m PAH features compared
+to the 11.3~$\mu$m feature?
+As discussed by  \citet{Smith:2007lr} and \citet{Smith2010}, inferring such a suppression must be done with caution, 
+because the 6--8~$\mu$m features are more susceptible to dilution by the stellar continuum. 
+Several connections between PAH suppression and the presence of an AGN are possible, including destruction of small 
+or charged PAH molecules by a hard radiation field, or weak ultraviolet continuum from low star formation rates 
+leading to reduce PAH excitation \citep{Smith:2007lr}.  In the latter case, the AGN is not the cause of
+the suppressed  6--8~$\mu$m features but rather is only detectable when the nuclear star formation rate is low.
+Previous work has found low rates of star formation in the centre of M31: although \citet{Melchior2013} found a significant 
+amount of cold gas in the centre of the galaxy, this gas does not appear to be associated with current star formation \citep[see also][]{li09}.
+In modelling the far-infrared spectral energy distribution, \cite{Groves2012} found that  
 the old stellar population in the M31 bulge is sufficient  to heat the observed dust; no young stellar population is needed.
+We conclude that PAH feature ratios cannot provide direct evidence for radiation from M31*.
 
 
-Examining the spatial distribution of the mid-infrared emission in the M31 nuclear region provides additional clues
-to the nature of the emitting sources. Figure~\ref{nuc11} shows that most of the 11.3~$\mu$m comes from a region to the
-north of the nucleus, while the silicate emission (Figure~\ref{nuc11},  bottom) is centred on the nucleus itself.  
-Figure \ref{smithspec} compares the spectra extracted from these two regions. % need to say something about the figure!
-Silicate emission is not very common in
-integrated spectra of galaxies \citep{Spoon2007} but is seen in luminous quasar spectra \citep{Hill14} and, as mentioned above, in the
-spectrum of the M81 nucleus. We computed the linear slope parameter  defined by \citet{Smith2010},
-$\gamma810 =[F_{\nu}(10\mu{\rm m}) -F_{\nu}(8\mu{\rm m})]/2F_{\nu}(9\mu{\rm m}) $, for the M31 nucleus and
-found $\gamma810 =-0.08\pm 0.06$.  This is  to be completed % TBD
-
-Does detection of silicate emission in the M31 nuclear spectrum imply the detection of an active nucleus?
+% silicate emission: due to AGN?
+Detection of silicate emission in the M31 nuclear spectrum is another possible indicator of nuclear accretion.
+Silicate emission is not very common in integrated spectra of galaxies \citep{Spoon2007} but is seen in luminous 
+quasar spectra \citep{Hill14} and, as mentioned above, in the spectrum of the M81 nucleus. 
 In the unified model of AGNs, an obscuring torus viewed face-on would be expected to show silicate emission
 \citep{AGNtypes1995, AGNref}; however such a view would also be expected to show forbidden atomic lines such as [Ne~{\sc v}] and [S~{\sc iv}],
 not seen in the M31 spectrum. Alternatively, \citet{Mason2012} explained that low-luminosity AGNs cannot 
-host a Seyfert-like obscuring torus because of their optically thin dust and low dust-to-gas ratio but can show
-the silicate emission that originates in the optically thin hot dust around the torus.  The first detection of such silicate emission was 
+host a Seyfert-like obscuring torus because of their optically thin dust and low dust-to-gas ratio, but can show
+silicate emission that originates in the optically thin hot dust around the torus.  The first detection of such silicate emission was 
 reported by \citet{Sturm2005} from the low-ionization nuclear emission-line region (LINER) galaxy NGC~3998, and 
-\citealt{Mason2012}  observed that this 9.7~$\mu$m silicate emission is present in many LLAGNs. 
-The IRS spectrum of the M31 nucleus has a 12~$\mu$m flux  of XX; using the method described by \citet{luminosity}
-the  bolometric luminosity of the M31 nucleus is inferred to be (**value goes here**) erg~s$^{-1}$ .
- This value is close to that of other LLAGNs (**and consistent with the X--ray value?**)
+\citealt{Mason2012}  observed that  9.7~$\mu$m silicate emission is present in many LLAGNs. 
+To quantify the magnitude of the silicate emission in mid-infrared spectra, \citet{Smith2010} defined
+the linear slope parameter $\gamma810 =[F_{\nu}(10\mu{\rm m}) -F_{\nu}(8\mu{\rm m})]/2F_{\nu}(9\mu{\rm m})$,
+with positive values signifying silicate emission and negative values absorption. They found the M81 nucleus to have
+$\gamma810=0.37\pm0.04$. We computed values of $\gamma810 =-**\pm **$ for the integrated (30\arcsec $\times$ 50\arcsec)
+spectrum of the M31 nucleus and $\gamma810 =-**\pm **$ for the centre (9\arcsec $\times$ 9\arcsec) spectrum.
+Neither of these values would indicated strong silicate emission; however if we subtract a
+blackbody from the observed spectra, we measure  $\gamma810 =-**\pm **$ and  $\gamma810 =-**\pm **$ for
+the integrated and centre spectra respectively. ({\bf TBD}) This is a strong indication that silicate emission is detected
+from M31*.
+
+% if it is an AGN what is Lbol and how does this compare to BH mass?
+Finally, we can use the infrared spectrum to estimate the bolometric luminosity  of the M31 nucleus.
+As discussed by \citet{spinoglio95}, for both active and normal galaxies, the 12~$\mu$m luminosity 
+is about 7\% of the bolometric luminosity. For the centre spectrum, we measure a 12~$\mu$m flux density of 
+**~Jy, which corresponds to a 12~$\mu$m luminosity of $y \times10^{x}$ erg~s$^{-1}$ and a bolometric luminosity
+of  $y \times10^{x}$ erg~s$^{-1}$.  This value is close to that of other LLAGNs (**and consistent with the X--ray value?**)
