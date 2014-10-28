@@ -11,7 +11,7 @@ which comes only from the nucleus and is not present in the North region  (see F
 \footnote{The spatial resolution and pixel scale of the ISOCAM data are not sufficient to resolve these two regions.}
 Radial profiles of both the nuclear and north sources have full widths at half maximum (FWHM) of 5--7\arcsec\ 
 depending on the wavelength, while the SL PSF FWHM is 2.5--3\arcsec; therefore both sources are
-marginally spatially resolved.  % need to say more about this?
+marginally spatially resolved.  
 We extracted spectra from the centre and the North regions using  $9\arcsec \times 9\arcsec$ 
 square apertures as shown in Figure \ref{nuc11}. 
 
@@ -34,7 +34,10 @@ continuum, PAH features weak or absent at 6--8~$\mu$m  but detectable at 11.3~$\
 
 \begin{figure}
 \centering
-\caption{Here is where we show the centre spectrum in more detail.}
+\includegraphics[width = 8 cm]{./fig_sp_m31_nucleus.eps}
+\includegraphics[width = 8 cm]{./nuc_ctr_contsub.pdf}
+\caption{Top: PAHFit result for centre and north spectra (placeholder, to be improved).
+Bottom: continuum-subtracted centre spectrum.}
 \label{fig:nuc_detail}
 \end{figure}
 
@@ -73,6 +76,10 @@ Published estimates of the black hole masses for these galaxies range from $1.5-
 M81 is classified as a LINER, with a black hole mass of $7\times10^7$~M$_{\sun}$ \citep{devereux03}.
 \citet{Li09} concluded that the central black hole in M31 (M31*) is currently inactive, with direct observational signatures seen only
 at radio and X--ray wavelengths, so finding additional signatures in the mid-infrared is of great interest.
+To our knowledge, no such signatures have been reported; broadband mid-infrared imaging of the central 
+regions of M31 \citep{davidge06,Barmby2006lr} did not identify unambiguous nuclear emission. The bluest
+part of the spectrum in Figure~\ref{fig:nuc_detail} is dominated by the  continuum, in agreement with the
+expectation that stellar light dominates the nucleus at these wavelengths.
 
 
 Could radiation from M31* be responsible for the suppression of the  6--8~$\mu$m PAH features compared
@@ -84,7 +91,7 @@ or charged PAH molecules by a hard radiation field, or weak ultraviolet continuu
 leading to reduce PAH excitation \citep{Smith:2007lr}.  In the latter case, the AGN is not the cause of
 the suppressed  6--8~$\mu$m features but rather is only detectable when the nuclear star formation rate is low.
 Previous work has found low rates of star formation in the centre of M31: although \citet{Melchior2013} found a significant 
-amount of cold gas in the centre of the galaxy, this gas does not appear to be associated with current star formation \citep[see also][]{li09}.
+amount of cold gas in the centre of the galaxy, this gas does not appear to be associated with current star formation \citep[see also][]{Li09}.
 In modelling the far-infrared spectral energy distribution, \cite{Groves2012} found that  
 the old stellar population in the M31 bulge is sufficient  to heat the observed dust; no young stellar population is needed.
 We conclude that PAH feature ratios cannot provide direct evidence for radiation from M31*.
@@ -107,8 +114,9 @@ $\gamma810=0.37\pm0.04$. For the M31 centre (9\arcsec $\times$ 9\arcsec) spectru
 indicative of neither absorption nor emission. However, for the continuum-subtracted spectrum, we measured   $\gamma810 =1.6\pm 0.4$,
 a much stronger indication that silicate emission is detected from M31*.
 
+Measuring the radiated power from the M31 central engine can constrain the geometry and history of the emitting region. 
 As discussed by \citet{spinoglio95}, for both active and normal galaxies, the 12~$\mu$m luminosity 
-is about 7\% of the bolometric luminosity. With the important caveat that we are discussing only the M31 nucleus,
+is about 7\% of the bolometric luminosity. With the important caveat that we are discussing only the nucleus,
 and not the entire galaxy, we  can use the infrared spectrum to estimate the bolometric luminosity  of the M31 nucleus.
 For the centre spectrum, we measure a 12~$\mu$m flux density of 
 $0.062 \pm 0.002$~Jy, which corresponds to a 12~$\mu$m luminosity of $(1.13\pm0.03) \times10^{39}$ erg~s$^{-1}$ and a bolometric luminosity
@@ -116,5 +124,7 @@ of  $(1.62\pm0.01) \times10^{40}$ erg~s$^{-1}$ ($\log L_{\rm bol} = 40.21$).
 This value is well within the range defined for low-luminosity AGN \citep[$\log L_{\rm bol} <42$][]{Mason2012}, and
 implies an Eddington ratio $L_{\rm bol}/L_{\rm Edd} \sim 10^{-7}$ for a black hole mass of $10^8$~M$_{\sun}$. 
 Although the bolometric luminosity estimated from the mid-infrared is a factor of $10^3$ times the bolometric
-luminosity estimated from the X--ray flux by \citet{Li09}, we are in agreement that the M31 nucleus radiates extremely inefficiently.
+luminosity estimated from the X--ray flux by \citet{Li09}, it certainly agrees with the general conclusion that the M31 nucleus radiates extremely inefficiently.
+A high infrared-to-X--ray ratio could indicate that the nucleus was brighter in the recent past and is now cooling;
+detailed modeling of the nucleus would require better constraints on the spectral energy distribution and is hence beyond the scope of this work.
 
