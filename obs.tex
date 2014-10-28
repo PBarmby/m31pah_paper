@@ -21,7 +21,7 @@ their coordinates are given in Table~\ref{regions}. A background observation was
 along the minor axis for use in background subtraction from the data cubes.
 
 
-%SPW: As to tables, I'd consolidate 1, 2, and 5 into a single table.  Add rows as appropriate for "nucleus" and "north", and give their dimensions in a footnote.  
+
 \begin{table*}
  \centering
  \begin{minipage}{90mm}
@@ -74,16 +74,13 @@ Figure~\ref{slits} shows an example of the slit arrangement. For the brighter re
 while for the fainter regions, ramp times of 60 and 120 s were used respectively. Background observations were taken with each module (2 per ramp time). 
 Because all of the targets are in the same part of the sky, a common background observation was used for multiple targets to subtract the background emission. 
 
-% PB: for Dimuthu to do: remake figure to drop second black box
-% don't quite get what EP means here
-% EP We need to adapt this figure to the SL slits and SL footprint matches the SL cube.
-% SPW: wavelength of image?
 \begin{figure}
 \centering
 \includegraphics[scale=0.3]{./cubeslits.eps}
-\caption{SL1 data cube from the nucleus showing the arrangement of slits used to cover the region. 
-A black box outlines the footprint of the short-low maps and the green box outlines the LL2. Blue and red slits show how 
-each map was covered using overlapping slit positions.
+\caption{The 7.6~$\mu$m plane constructed from the SL1 data cube of the nucleus, showing the arrangement of slits used to cover the region. 
+Black boxes outline the footprint of the SL1 maps (the off-center SL1 map is from observations made
+when SL2 was centred) and the green box outlines the LL2 map. 
+Blue and red slits show how  each map was covered using overlapping slit positions.
 \label{slits}
 }
 \end{figure}
@@ -109,11 +106,11 @@ adding a constant  to the SL2 spectra so that they matched the SL1 average,
 and averaging the SL1 $+$ shifted SL2 spectra over the overlap region.
 After this procedure there was still a noticeable mis-match between the SL and LL spectra. We addressed this
 by scaling the SL spectra to match IRAC 8~$\mu$m fluxes as follows. IRAC fluxes were measured
-on the 8~$\mu$m image \citep{Barmby2006lr} in the same apertures used to extract the IRS spectra
-and the extended source  aperture correction of 0.824 applied.
-Uncertainties on these measurements were estimated as the standard deviation of the measured
-IRAC flux in a similarly-sized region off the disk of the galaxy ($00^{\rmn{h}}48^{\rmn{m}}58\fs0, +42\degr14\arcmin54\farcs0$). 
-%SPW: not clear on this sentence
+on the 8~$\mu$m image \citep{Barmby2006lr} in the same apertures used to extract the IRS spectra.
+The extended source  aperture correction of 0.824 was applied to the IRAC fluxes.
+The standard deviation of the IRAC flux in a region similar in size but off the disk of the galaxy 
+($00^{\rmn{h}}48^{\rmn{m}}58\fs0, +42\degr14\arcmin54\farcs0$) was used to estimate the
+IRAC photometric uncertainties.
 The {\em Spitzer} synthetic photometry software \citep{SpitzerDAC} 
 was then used to quantify the colour correction for each spectrum, i.e. the
 multiplicative factor $K$ between the IRAC photometry over its broad bandpass and the IRS flux
@@ -125,16 +122,18 @@ The non-zero intercept of this fit suggested that an additive offset was more ap
 spectra than a multiplicative one; this method was also used by \citet{Sandstrom12}.
 Therefore we scaled each SL spectrum by an offset 
 \begin{equation}
-x = F_{\rm IRAC8}/K -   F_{\rm IRS8}. % SPW question
+x = F_{\rm IRAC8}/K -   F_{\rm IRS8}
 \label{eq:offset}
 \end{equation}
+where the individual offsets are given in Table~\ref{colourK}.
 The scaled SL spectra were much better matched to the LL spectra, and the final combination
 of SL and LL was done using the average-and-offset procedure described above for SL1 and SL2.
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.25]{./offset.eps}
-\caption{ Intensity of the aperture corrected IRAC 8~$\mu$m image vs that of the colour corrected IRS spectra at 8~$\mu$m  obtained using the same aperture for our regions in M31. The straight line is the line of best fit. }
+\caption{Intensity of the aperture corrected IRAC 8~$\mu$m image versus that of the colour-corrected IRS spectra at 8~$\mu$m  
+obtained using the same aperture for our regions in M31. The straight line is the line of best fit. }
 \label{offset}
 \end{figure}
 
