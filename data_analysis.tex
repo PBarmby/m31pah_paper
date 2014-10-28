@@ -80,7 +80,7 @@ be fit correctly.
 %SPW:Last sentence of Sec 3.2 also needs to move.
 % to be edited once EP has finished 
 The spectrum of the nucleus shows silicate emission (see Section~\ref{sect:nucleus}), which is not included in PAHFIT;  
-consequently PAHFIT was unable to sucessfully fit the other spectral features in this spectrum.
+consequently PAHFIT was unable to sucessfuly fit the other spectral features in this spectrum.
 
 \begin{table*}
  \centering
@@ -89,20 +89,17 @@ consequently PAHFIT was unable to sucessfully fit the other spectral features in
 {\scriptsize
   \begin{tabular}{l c c  c  c  c  c  c  c  c  c c }
 \hline
-    {Region }&{5.7 $\mu$m  }&{6.2 $\mu$m  }&{7.7 $\mu$m  }&{8.3 $\mu$m  }&{8.6 $\mu$m  }&{10.7 $\mu$m  }&{11.3 $\mu$m  }&{12.0 $\mu$m  }&{12.7 $\mu$m  }&{17.0 $\mu$m  } \\
+    {Region }&{5.7 $\mu$m  }&{6.2 $\mu$m  }&{7.7 $\mu$m$^b$  }&{8.3 $\mu$m  }&{8.6 $\mu$m  }&{10.7 $\mu$m  }&{11.3 $\mu$m$^b$  }&{12.0 $\mu$m  }&{12.7 $\mu$m$^b$  }&{17.0 $\mu$m$^b$  } \\
  \hline
   \input{m31_pah_str_new}
  \hline
  \label{PAHlinetable}
 \end{tabular}\\
-{$^a$Units are 10$^{-15}$~W~m$^{-2}$.}
+{$^a$Units are 10$^{-15}$~W~m$^{-2}$.\\
+$^b$PAH complexes, as described in text.}
 }
 \end{minipage}
 \end{table*}
-
-
-
-
 
 
 
@@ -114,14 +111,15 @@ consequently PAHFIT was unable to sucessfully fit the other spectral features in
  {\scriptsize
   \begin{tabular}{l c c  c  c  c  c  c  c  c  c c }
   \hline 
-  {Region }&{5.7 $\mu$m  }&{6.2 $\mu$m  }&{7.7 $\mu$m  }&{8.3 $\mu$m  }&{8.6 $\mu$m  }&{10.7 $\mu$m  }&{11.3 $\mu$m  }&{12.0 $\mu$m  }&{12.7 $\mu$m  }&{17.0 $\mu$m  } \\
+     {Region }&{5.7 $\mu$m  }&{6.2 $\mu$m  }&{7.7 $\mu$m$^b$  }&{8.3 $\mu$m  }&{8.6 $\mu$m  }&{10.7 $\mu$m  }&{11.3 $\mu$m$^b$  }&{12.0 $\mu$m  }&{12.7 $\mu$m$^b$  }&{17.0 $\mu$m$^b$  } \\
  \hline
  \input{m31_pah_eqw_new}
  \hline
  \label{EQW}
 \end{tabular}\\
-{$^a$Units are $\mu$m. 
-$^b$Continuum for these regions is very weak.  Equivalent widths are highly uncertain and not considered in the analysis (see Section~\ref{sect:data_analysis}).}
+{$^a$Units are $\mu$m.\\
+$^b$PAH complexes, as described in text.\\
+Continuum for Regions 3 and 9 is very weak.  Equivalent widths are highly uncertain and not considered in the analysis (see Section~\ref{sect:data_analysis}).}
 }
 \end{minipage}
 \end{table*}
@@ -132,6 +130,8 @@ $^b$Continuum for these regions is very weak.  Equivalent widths are highly unce
 \label{sect:pah}
 
 PAHFIT returns fluxes and equivalent widths (EQWs) of PAH features, which are given in Tables~\ref{PAHlinetable} and \ref{EQW}. 
+For easier comparison with previous work, the tables give measurements for the 7.7, 11.3, 12.7 and 17.0~$\mu$m PAH complexes
+as defined by \citet{Smith:2007lr}, as computed from the individual constituent features measured by PAHFIT.
 The intensities of the features do not include any contribution from the continuum, but the equivalent width computed by
 \begin{equation}
 {\rm EQW}=\int \frac{I_{\nu,{\rm feature}}}{I_{\nu, {\rm cont}}} \,d\lambda,
