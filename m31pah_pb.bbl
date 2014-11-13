@@ -87,6 +87,12 @@
   {10.1086/367595}, \href {http://cdsads.u-strasbg.fr/abs/2003AJ....125.1226D}
   {125, 1226}
 
+\bibitem[\protect\citeauthoryear{{Diamond-Stanic} \& {Rieke}}{{Diamond-Stanic}
+  \& {Rieke}}{2010}]{Diamond2010}
+{Diamond-Stanic} A.~M.,  {Rieke} G.~H.,  2010, \mn@doi [\apj]
+  {10.1088/0004-637X/724/1/140}, \href
+  {http://adsabs.harvard.edu/abs/2010ApJ...724..140D} {724, 140}
+
 \bibitem[\protect\citeauthoryear{{Efstathiou} \& {Rowan-Robinson}}{{Efstathiou}
   \& {Rowan-Robinson}}{1995}]{AGNtypes1995}
 {Efstathiou} A.,  {Rowan-Robinson} M.,  1995, \mnras, \href
@@ -244,6 +250,11 @@
   {10.1051/0004-6361:20065216}, \href
   {http://adsabs.harvard.edu/abs/2006A%26A...459...85N} {459, 85}
 
+\bibitem[\protect\citeauthoryear{{Netzer} et~al.,}{{Netzer}
+  et~al.}{2007}]{Netzer2007}
+{Netzer} H.,  et~al., 2007, \mn@doi [\apj] {10.1086/520716}, \href
+  {http://adsabs.harvard.edu/abs/2007ApJ...666..806N} {666, 806}
+
 \bibitem[\protect\citeauthoryear{{Nowak}, {Saglia}, {Thomas}, {Bender},
   {Davies}  \& {Gebhardt}}{{Nowak} et~al.}{2008}]{nowak08}
 {Nowak} N.,  {Saglia} R.~P.,  {Thomas} J.,  {Bender} R.,  {Davies} R.~I.,
@@ -335,6 +346,11 @@ SSC, Pasadena, CA
   et~al.}{2005}]{Sturm2005}
 {Sturm} E.,  et~al., 2005, \mn@doi [\apjl] {10.1086/444359}, \href
   {http://adsabs.harvard.edu/abs/2005ApJ...629L..21S} {629, L21}
+
+\bibitem[\protect\citeauthoryear{{Sturm} et~al.,}{{Sturm}
+  et~al.}{2006}]{Sturm2006}
+{Sturm} E.,  et~al., 2006, \mn@doi [\apjl] {10.1086/510381}, \href
+  {http://adsabs.harvard.edu/abs/2006ApJ...653L..13S} {653, L13}
 
 \bibitem[\protect\citeauthoryear{{Tielens}}{{Tielens}}{2008}]{Tielens2008}
 {Tielens} A.~G.~G.~M.,  2008, \mn@doi [\araa]
