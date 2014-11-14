@@ -70,6 +70,11 @@
   {Sauvage} M.,  1998, \aap, \href
   {http://adsabs.harvard.edu/abs/1998A%26A...337L..35C} {337, L35}
 
+\bibitem[\protect\citeauthoryear{{Chiar} \& {Tielens}}{{Chiar} \&
+  {Tielens}}{2006}]{Chiar2006}
+{Chiar} J.~E.,  {Tielens} A.~G.~G.~M.,  2006, \mn@doi [\apj] {10.1086/498406},
+  \href {http://adsabs.harvard.edu/abs/2006ApJ...637..774C} {637, 774}
+
 \bibitem[\protect\citeauthoryear{{Croley}, {Barmby}, {Stock}, {Azimlu}  \&
   {Rosolowsky}}{{Croley} et~al.}{2014}]{Mitchel2014}
 {Croley} M.,  {Barmby} P.,  {Stock} D.,  {Azimlu} M.,   {Rosolowsky} E.,  2014,
@@ -148,6 +153,10 @@
 {Groves} B.,  et~al., 2012, \mn@doi [\mnras]
   {10.1111/j.1365-2966.2012.21696.x}, \href
   {http://adsabs.harvard.edu/abs/2012MNRAS.426..892G} {426, 892}
+
+\bibitem[\protect\citeauthoryear{{Hao} et~al.,}{{Hao} et~al.}{2005}]{Hao2005}
+{Hao} L.,  et~al., 2005, \mn@doi [\apjl] {10.1086/431227}, \href
+  {http://adsabs.harvard.edu/abs/2005ApJ...625L..75H} {625, L75}
 
 \bibitem[\protect\citeauthoryear{{Hill}, {Gallagher}, {Deo}, {Peeters}  \&
   {Richards}}{{Hill} et~al.}{2014}]{Hill14}
