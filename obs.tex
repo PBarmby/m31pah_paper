@@ -111,33 +111,30 @@ The spectrum of NGC 206 is very noisy and was removed from our analysis.
 
 There is wavelength overlap between the SL1 and SL2 spectra and also between the SL1 and LL2 spectra.
 To generate a single spectrum for each M31 region it is necessary to combine the spectra and
-account for photometric offsets between them. We first combined the extracted SL1 and SL2 
-spectra by computing the average flux densities over the wavelength overlap region ($7.5 < \lambda< 7.6\mu$m),
+account for photometric offsets between them. Such offsets are commonly seen in IRS spectra extracted
+from extended regions, since the slit loss is not well-characterized (Els please check this sentence).
+The SL1 and SL2 flux densities were
+generally quite well-matched over the wavelength overlap region ($7.5 < \lambda< 7.6\mu$m); in cases
+where they were not, we derived a constant offset by matching SL1 to SL3 and then SL1+3 to SL2
+(Dimuthu please check this sentence). We  combined the extracted SL1 and SL2 
+spectra by computing the average flux densities over the  overlap region,
 adding a constant  to the SL2 spectra so that they matched the SL1 average,
 and averaging the SL1 $+$ shifted SL2 spectra over the overlap region.
 After this procedure there was still a noticeable mis-match between the SL and LL spectra. We addressed this
 by scaling the SL spectra to match IRAC 8~$\mu$m fluxes as follows. IRAC fluxes were measured
 on the 8~$\mu$m image \citep{Barmby2006lr} in the same apertures used to extract the IRS spectra.
-The extended source  aperture correction of 0.824 was applied to the IRAC fluxes.
-The standard deviation of the IRAC flux in a region similar in size but off the disk of the galaxy 
-($00^{\rmn{h}}48^{\rmn{m}}58\fs0, +42\degr14\arcmin54\farcs0$) was used to estimate the
-IRAC photometric uncertainties.
+An extended source  aperture correction of 0.824 was applied to the IRAC fluxes; this value was computed 
+using the formula in the IRAC Data Handbook \citep{} with
+the radius of a circular aperture having the same area as the extraction aperture.
 The {\em Spitzer} synthetic photometry software \citep{SpitzerDAC} 
 was then used to quantify the colour correction for each spectrum, i.e. the
 multiplicative factor $K$ between the IRAC photometry over its broad bandpass and the IRS flux
-density at the centre of the bandpass. The IRAC photometry, IRS flux density, and colour corrections 
-for each region are given in Table~\ref{colourK}. Plotting the IRS  and colour-corrected IRAC measurements
-(Figure~\ref{offset}) and fitting a straight line weighted by the uncertainties, we found that the best-fit relation 
-between the measurements had a slope of $0.81\pm0.08$  and intercept of $-0.05\pm0.06$. 
-The non-zero intercept of this fit suggested that an additive offset was more appropriate for combining SL and LL
-spectra than a multiplicative one; this method was also used by \citet{Sandstrom12}.
-Therefore we scaled each SL spectrum by an offset 
-\begin{equation}
-x = F_{\rm IRAC8}/K -   F_{\rm IRS8}
-\label{eq:offset}
-\end{equation}
-where the individual offsets are given in Table~\ref{colourK}.
-The scaled SL spectra were much better matched to the LL spectra, and the final combination
+density at the centre of the bandpass.  For each spectrum we computed the additive
+offset between the color-corrected IRS flux density and the IRAC aperture-corrected flux density,
+and used this to correct the SL spectra; this method was also used by \citet{Sandstrom12}.
+Although a multiplicative offset could also have been used to match the IRS photometry to IRAC,
+the resulting change in spectral slope increased the size of the SL/LL offset.
+The SL spectra corrected with additive offsets were closely-matched to the LL spectra, and the final combination
 of SL and LL was done using the average-and-offset procedure described above for SL1 and SL2.
 
 \begin{figure}
