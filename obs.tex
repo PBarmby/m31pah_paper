@@ -113,14 +113,15 @@ The spectrum of NGC 206 is very noisy and was removed from our analysis.
 There is wavelength overlap between the SL1 and SL2 spectra and also between the SL1 and LL2 spectra.
 To generate a single spectrum for each M31 region it is necessary to combine the spectra and
 account for photometric offsets between them. Such offsets are commonly seen in IRS spectra extracted
-from extended regions, since the slit loss is not well-characterized (Els please check this sentence).
+from extended regions, since the slit loss is not well-characterized (**Els please check this sentence**).
 The SL1 and SL2 flux densities were
-generally quite well-matched over the wavelength overlap region ($7.5 < \lambda< 7.6\mu$m); in cases
-where they were not, we derived a constant offset by matching SL1 to SL3 and then SL1+3 to SL2
-(Dimuthu please check this sentence). We  combined the extracted SL1 and SL2 
-spectra by computing the average flux densities over the  overlap region,
-adding a constant  to the SL2 spectra so that they matched the SL1 average,
-and averaging the SL1 $+$ shifted SL2 spectra over the overlap region.
+generally quite well-matched over the wavelength overlap region ($7.5 < \lambda< 7.6\mu$m)
+and those two orders were combined by averaging fluxes over the  overlap region.
+In cases with offsets between SL1 and SL2, we determined the flux offset by comparing  SL1 to the `bonus order SL3' 
+and then SL1+3 to SL2. We  combined the extracted SL1 and SL3 
+spectra by computing the average flux densities over the  overlap region and
+adding a constant  to the SL1 spectra so that they matched the SL3 average. The SL1 and SL2 orders
+were then combined as described above.
 After this procedure there was still a noticeable mis-match between the SL and LL spectra. We addressed this
 by scaling the SL spectra to match IRAC 8~$\mu$m fluxes as follows. IRAC fluxes were measured
 on the 8~$\mu$m image \citep{Barmby2006lr} in the same apertures used to extract the IRS spectra.
@@ -136,47 +137,8 @@ and used this to correct the SL spectra; this method was also used by \citet{San
 Although a multiplicative offset could also have been used to match the IRS photometry to IRAC,
 the resulting change in spectral slope increased the size of the SL/LL offset.
 The SL spectra corrected with additive offsets were closely-matched to the LL spectra, and the final combination
-of SL and LL was done using the average-and-offset procedure described above for SL1 and SL2.
+of SL and LL was done using the average-and-offset procedure described above for SL1 and SL3.
 
-\begin{figure}
-\centering
-\includegraphics[scale=0.25]{./fig4.eps}
-\caption{Intensity of the aperture corrected IRAC 8~$\mu$m image versus that of the colour-corrected IRS spectra at 8~$\mu$m  
-obtained using the same aperture for our regions in M31. The straight line is the line of best fit. }
-\label{offset}
-\end{figure}
-
-
-\begin{table}
- \centering
- \begin{minipage}{100mm}
-\caption{Matched aperture photometry}
-  \begin{tabular}{lcccc}
-  \hline{Name}&{IRS$^{a}$}&{IRAC$^{b}$}&{$K^{\rm c}$}&{Offset $x^d$} \\ 
-{} & { MJy~sr$^{-1}$} & { MJy~sr$^{-1}$} & &  MJy~sr$^{-1}$
-   \\
- \hline
- Region 1 & 1.8505 & 1.3923 & 0.532 & 0.3061
- \\ Region 2  & 1.8238 & 1.3731 & 0.555 & 0.2148
- \\ Region 3 & 0.7192 & 0.9689 & 0.767 & 0.3218
- \\ Region 4 & 1.1431 & 0.8513 & 0.589 & 0.0407
- \\  Region 5 & 0.6787 & 0.8088 & 0.773 & 0.1834
- \\  Region 6  & 0.6399 & 0.7656 & 0.927 & 0.0479
- \\  Region 7  & 1.1538 & 0.8243 & 0.526 & 0.1380
- \\ Region 8 & 0.5556 & 0.7135 & 0.877 & 0.1148
- \\  Region 9 & 1.9413 & 1.6562 & 0.606 & 0.3107 
- \\ Bulge & 2.6956 & 2.5473 & 0.532 & 1.2425\\
-\hline
- \label{colourK}
-\end{tabular}\\
- {$^{\rm a}$Specific intensity measured at 8.00~$\mu$m, no colour correction.\\
- $^{\rm b}$Specific intensity measured over the IRAC 8~$\mu$m bandpass,\\ no extended source correction.\\
-$^{\rm c}$Colour correction factor computed from IRS spectrum.\\
- $^{\rm d}$Computed offset between IRAC and IRS as defined in~Eq.~\ref{eq:offset}. }
-\end{minipage}
-\end{table}
-
-	
 
 
 \subsection{ISOCAM Data Reduction}
