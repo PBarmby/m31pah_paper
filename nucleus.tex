@@ -1,26 +1,26 @@
-% REF:
-%Sect 4.4:
-%In this section you discuss the silicate emission and the apparently overly strong 11.2 PAH emission. If this part is maintained it should probably be an separate section rather than a subsection.
-
 \label{sect:nucleus}
 
 
-Examining the {\em Spitzer}-IRS spectral data cube for the nuclear region, we noticed that different spectral features vary spatially in the near-nuclear region.
-The 11.2~$\mu$m PAH emission is discrete and patchy (Figure \ref{nuc11} (top)).  Indeed, the majority of the 11.2~$\mu$m  PAH emission is from a region 15\arcsec\ north of the nucleus (
-00:42:43.947, +41:16:22.92) and not from the nucleus itself. Weaker 11.2~$\mu$m PAH emission is also found near the edge of the map peaking at (0:42:45.497, +41:15:43.97) and near (0:42:45.869;+41:16:11.38).
-On the other hand, the centre shows no PAH emission, but it does have silicate emission around 9.7~$\mu$m, which comes only from the nucleus and is not present in the North region (Figure \ref{nuc11} (middle)).%
-\footnote{The spatial resolution and pixel scale of the ISOCAM data are not sufficient to resolve these two regions.}
-Finally, the spatial morphology of the [NeIII] 15.5~$\mu$m line emission is present across the nuclear region and thus distinct from that of the silicate and PAH emission (Figure \ref{nuc11} (bottom)). However, the [NeIII] 15.5~$\mu$m line emission is strong at the three locations with 11.2~$\mu$m PAH emission and weak(er) at the nucleus. The locations of the two weaker 11.2~$\mu$m PAH emission peaks are also near positions exhibiting CO(2-1) line emission \citep[\#36 and 28 of][the strongest 11.2~$\mu$m PAH emission peak is outside the CO FOV]{Melchior2013}. 
-Radial profiles of both the nuclear and north sources have full widths at half maximum (FWHM) of 5--7\arcsec\ 
-depending on the wavelength (corresponding to 19--27pc), while the SL PSF FWHM is 2.5--3\arcsec; therefore both sources are marginally spatially resolved.  
-We extracted spectra from the centre and the North regions using  $9\arcsec \times 9\arcsec$ 
+Examining the {\em Spitzer}-IRS spectral data cube for the nuclear region, we noticed that different spectral features vary spatially within this region.
+The 11.2~$\mu$m PAH emission is discrete and patchy (Figure \ref{nuc11}a).  
+Indeed, the majority of the 11.2~$\mu$m  PAH emission is from a region 15\arcsec\ north of the nucleus (00:42:43.947, +41:16:22.92) and not from 
+the nucleus itself. Weaker 11.2~$\mu$m PAH emission is also found near the edge of the map peaking at 00:42:45.497, +41:15:43.97 and near 00:42:45.869; +41:16:11.38.
+The locations of the two weaker 11.2~$\mu$m PAH emission peaks are also near positions exhibiting CO(2-1) line emission \citep[\#36 and 28 of][the strongest 11.2~$\mu$m PAH emission peak is outside the CO FOV]{Melchior2013}. 
+On the other hand, the centre shows no PAH emission, but it does have silicate emission around 9.7~$\mu$m, which comes only from the nucleus and is not present in the North region (Figure \ref{nuc11}b).%
+\footnote{The spatial resolution and pixel scale of the ISOCAM data are not sufficient to resolve the centre  and north regions.}
+Although [NeIII] 15.5~$\mu$m line emission is strong at the three locations with 11.2~$\mu$m PAH emission and weak(er) at the nucleus, 
+it is also present across the nuclear region and thus distinct from that of the silicate and PAH emission. 
+
+Some structures  seen in the optical near the M31 nucleus, such as the double nucleus and cluster of young stars, cannot be resolved with the data discussed here.
+The IRS spectral cubes have pixel sizes of 1\farcs8, and the SL PSF FWHM is 2.5--3\arcsec depending on the wavelength,
+while the two components of the nucleus are separated by only 0\farcs5 \citep{Bender2005}.
+However, the nuclear silicate emission and the north 11.2~$\mu$m  PAH emission appear to be 
+marginally spatially resolved: 
+their radial profiles have full widths at half maximum (FWHM) of 5--7\arcsec\ (corresponding to 19--27pc).
+To examine the two regions in more detail, 
+we extracted spectra from the centre and the North regions using  $9\arcsec \times 9\arcsec$ 
 square apertures as shown in Figures~\ref{fig:nuc_pahfit}, ~\ref{fig:nuc_silicates} and~\ref{smithspec}. 
 Both spectra show a blue continuum and atomic fine-structure lines but they exhibit distinct dust emission consistent with the spatial maps: PAH emission is detected in the north spectrum while silicate emission is seen towards the nucleus. 
-
-% REF:
-%Fig 13:
-%It is difficult to get a good feeling for what we are looking at. I had to get HST images and run Aladin to understand what might be what in this region. It would help the reader a lot if you would make the first two panels much larger and omit the second and annotate the maps much more. Where is the double nucleus? Where is the cluster of A-stars? Is there a position for an X-ray source?
-
 
 \begin{figure}
 \centering
@@ -124,34 +124,4 @@ the linear slope parameter $\gamma810 =[F_{\nu}(10\mu{\rm m}) -F_{\nu}(8\mu{\rm 
 with positive values signifying silicate emission and negative values absorption. They found the M81 nucleus to have
 $\gamma810=0.37\pm0.04$. For the M31 centre (9\arcsec $\times$ 9\arcsec) spectrum, we computed  $\gamma810 =0.01\pm 0.03$,
 indicative of neither absorption nor emission. However, for the continuum-subtracted spectrum, we measured   $\gamma810 =1.6\pm 0.4$. This combined with the similar characteristics of the silicate profile in M31 and M81, gives a much stronger indication that silicate emission is detected from M31*.
-
-% REF:
-%The last paragraph of S4.4 is too speculative and should be removed, for the following reasons:
-%
-%1) The spectral shapes of the galaxies that were used in Spinoglio et al 1995 to calibrate this relation, has nothing to do with the shape of the nuclear spectrum you analyse here.
-%
-%I have published the spectrum of a galaxy whose emission is completely dominated by AGN activity (Hony et al 2011), much more like your central region and I calculate that the L_12/L_bol is about 30 per cent.
-%
-%2) Since you do not discuss the origin of the continuum, it is hard to understand how the 12um flux maps onto integrated galaxies luminosity. This cannot be the same mapping if the continuum is stellar in origin or AGN-torus.
-%
-%3) To use this equation you have to convolve your spectrum with the IRAS 12 filter to obtain a IRAS 12 flux density.
-%
-%4) There are Herschel data that can be used to do a direct integration rather than relying on this formula.
-%
-%5) Given the above caveats, the conclusion that the nucleus is IR to X-ray bright is pure speculation which is used to further speculate that the nucleus was brighter in the past.
-
-
-Measuring the radiated power from the M31 central engine can constrain the geometry and history of the emitting region. 
-As discussed by \citet{spinoglio95}, for both active and normal galaxies, the 12~$\mu$m luminosity 
-is about 7\% of the bolometric luminosity. With the important caveat that we are discussing only the nucleus,
-and not the entire galaxy, we  can use the infrared spectrum to estimate the bolometric luminosity  of the M31 nucleus.
-For the centre spectrum, we measure a 12~$\mu$m flux density of 
-$0.062 \pm 0.002$~Jy, which corresponds to a 12~$\mu$m luminosity of $(1.13\pm0.03) \times10^{39}$ erg~s$^{-1}$ and a bolometric luminosity
-of  $(1.62\pm0.01) \times10^{40}$ erg~s$^{-1}$ ($\log L_{\rm bol} = 40.21$). 
-This value is well within the range defined for low-luminosity AGN \citep[$\log L_{\rm bol} <42$,][]{Mason2012}, and
-implies an Eddington ratio $L_{\rm bol}/L_{\rm Edd} \sim 10^{-7}$ for a black hole mass of $10^8$~M$_{\sun}$. 
-Although the bolometric luminosity estimated from the mid-infrared is a factor of $10^3$ times the bolometric
-luminosity estimated from the X--ray flux by \citet{Li09}, it certainly agrees with the general conclusion that the M31 nucleus radiates extremely inefficiently.
-A high infrared-to-X--ray ratio could indicate that the nucleus was brighter in the recent past and is now cooling;
-detailed modeling of the nucleus would require better constraints on the spectral energy distribution and is hence beyond the scope of this work.
 
