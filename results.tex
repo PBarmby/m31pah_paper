@@ -3,7 +3,7 @@
 %We have also examined the strength of the PAH emission bands -- EQW_8 vs RHI and the EQW of 7.7 and 11.2 vs RHI and metallicity -- with published values (refs). Within the uncertainties and given the limited number of regions we study, we conclude that the EQWs of the regions in M31 are consistent with previously published ``normal'' values.
 
 
-\subsection{PAH intensities}
+\subsection{PAH band ratios}
 \label{sect:pah_ratios}
 
 Both the 6.2 and 7.7~$\mu$m features are thought to be coming from ionized PAHs and the 11.3~$\mu$m feature from neutral PAHs. Therefore we expect to see a correlation between the intensities of 6.2 and 7.7~$\mu$m PAH features normalized by the 11.3~$\mu$m feature.  Figure \ref{PAHlines}  compares the PAH flux ratios of 7.7/11.3  and 6.2/11.3 features. The figure shows a good correlation between these two PAH line ratios, consistent with that of the SINGS sample shown by \citet{Smith:2007lr}.
@@ -27,10 +27,27 @@ Open squares represent the central regions of nearby galaxies as observed in the
 %However, for the interpretation of the data in fig 10-12 the absolute scale should not be removed. In doing this normalisation you have forced the mean Y-value of the blue and the open symbols to be 1 (log=0) and so it is unsurprising that these two samples clutter the same part of the diagram. I do not think one can conclude from this that similar PAH emission strengths are seen in M31 as in those other regions. Of course, it can still be that they also match in absolute value but it has not yet been demonstrated in the current manuscript.
 
 
-\subsection{PAH equivalent widths versus radiation hardness}
+\subsection{PAH equivalent widths versus radiation hardness and metallicity}
 \label{sect:eqw_rh}
 
+% needs to be rewritten
+As mentioned in the introduction, PAH equivalent widths tend to decrease as radiation hardness increases,
+and as metallicity decreases \citep{Calzetti:2010fk}.  This has been observed amongst different galaxies \citep{Engelbracht_2008} 
+as well as within a single galaxy \citep{Gordon:2008lr}. 
+The equivalent widths of the M31 PAH features are compared with RHI in Figures~\ref{englII} and \ref{gordII}.
+For reference, we also show the starburst sample of \citet{Engelbracht_2008} 
+and the seven H~{\sc ii} regions in M101 observed by \citet{Gordon:2008lr}.
+To make a direct comparison with the M101 sample, we normalized the M31 EQWs in Figure~\ref{gordII} using the same procedure
+as \citet{Gordon:2008lr}, dividing each EQW by the  weighted average over all regions in the respective samples. 
+The equivalent widths seem to be decreasing with increasing radiation hardness, consistent with previous results. 
+This also helps to confirm that the PAH emission in M31 is not unusual. 
 
+
+% ref:
+%We have also examined the strength of the PAH emission bands -- EQW_8 vs RHI and the EQW of 7.7 and 11.2 vs RHI and metallicity -- with published values (refs). Within the uncertainties and given the limited number of regions we study, we conclude that the EQWs of the regions in M31 are consistent with previously published ``normal'' values.
+
+
+% combine following figures
 \begin{figure}
 \centering
 \includegraphics[scale=0.25]{./fig10.eps}
@@ -53,29 +70,7 @@ Triangles represent $3\sigma$ upper and lower limits.}
 \label{gordII}
 \end{figure}
 
-
-As mentioned in the introduction, PAH equivalent widths tend to show an inverse correlation with radiation hardness. 
-The equivalent widths of the M31 PAH features are compared with RHI in Figures~\ref{englII} and \ref{gordII}.
-For reference, we also show the starburst sample of \citet{Engelbracht_2008} 
-and the seven H~{\sc ii} regions in M101 observed by \citet{Gordon:2008lr}.
-To make a direct comparison with the M101 sample, we normalized the M31 EQWs in Figure~\ref{gordII} using the same procedure
-as \citet{Gordon:2008lr}, dividing each EQW by the  weighted average over all regions in the respective samples. 
-The equivalent widths seem to be decreasing with increasing radiation hardness, consistent with previous results. 
-This also helps to confirm that the PAH emission in M31 is not unusual. 
-
-
-\subsection{PAH equivalent widths versus metallicity}
-\label{sect:eqw_met}
-
-Many studies based on ISO and {\em Spitzer} observations have reported that PAH intensity decreases with decreasing metallicity \citep{Calzetti:2010fk}. 
-In addition, these studies also report a sudden drop of EQWs of PAHs around $12+\log{\rm (O/H)} \approx 8.1$. 
-This has been observed amongst different galaxies \citep{Engelbracht_2008} as well as within a single galaxy \citep{Gordon:2008lr}. 
- It is well known that there are systematic differences between different 
- methods used to measure metallicities, and those in the sample of \citet{Engelbracht_2008} 
- were obtained by the direct electron temperature method  \citep{Skillman1998}.
-\citet{Mitchel2014} calculated the offset between direct and strong-line measurements for M31 H~{\sc ii} regions to be 
-$0.35\pm0.10$ and we correct for this in Figure~\ref{metalicityVseqw}.
-
+% needs to be rewritten
 \begin{figure}
 \centering
 \includegraphics[scale=0.27]{./fig12.eps}
@@ -88,7 +83,13 @@ Metallicities of the M31 regions have had 0.35~dex subtracted to account for the
 \end{figure}
 
 Figure \ref{metalicityVseqw} shows the normalized EQWs of the PAH features  versus the metallicity for our sample and the starburst 
-galaxies of \citet{Engelbracht_2008}. The scatter in our sample is large, but the 	
+galaxies of \citet{Engelbracht_2008}. 
+ It is well known that there are systematic offsets between different 
+ methods used to measure metallicities, and those in the sample of \citet{Engelbracht_2008} 
+ were obtained by the direct electron temperature method  \citep{Skillman1998}.
+\citet{Mitchel2014} calculated the offset between direct and strong-line measurements for M31 H~{\sc ii} regions to be 
+$0.35\pm0.10$ and we correct for this in Figure~\ref{metalicityVseqw}.
+The scatter in our sample is large, but the 	
 equivalent widths of the 7.7 and 11.3~$\mu$m features are consistent with those of \citet{Engelbracht_2008}. 
 No trend with metallicity is seen.
 However, we do not have enough data from low-metallicity regions in M31 to observe the expected decrease of EQWs of PAH with the decreasing 
