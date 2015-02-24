@@ -75,11 +75,6 @@
 {Chiar} J.~E.,  {Tielens} A.~G.~G.~M.,  2006, \mn@doi [\apj] {10.1086/498406},
   \href {http://adsabs.harvard.edu/abs/2006ApJ...637..774C} {637, 774}
 
-\bibitem[\protect\citeauthoryear{{Croley}, {Barmby}, {Stock}, {Azimlu}  \&
-  {Rosolowsky}}{{Croley} et~al.}{2014}]{Mitchel2014}
-{Croley} M.,  {Barmby} P.,  {Stock} D.,  {Azimlu} M.,   {Rosolowsky} E.,  2014,
-  MNRAS, submitted
-
 \bibitem[\protect\citeauthoryear{{Davidge}, {Jensen}  \& {Olsen}}{{Davidge}
   et~al.}{2006}]{davidge06}
 {Davidge} T.~J.,  {Jensen} J.~B.,   {Olsen} K.~A.~G.,  2006, \mn@doi [\aj]
@@ -112,20 +107,10 @@
   {http://adsabs.harvard.edu/abs/2008ApJ...678..804E} {678, 804}
 
 \bibitem[\protect\citeauthoryear{{Galliano}, {Madden}, {Tielens}, {Peeters}  \&
-  {Jones}}{{Galliano} et~al.}{2008a}]{Galliano:08}
-{Galliano} F.,  {Madden} S.,  {Tielens} A.,  {Peeters} E.,   {Jones} A.,
-  2008a, \apj, 679, 310
-
-\bibitem[\protect\citeauthoryear{{Galliano}, {Madden}, {Tielens}, {Peeters}  \&
-  {Jones}}{{Galliano} et~al.}{2008b}]{Galliano2008}
+  {Jones}}{{Galliano} et~al.}{2008}]{Galliano2008}
 {Galliano} F.,  {Madden} S.~C.,  {Tielens} A.~G.~G.~M.,  {Peeters} E.,
-  {Jones} A.~P.,  2008b, \mn@doi [\apj] {10.1086/587051}, \href
+  {Jones} A.~P.,  2008, \mn@doi [\apj] {10.1086/587051}, \href
   {http://adsabs.harvard.edu/abs/2008ApJ...679..310G} {679, 310}
-
-\bibitem[\protect\citeauthoryear{{Garcia} et~al.,}{{Garcia}
-  et~al.}{2010}]{NucleusREF}
-{Garcia} M.~R.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/710/1/755},
-  \href {http://adsabs.harvard.edu/abs/2010ApJ...710..755G} {710, 755}
 
 \bibitem[\protect\citeauthoryear{{Geballe}, {Lacy}, {Persson}, {McGregor}  \&
   {Soifer}}{{Geballe} et~al.}{1985}]{Geballe:85}
@@ -301,11 +286,6 @@
 {Sandstrom} K.~M.,  et~al., 2012, \mn@doi [\apj] {10.1088/0004-637X/744/1/20},
   \href {http://adsabs.harvard.edu/abs/2012ApJ...744...20S} {744, 20}
 
-\bibitem[\protect\citeauthoryear{{Skillman}, {Terlevich}  \&
-  {Terlevich}}{{Skillman} et~al.}{1998}]{Skillman1998}
-{Skillman} E.~D.,  {Terlevich} E.,   {Terlevich} R.,  1998, \ssr, \href
-  {http://adsabs.harvard.edu/abs/1998SSRv...84..105S} {84, 105}
-
 \bibitem[\protect\citeauthoryear{{Smith} et~al.,}{{Smith}
   et~al.}{2007a}]{Smith:2007fk}
 {Smith} J.-D.~T.,  et~al., 2007a, \mn@doi [\pasp] {10.1086/522634}, \href
@@ -325,12 +305,6 @@
   {Malkan}}{1992}]{AGNref}
 {Spinoglio} L.,  {Malkan} M.~A.,  1992, \mn@doi [\apj] {10.1086/171943}, \href
   {http://adsabs.harvard.edu/abs/1992ApJ...399..504S} {399, 504}
-
-\bibitem[\protect\citeauthoryear{{Spinoglio}, {Malkan}, {Rush}, {Carrasco}  \&
-  {Recillas-Cruz}}{{Spinoglio} et~al.}{1995}]{spinoglio95}
-{Spinoglio} L.,  {Malkan} M.~A.,  {Rush} B.,  {Carrasco} L.,   {Recillas-Cruz}
-  E.,  1995, \mn@doi [\apj] {10.1086/176425}, \href
-  {http://adsabs.harvard.edu/abs/1995ApJ...453..616S} {453, 616}
 
 \bibitem[\protect\citeauthoryear{{Spitzer Science Center}}{{Spitzer Science
   Center}}{2012}]{SpitzerDAC}
