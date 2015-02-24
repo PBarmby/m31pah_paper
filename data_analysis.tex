@@ -161,7 +161,6 @@ Upper limits are $3\sigma$.
 \label{SvsNe}
 \end{figure}
 
-% needs some rewrite here.
 PAHFIT also returns the line strengths and uncertainties for atomic lines, listed in Table~\ref{Atomic}.
 Not all lines were detected by PAHFIT, so we calculated upper limits for non-detected lines.%
 \footnote{To find  the upper limits for the flux of missing atomic lines, we assumed the line to be a 
@@ -178,9 +177,9 @@ Here, 1.58 and 0.71 are the slope and intercept of the [Ne~{\sc iii}]/[Ne~{\sc i
 Figure \ref{SvsNe}  compares the atomic line emission from the selected regions of M31 to the starburst galaxy sample;
 although none of our spectra have detections of all four lines, our limits are mostly consistent with the trend.
 To compute RHI in the case of missing lines, we compute the term in equation~\ref{eq:rhi} 
-for which both lines are detected and use this to estimate a value for the other term via the best-fit line.
-Regions 2, 5, and 8 had detections of only one line per element, so we used the appropriate upper limits 
-to calculate RHI for these spectra (**not sure I have done this correctly yet**).
+for which both lines are detected and use this and the best-fit line to estimate a value for the other term.
+For regions with only one line detected per element, we computed RHI upper limits 
+using Equation\ref{eq:rhi}.
 
 
 \begin{table*}
