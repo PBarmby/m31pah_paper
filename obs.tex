@@ -3,12 +3,21 @@
 
 \begin{figure}
 \centering
-\includegraphics[width = 6.5 cm,angle=270]{fig1.eps}
+\includegraphics[width = 5.5 cm,angle=270]{fig1.eps}
 \caption{$8 - 24/70 - 160$ $\mu$m colour-colour diagram of M31 obtained from IRAC and MIPS imaging. Colour-coding of points represents
 24~$\mu$m flux, from faintest (blue) to brightest (red). The plot is divided into 9 regions (black grid), and the observations were made to 
 cover those regions subject to a 24~$\mu$m brightness cut. The black triangles indicate colours of the regions we observed.}
 \label{colourmaps}
 \end{figure}
+
+
+\begin{figure*}
+\centering
+\includegraphics[scale=0.9]{./fig2.eps}
+\caption{An 8 micron negative IRAC image of M31 \citep[dark colours indicate higher flux,][]{Barmby2006lr}. Small white rectangles ($30\arcsec\times50\arcsec$) show the regions that we observed, and larger squares ($192\arcsec\times192\arcsec$) show the regions observed by  \citet{1998Cesarsky}.
+\label{m31}
+}
+\end{figure*}
 
 We obtained mid-infrared spectral maps of 12 regions in M31 using the {\em Spitzer}/IRS instrument \citep{IRS2004} covering wavelengths from 5 to 21 microns. 
 A background observation was also made off the galaxy 
@@ -27,7 +36,7 @@ their coordinates and metallicities are given in Table~\ref{regions}.
 Except for regions 5 and 8, all of our mapped regions contain an  H~{\sc ii} region with
 an optical spectroscopic metallicity measurement by \citet{Sanders_2011}; Table ~\ref{regions} gives the measurements from the method 
 \citet{Sanders_2011} denote ``N06 N2''  \citep{Nagao2006}. For regions 5 and 8 we estimated metallicities using the M31 radial gradient
-that  \citet{Sanders_2011} fit to the H{\sc ii} region ``N06 N2'' measurements: $12+\log{\rm [O/H]} = 9.09 - 0.00195 R{\rm gc}$.
+that  \citet{Sanders_2011} fit to the H{\sc ii} region ``N06 N2'' measurements: $12+\log{\rm [O/H]} = 9.09 - 0.00195 R_{\rm gc}$.
 
 \begin{table*}
  \centering
@@ -60,17 +69,9 @@ $^c$Metallicities from \citet{Sanders_2011}, except for Regions 5 and 8 where me
 \end{minipage}
 \end{table*}
 
-\begin{figure*}
-\centering
-\includegraphics[scale=0.9]{./fig2.eps}
-\caption{An 8 micron negative IRAC image of M31 \citep{Barmby2006lr}. Small white rectangles ($30\arcsec\times50\arcsec$) show the regions that we observed, and larger squares ($192\arcsec\times192\arcsec$) show the regions observed by  \citet{1998Cesarsky}.
-\label{m31}
-}
-\end{figure*}
-
 
 For our observations we used the IRS Short-Low (SL) and Long-Low (LL) modules, which cover wavelengths from 5 to 21 microns. 
-The Low modules have resolving power in the range 60--130. Each low-resolution module is divided into two sub-slits 
+These modules have resolving power in the range 60--130. Each low-resolution module is divided into two sub-slits 
 which provide spectroscopy in either first or second order. They are denoted as SL1 (7.5--14.5~$\mu$m), SL2 (5.2--7.6~$\mu$m),
 LL1 (20.5--38.5~$\mu$m, not used in these observations), and LL2 (14.5--20.75~$\mu$m).
 All M31 regions were observed in September 2007 as part of G. G. Fazio's Guaranteed Time (program ID 40032). 
@@ -83,7 +84,7 @@ Because all of the targets are in the same part of the sky, a common background 
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.3]{./fig3.eps}
+\includegraphics[scale=0.27]{./fig3.eps}
 \caption{The 7.6~$\mu$m plane constructed from the SL1 data cube of the nucleus, showing the arrangement of slits used to cover the region. 
 Black boxes outline the footprint of the SL1 maps (the off-center SL1 map is from observations made
 when SL2 was centred) and the green box outlines the LL2 map. 
@@ -118,7 +119,7 @@ The spectrum of NGC 206 is very noisy and was removed from our analysis.
 There is wavelength overlap between the SL1 and SL2 spectra and also between the SL1 and LL2 spectra.
 To generate a single spectrum for each M31 region it is necessary to combine the spectra and
 account for photometric offsets between them. Such offsets are commonly seen in IRS spectra extracted
-from extended regions, since the slit loss is not well-characterized (**Els please check this sentence**).
+from extended regions. 
 The SL1 and SL2 flux densities were
 generally quite well-matched over the wavelength overlap region ($7.5 < \lambda< 7.6\mu$m)
 and those two orders were joined without offset.
@@ -131,7 +132,7 @@ After this procedure there was still a noticeable mis-match between the SL and L
 by scaling the SL spectra to match IRAC 8~$\mu$m fluxes as follows. IRAC fluxes were measured
 on the 8~$\mu$m image \citep{Barmby2006lr} in the same apertures used to extract the IRS spectra.
 An extended source  aperture correction of 0.824 was applied to the IRAC fluxes; this value was computed 
-using the formula in the IRAC Data Handbook \citep{} with
+using the formula in the IRAC Data Handbook \citep{SpitzerIIH} with
 the radius of a circular aperture having the same area as the extraction aperture.
 The {\em Spitzer} synthetic photometry software \citep{SpitzerDAC} 
 was then used to quantify the colour correction for each spectrum, i.e. the
@@ -145,6 +146,27 @@ The SL spectra corrected with additive offsets were closely-matched to the LL sp
 of SL and LL was done using the average-and-offset procedure described above for SL1 and SL3.
 
 
+\begin{figure}
+\centering
+\includegraphics[width = 7.4cm]{./fig4.eps}
+\caption{11.2~$\mu$m negative image of the ISOCAM data cube from the nucleus of M31. 
+The black box shows the size of the aperture ($30\arcsec\times50\arcsec$) used to extract spectra.}
+\label{isonuc}
+\end{figure}
+
+
+
+\begin{figure*}
+\centering
+\includegraphics[scale=0.45]{./fig5.eps}
+ \caption{Observed IRS spectra and detailed PAHFIT decompositions (see Section~\ref{sect:pahfit}). Regions are labeled in each panel.
+Black squares show the observed data, and red, blue, cyan, pink and green lines represent the modelled
+dust continua, PAH features, atomic and molecular lines, starlight continuum and the fit respectively. The black line shows the total modelled continuum. 
+Vertical scales differ in different panels. Spectra from the nucleus and NGC 206 are not shown here.
+}
+\label{PAHFITplots}
+\end{figure*}
+
 
 \subsection{ISOCAM Data Reduction}
 \label{sect:iso_data}
@@ -155,15 +177,6 @@ The ISOCAM data were obtained with the circular variable filters (CVFs) over a $
 The wavelength range covered was 5.15--16.5~$\mu$m at a resolution of $\lambda/\Delta \lambda \approx 45$; the ISOCAM instrument is described by \citet{cesarsky1996}.
 An example image of the ISOCAM data is shown in Figure~\ref{isonuc}.  For the three regions, we extracted spectra using the same 
 $30\arcsec\times50\arcsec$ aperture as for the IRS data. 
-
-\begin{figure}
-\centering
-\includegraphics[width = 8cm]{./fig4.eps}
-\caption{11.3~$\mu$m negative image (dark colours indicate higher flux) of the ISOCAM data cube from the nucleus of M31. 
-The black box shows the size of the aperture ($30\arcsec\times50\arcsec$) used to extract spectra.}
-\label{isonuc}
-\end{figure}
-
 
 
 
